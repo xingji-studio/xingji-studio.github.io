@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>星际</title>
+    <link rel="stylesheet" type="text/css" href="../normal.css">
+    <style>
+        .content{
+            width:auto;
+            color:white;
+            float:left;
+            height: auto;
+            text-align: center;
+        }
+        .more{
+            width:auto;
+            color:white;
+            float: right;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <ul id="guide-list">
+        <li>
+            <a class="button-guide" href="../index_zh-cn.html">星际</a>
+        </li>
+
+        <li>
+            <a class="button-guide" href="OS.html">XJ380系统</a>
+        </li>
+
+        
+
+        <li>
+            <a class="button-guide" href="download.html">下载</a>
+        </li>
+
+        <li>
+            <a class="button-guide" href="about.html">关于</a>
+        </li>
+        <li>
+            <a class="button-guide" href="#">游戏</a>
+        </li>
+    </ul>
+    <ul id="guide-list-ri">
+        <li>
+            <a class="button-guide" href="donate.html">捐赠</a>
+        </li>
+    </ul>
+    <br/><br/>
+    <div class="content">
+        <br/>
+        <h1>XJ网页上的游戏</h1>
+        <button onclick="MC()">网页版Minecraft介绍</button>
+        <a class="button-guide" href="../games/minecraft/index.html">进入链接</a>
+        <p>Fork on Github</p>
+    </div>
+    <div class="more">
+        <br/><br/>
+        <h2>关于游戏</h2>
+        <p id="introduce">请合理游戏，本网站不存在任何盈利措施，谨防诈骗。</p>
+        
+    </div>
+    <script>
+        function MC()
+            {
+                var p=document.getElementById("introduce");
+                p.innerHTML="网页版我的世界<br/>仅提供英文版<br/>游戏进程会保存在本地，当使用相同用户名进入时存档相同<br/>注意：在不同机器上不同步";
+            }
+    </script>
+</body>
