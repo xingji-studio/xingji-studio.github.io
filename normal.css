@@ -1,6 +1,6 @@
-body {background-color:#000000;} 
+body {background-color:#FFFFFF;} 
 .title {
-    background-image: url("picture/back.jpg");
+    /*background-image: url("picture/back.jpg");*/
     color: white;
     text-align: left;
     height:auto;
@@ -41,14 +41,14 @@ a.button-guide:hover,a.button-guide:active
 }
 .video {
     /*background-color: cadetblue;*/
-    background-image: url("picture/background.png");
+    /*background-image: url("picture/background.png");*/
     color: #FFFFFF;
     text-align: center;
     padding: 15px;
 }
 
 .board {
-    background-image: url("picture/back2.png");
+    /*background-image: url("picture/back2.png");*/
     color:white;
     text-align: left;
     padding: 20px;
@@ -57,7 +57,7 @@ a.button-guide:hover,a.button-guide:active
 a.linker:link,a.linker:visited {
     display:block;
         font-weight:bold;
-        color: #FFFFFF; 
+        color: #000000; 
      /*   background-color:#0c4cc4;*/
         padding: auto;
         width: auto;
