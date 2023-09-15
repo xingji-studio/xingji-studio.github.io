@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <link rel="stylesheet" type="text/css" href="cartoon.css">
-    <link rel="stylesheet" type="text/css" href="title.css">
-    <link rel="stylesheet" type="text/css" href="buttom.css">
-    <link rel="stylesheet" type="text/css" href="timetable.css">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="./files/cartoon.css">
+    <link rel="stylesheet" type="text/css" href="./files/title.css">
+    <link rel="stylesheet" type="text/css" href="./files/buttom.css">
+    <link rel="stylesheet" type="text/css" href="./files/timetable.css">
+    <link rel="stylesheet" type="text/css" href="./files/menu_table.css">
+    <link rel="shortcut icon" href="./LOGO.svg" type="image/x-icon">
     <style>
         .homepagetop {
             background-image: url("./homepagetop.png");
@@ -15,58 +15,59 @@
             border-radius: 20px;
         }
     </style>
+
+<meta charset="utf-8"> 
+<title>星际工作室 | XINGJI Studios</title>
+
 </head>
 
 <body>
-    <div style="height:50px">
-        <ul id="guide-list">
-            <li id="Bt-home">
-                <a class="button-guide" href="#">星际</a>
-            </li>
+    <div class="menu_table"></div>
+    <a href="https://xingji.eu.org/">
+        <img src="logo_blueback.png" alt="PNG Image" style="position: absolute; top: 0; left: 20;">
+    </a>
 
-            <li id="Bt-system">
-                <a class="button-guide" href="！">XJ380系统</a>
-            </li>
+    <a href="https://xingji.eu.org/products/products.html">
+        <p class="mtb1">产品</p>
+    </a>
+    <a href="https://xingji.eu.org/xj380/xj380.html">
+        <p class="mtb2">XJ380系统</p>
+    </a>
+    <a href="https://xingji.eu.org/severs/servers.html">
+        <p class="mtb3">服务器</p>
+    </a>
 
-            <li id="Bt-software">
-                <a class="button-guide" href="zh-cn/software.html">软件</a>
-            </li>
+    <a href="https://afdian.net/a/xj380os">
+        <p class="mtb4">赞助</p>
+    </a>
 
-            <li id="Bt-about">
-                <a class="button-guide" href="zh-cn/about.html">关于</a>
-            </li>
-            <li id="Bt-news">
-                <a class="button-guide" href="news.html">新闻</a>
-            </li>
-        </ul>
-
-        <ul id="guide-list-ri">
-            <li id="Bt-donate">
-                <a class="button-guide" href="zh-cn/donate.html">捐赠</a>
-            </li>
-        </ul>
-
-    </div>
     <div class="whole">
         <div id="slogan" style="padding: 50px; text-align: center;">
-            <img src="slogan.png" width="400" alt="永无止境">
+            <img src="./files/slogan.png" width="400" alt="永无止境">
         </div>
+        <div style="text-align: center; padding: 5px; background-color: white; border-radius: 20px;">
+            <h1 style="color :#00A2E8;">近期消息</h1>
+            <p style="color :black;">2023年9月14日 | 由于XJ380开发者武传杰擅自合并分支，导致XJ380退回至BetaVersion22。星际工作室将于BetaVersion24编写完成后覆盖main分支内容。</p>
+            <p style="color :black;">2023年9月13日 | 最近星际工作室表示正在给XJ380添加内存管理，加上开学的原因，视频更新速度也会减慢，请各位观众不要着急，感谢您的信任！</p>
+            <p style="color :black;">2023年9月3日  | XJ380新版本（BetaVersion22）：更新开机动画，美化UI。</p>
+            <p style="color :black;">2023年8月27日 | 今日，星际工作室官宣XJ380更新版本号为BetaVersion21的新版本。本版本更新了dir命令，并添加开机动画。</p>
+            <p style="color :black;">2023年8月27日 | 星际工作室发布发布会新计划：将普通发布会拆分为2024年寒假冬季发布会和2024年暑假夏季发布会。</p>
+        </div>
+
+        <div style="text-align: center; padding: 5px; background-color: #ffffff; border-radius: 20px;">
+        </div>
+
         <div style="text-align: center; padding: 5px; background-color: #00A2E8; border-radius: 20px;">
-            <h2 style="color :white;">近期消息</h2>
-            <iframe style="border-radius: 10px;"
-                src="https://player.bilibili.com/player.html?aid=908324506&bvid=BV1xM4y1C75e&cid=1048785714&page=1"
-                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="480"
-                height="270"> </iframe>
-            <iframe style="border-radius: 10px;"
-                src="https://player.bilibili.com/player.html?aid=617802107&bvid=BV1ah4y1T79q&cid=1248386542&page=1"
-                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="480"
-                height="270"> </iframe>
+            <h1 style="color :white;">近期视频</h1>
+            <iframe style="border-radius: 10px;" src="./files/player.html" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="480" height="270"> </iframe>
+            <iframe style="border-radius: 10px;" src="./files/player(1).html" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="480" height="270"> </iframe>
         </div>
         <div class="buttom">
             <p>Copyright© XINGJI Studios 2017-2023 保留所有权利。</p>
             <!--<p>合作请找</p>!-->
         </div>
     </div>
-</body>
 
-</html>
+
+
+</body></html>
