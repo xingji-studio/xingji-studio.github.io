@@ -1,0 +1,7 @@
+.name {
+	position: absolute;
+	top: 2px;
+	left: calc(85% - 90px);
+	color: white;
+	font-size: 32px;
+}

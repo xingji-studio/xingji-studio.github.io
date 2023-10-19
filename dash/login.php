@@ -15,9 +15,32 @@
             border-radius: 20px;
         }
     </style>
+    <script>
+    var system ={};
+
+    var p = navigator.platform;
+    
+    system.win = p.indexOf("Win") == 0;
+    
+    system.mac = p.indexOf("Mac") == 0;
+    
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+    
+    if(system.win||system.mac||system.xll) {
+    
+    //pass
+    
+    }
+    
+    else {
+    
+    window.location.href="https://phonews.xingjisoft.top/";
+    
+    }
+    </script>
 
 <meta charset="utf-8"> 
-<title>星际工作室 | 服务器</title>
+<title>星际工作室 | XINGJI Studios</title>
 
 </head>
 
@@ -33,14 +56,24 @@
     <a href="https://www.xingjisoft.top/xj380/xj380.html">
         <p class="mtb2">XJ380系统</p>
     </a>
-    <a href="https://www.xingjisoft.top/severs/servers.html">
-        <p class="mtb3">服务器</p>
+    <a href="https://afdian.net/a/xj380os">
+        <p class="mtb3">赞助</p>
     </a>
 
-    <a href="https://afdian.net/a/xj380os">
-        <p class="mtb4">赞助</p>
-    </a>
-    <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=80nzPRqivlqI57h0-SjsNFFUDdBi2MdI&jump_from=webapi&authKey=SR+hdAZqLrW2//0+MvwjG5eHF/iU5DZ6huo/oHT9qpEXOJ1wpk5m7EejP9ASw2Tz">
-        <img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="XINGJI服务器客户群" title="XINGJI服务器客户群">
-    </a>
+    <h1 style="color :#00A2E8; text-align: center;">以梦为马，携手共进</h1>
+    <h2 style="color :#ffffff;">登录</h2>
+    <div style="text-align: center; padding: 5px; background-color: #00A2E8; border-radius: 20px;">
+        <h1 style="color :#ffffff;">登录</h1>
+        <form action="dash.php" method="post">
+            <p style="color :#ffffff;">用户名: <input type="text" name="name"></p>
+            <p style="color :#ffffff;">密码: <input type="text" name="password"></p>
+            <input type="submit" value="提交">
+        </form>
+        <p></p>
+        <a href="./sign_in.php">
+            <p style="color :#ffffff;">没有账户？注册一个！</p>
+        </a>
+    </div>
+    
 </body>
+</html>
