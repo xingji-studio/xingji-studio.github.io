@@ -1,0 +1,96 @@
+.container {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.vertical-timeline {
+    color: #FFF;
+}
+
+.vertical-timeline-block {
+    width: 100%;
+    border-left: 2px solid #DDD;
+    margin: 0 20px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+/* 时间轴的左侧图标 */
+.vertical-timeline-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    left: -22px;
+    top: 10px;
+
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+.vertical-timeline-block {
+    cursor: pointer;
+}
+.vertical-timeline-block:hover .vertical-timeline-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    left: -27px;
+    box-shadow: 0 0 5px #CCC;
+    font-size: 25px;
+}
+
+/* 时间轴的左侧图标的各种样式 */
+.v-timeline-icon1 {
+    background-color: #2aabd2;
+}
+.v-timeline-icon2 {
+    background-color: #5cb85c;
+}
+.v-timeline-icon3 {
+    background-color: #8c8c8c;
+}
+/* 时间轴的左侧图标上的序号*/
+.vertical-timeline-icon i {
+    font-style: normal;
+    color: #FFF;
+}
+/* 时间轴上的具体内容 */
+.vertical-timeline-content {
+    background-color: #5bc0de;
+    margin-left: 60px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    position: relative;
+}
+/* 时间轴上的具体内容左侧箭头 */
+.vertical-timeline-content:before {
+    content: '';
+    width: 0;
+    height: 0;
+
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #5bc0de;
+    border-left: 10px solid transparent;
+
+    position: absolute;
+    right: 100%;
+    top: 20px;
+}
+/* 时间轴的具体内容的格式 */
+.timeline-content {
+    text-indent: 2em;
+}
+.time-more {
+    overflow: hidden;
+}
+.time-more .time {
+    line-height: 40px;
+    display: inline-block;
+}
