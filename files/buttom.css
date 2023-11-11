@@ -20,21 +20,6 @@
     cursor: pointer;
 }
 
-.button2 {
-    position: absolute;
-    background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
-    border-radius: 4px;
-    top: 400px;
-    left: 72%;
-}
-
-.button2:hover {
-    background-color: #008CBA;
-    color: white;
-}
-
 .font_l1 {
     position: absolute;
     top: 130px;
@@ -61,4 +46,16 @@
 .button1:hover {
     background-color: #ffffff;
     color: #00A2E8;
+}
+
+.button2 {
+    background-color: #ffffff; 
+    color: #00A2E8; 
+    border: 2px solid #00A2E8;
+    border-radius: 4px;
+}
+
+.button2:hover {
+    background-color: #00A2E8;
+    color: #ffffff;
 }
