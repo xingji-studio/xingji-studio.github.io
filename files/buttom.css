@@ -48,14 +48,14 @@
     color: #00A2E8;
 }
 
-.button2 {
+.button3 {
     background-color: #ffffff; 
     color: #00A2E8; 
     border: 2px solid #00A2E8;
     border-radius: 4px;
 }
 
-.button2:hover {
+.button3:hover {
     background-color: #00A2E8;
     color: #ffffff;
 }
