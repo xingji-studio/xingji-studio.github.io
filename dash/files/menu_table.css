@@ -1,0 +1,37 @@
+.menu_table {
+	width: calc(100% - 65);
+	height: 100px;
+	background-color: #00a2e8;
+}
+
+.mtb1 {
+	position: absolute;
+	top: 2px;
+	left: 300px;
+	color: white;
+	font-size: 32px;
+}
+
+.mtb2 {
+	position: absolute;
+	top: 2px;
+	left: 400px;
+	color: white;
+	font-size: 32px;
+}
+
+.mtb3 {
+	position: absolute;
+	top: 2px;
+	left: 600px;
+	color: white;
+	font-size: 32px;
+}
+
+.mtb4 {
+	position: absolute;
+	top: 2px;
+	left: calc(100% - 90px);
+	color: white;
+	font-size: 32px;
+}
