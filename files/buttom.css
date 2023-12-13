@@ -1,5 +1,5 @@
 .buttom{
-    background-color: rgb(44, 44, 44);
+    background-color: #00A2E85d;
     text-align: center;
     color: white;
     border-radius: 10px;
@@ -37,15 +37,15 @@
 }
 
 .button1 {
-    background-color: #00A2E8; 
+    background-color: #ffffff3d; 
     color: white; 
-    border: 2px solid #ffffff;
+    border: 2px solid #ffffff3d;
     border-radius: 4px;
 }
 
 .button1:hover {
-    background-color: #ffffff;
-    color: #00A2E8;
+    background-color: #ffffff3d;
+    color: #ffffff5d;
 }
 
 .button3 {
