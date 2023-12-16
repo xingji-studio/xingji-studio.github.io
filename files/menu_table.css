@@ -7,34 +7,42 @@
 
 .mtb1 {
 	position: absolute;
-	top: 2px;
+	top: 14px;
 	left: 300px;
 	color: white;
-	font-size: 32px;
+	font-size: 24px;
 }
 
 .mtb2 {
 	position: absolute;
-	top: 2px;
-	left: 400px;
+	top: 14px;
+	left: 375px;
 	color: white;
-	font-size: 32px;
+	font-size: 24px;
 }
 
 .mtb3 {
 	position: absolute;
-	top: 2px;
-	left: 600px;
+	top: 14px;
+	left: 525px;
 	color: white;
-	font-size: 32px;
+	font-size: 24px;
 }
 
 .mtb4 {
 	position: absolute;
-	top: 2px;
+	top: 14px;
+	left: 650px;
+	color: white;
+	font-size: 24px;
+}
+
+.mtbl {
+	position: absolute;
+	top: 14px;
 	left: calc(100% - 90px);
 	color: white;
-	font-size: 32px;
+	font-size: 24px;
 }
 
 body {
