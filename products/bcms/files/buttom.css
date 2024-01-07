@@ -48,14 +48,31 @@
     color: #ffffff5d;
 }
 
-.button3 {
-    background-color: #ffffff; 
-    color: #00A2E8; 
-    border: 2px solid #00A2E8;
+.button2 {
+    background-color: #00A2E8;
+    border: none;
+    color: white;
+    padding: 27px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    position: absolute;
+    background-color: #ffffff3d; 
+    color: white; 
+    border: 2px solid #ffffff3d;
     border-radius: 4px;
+    
+    top: 75%;
+    left: 68%;
 }
 
-.button3:hover {
-    background-color: #00A2E8;
-    color: #ffffff;
+.button2:hover {
+    background-color: #ffffff3d;
+    color: #ffffff5d;
 }
