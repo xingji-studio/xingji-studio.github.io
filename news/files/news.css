@@ -1,0 +1,15 @@
+.img_font{
+    position: absolute;
+	top: 115px;
+    left: 68%;
+	color: white;
+	font-size: 30px;
+}
+.img_font_title {
+    
+    position: absolute;
+	top: 115px;
+    left: 68%;
+	color: white;
+    font-size: 70px;
+}
