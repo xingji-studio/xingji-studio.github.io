@@ -13,7 +13,10 @@ img {
   object-fit: contain;
 }
 
-/*导航栏*/
+/*
+导航栏
+Tips: 导航栏高度 -> 最大元素高度+2*padding -> 48px+20px*2=88px
+*/
 ul {
   display: flex;
   position: fixed;
@@ -50,11 +53,16 @@ ul a:hover {
 }
 
 /*宣传图*/
-.ad-container {
+.poster {
+  width: 90%;
+  height: auto;
+}
+
+.poster-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 6%;
+  margin-top: 128px;
 }
 
 /*产品展示容器*/
@@ -68,14 +76,25 @@ ul a:hover {
   display: block;
   height: 10rem;
   width: 10rem;
-  transition: all 250ms ease-in-out;
-  filter: blur(0.5px);
-  transform: scale3d(1,1,1);
+  transition: all 200ms ease-in-out;
+  filter: blur(1px) drop-shadow(5px 5px 0.15rem #0002);
+  perspective: 600px;
+  transform: scale3d(1, 1, 1) rotate3d(0.5,1,0.15,40deg);
+  margin-inline: -16px;
 }
 
 .product-container a:hover {
-  transform: scale3d(1.1,1.1,1.1);
-  filter: blur(0px);
+  filter: blur(0px) drop-shadow(0 0 0.05rem #0006);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5,1,0.15,0deg);
+  z-index: 2;
+  margin-inline: -4px;
+}
+
+.product-container a:focus {
+  filter: blur(0px) drop-shadow(0 0 0.00rem #0003);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5,1,0.15,0deg);
+  z-index: 2;
+  margin-inline: 0px;
 }
 
 .product-container a img {
@@ -93,8 +112,13 @@ ul a:hover {
 /*贴纸展示*/
 .badge-viewer {
   float: right;
-  height: 12.5rem;
+  height: 13rem;
   display: flex;
+  justify-content: end;
+}
+
+.badge-viewer img {
+  height: inherit;
 }
 
 /*产品展示*/
@@ -190,7 +214,9 @@ ul a:hover {
 
 /* 下拉内容 (默认隐藏) */
 .dropdown-content {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 150ms ease-in-out;
   position: absolute;
   background-color: #ffffff;
   min-width: 360px;
@@ -212,7 +238,9 @@ ul a:hover {
 
 /* 在鼠标移上去后显示下拉菜单 */
 .dropdown:hover .dropdown-content {
-  display: block;
+  /* display: block; */
+  opacity: 1;
+  visibility: visible;
 }
 
 /* 当下拉内容显示后修改下拉按钮的背景颜色 */
