@@ -79,14 +79,14 @@ nav ul a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row-reverse;
 }
 
 .product-container a {
   display: block;
   height: 10rem;
-  width: 10rem;
   transition: all 200ms ease-in-out;
-  filter: blur(0.75px) drop-shadow(5px 5px 0.15rem #0002);
+  filter: blur(0.6px) drop-shadow(5px 5px 0.15rem #0002);
   perspective: 600px;
   transform: scale3d(1, 1, 1) rotate3d(0.5,1,0.15,40deg);
   margin-inline: -16px;
@@ -96,14 +96,14 @@ nav ul a:hover {
   filter: blur(0px) drop-shadow(0 0 0.05rem #0006);
   transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5,1,0.15,0deg);
   z-index: 2;
-  margin-inline: -4px;
+  margin-inline: 8px;
 }
 
 .product-container a:focus {
   filter: blur(0px) drop-shadow(0 0 0.00rem #0003);
   transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5,1,0.15,0deg);
   z-index: 2;
-  margin-inline: 0px;
+  margin-inline: 16px;
 }
 
 .product-container a img {
