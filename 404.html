@@ -17,7 +17,7 @@
     <title>星际工作室 | 404</title>
   </head>
 
-  <body>
+  <body style="height: 100%; display: flex; flex-direction: column">
     <nav>
       <ul>
         <li>
@@ -53,13 +53,24 @@
         </li>
       </ul>
     </nav>
-    <h1>　</h1>
-    <h1>　</h1>
-    <div class="content-container">
-      <h2 style="text-align: center">喔唷，网页走丢啦！</h2>
-      <div style="text-align: center">
-        <a href="https://www.xingjisoft.top/">
-          <button class="back-home-btn">返回首页</button>
+    <div
+      class="content-container"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+      "
+    >
+      <h1 style="font-size: 4em; margin: 0">404</h1>
+      <h2 style="margin-top: 0; margin-bottom: 2em">喔唷，页面走丢啦！</h2>
+      <div>
+        <a href="javascript:history.back()" style="text-decoration: none">
+          <button class="back-home-btn">返回上一页</button>
+        </a>
+        <a href="/" style="text-decoration: none">
+          <button class="back-home-btn">带我回家</button>
         </a>
       </div>
     </div>

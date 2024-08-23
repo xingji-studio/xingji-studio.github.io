@@ -51,7 +51,7 @@ nav ul li a {
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  transition: all 150ms ease-in-out;
+  transition: all 250ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
   /* 为了让transition对background-color生效 */
   background-color: #0000;
 }
@@ -85,7 +85,7 @@ nav ul a:hover {
 .product-container a {
   display: block;
   height: 10rem;
-  transition: all 200ms ease-in-out;
+  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
   filter: blur(0.6px) drop-shadow(5px 5px 0.15rem #0002);
   perspective: 600px;
   transform: scale3d(1, 1, 1) rotate3d(0.5,1,0.15,40deg);
@@ -227,7 +227,7 @@ nav ul a:hover {
 .dropdown-content {
   opacity: 0;
   visibility: hidden;
-  transition: all 150ms ease-in-out;
+  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
   position: absolute;
   background-color: #ffffff;
   min-width: 360px;
@@ -262,20 +262,21 @@ nav ul a:hover {
 /*回家按钮*/
 .back-home-btn {
   border: solid #000 2px;
-  background: #fff;
+  background: #fff0;
   color: #000;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 16px;
-  margin: 4px 2px;
-  transition: all 0.3s ease-in-out;
+  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
   cursor: pointer;
+  filter: drop-shadow(2px 2px 2px #0003);
 }
 
 .back-home-btn:hover {
-  border: solid #0000 2px;
+  border: solid #7777 2px;
   background: #111;
   color: #eee;
+  filter: drop-shadow(2px 2px 2px #0000);
 }
