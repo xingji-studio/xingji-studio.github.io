@@ -2,6 +2,7 @@ body {
   /*把 body 默认的 margin 设为 0*/
   margin: 0;
   background: url(../back.png) top -10rem left/100% no-repeat;
+  font-family: Arial, Helvetica, system-ui, sans-serif; /* 全局 font-family - Global font-family */
 }
 
 html {
@@ -17,11 +18,19 @@ img {
 导航栏
 Tips: 导航栏高度 -> 最大元素高度+2*padding -> 48px+20px*2=88px
 */
+
+
+
 nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 10086;
+}
+
+nav.floated-nav {
+  position: fixed;
+  width: 100%;
 }
 
 nav ul {
@@ -61,6 +70,23 @@ nav ul a:hover {
   background-color: #0084bdbd;
 }
 
+span.bold {
+  font-weight: bold;
+}
+
+span.italic {
+  font-weight: italic;
+}
+
+.fullscreen-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /*宣传图*/
 .poster {
   width: 90%;
@@ -88,20 +114,20 @@ nav ul a:hover {
   transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
   filter: blur(0.6px) drop-shadow(5px 5px 0.15rem #0002);
   perspective: 600px;
-  transform: scale3d(1, 1, 1) rotate3d(0.5,1,0.15,40deg);
+  transform: scale3d(1, 1, 1) rotate3d(0.5, 1, 0.15, 40deg);
   margin-inline: -16px;
 }
 
 .product-container a:hover {
   filter: blur(0px) drop-shadow(0 0 0.05rem #0006);
-  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5,1,0.15,0deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5, 1, 0.15, 0deg);
   z-index: 2;
   margin-inline: 8px;
 }
 
 .product-container a:focus {
-  filter: blur(0px) drop-shadow(0 0 0.00rem #0003);
-  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5,1,0.15,0deg);
+  filter: blur(0px) drop-shadow(0 0 0rem #0003);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5, 1, 0.15, 0deg);
   z-index: 2;
   margin-inline: 16px;
 }
@@ -115,9 +141,13 @@ nav ul a:hover {
 /*内容容器*/
 .content-container {
   padding-inline: 2.5%;
-  padding-bottom: 1%;
+  padding-block: 1%;
   /* padding-top: 88px; */
   overflow: auto;
+}
+
+.software {
+  padding-inline: 0;
 }
 
 /*贴纸展示*/
@@ -279,4 +309,121 @@ nav ul a:hover {
   background: #111;
   color: #eee;
   filter: drop-shadow(2px 2px 2px #0000);
+}
+
+.footer {
+  padding-bottom: 1.5rem;
+}
+
+/* 项目容器 */
+
+.project-container {
+  padding-bottom: 1%;
+  overflow: auto;
+}
+
+/* 项目 */
+.project-container .project {
+  padding-top: 0.5rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  background: #0069967f;
+  backdrop-filter: blur(1rem);
+  /*兼容Safari*/
+  -webkit-backdrop-filter: blur(1rem);
+  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
+  color: #eee;
+}
+
+/* 项目简介 */
+.project .project-desc {
+  margin: 0;
+  white-space: pre-line;
+  font-family: Arial, Helvetica, system-ui, sans-serif;
+  padding-left: 1.25rem;
+}
+
+/* 项目名称 */
+.project .project-name {
+  margin: 0;
+  margin-bottom: 1rem;
+  white-space: pre-line;
+  font-family: Arial, Helvetica, system-ui, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  transition: all 100ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
+  letter-spacing: 0.25rem;
+  color: #eaeaea;
+}
+
+.project:hover .project-name {
+  color: #eee;
+}
+
+
+/* 项目名称装饰 */
+.project .project-name::before {
+  content: "·";
+  margin-right: 0.75rem;
+}
+
+.project .project-name::after {
+  content: "·";
+  margin-left: 0.75rem;
+}
+
+.project .project-name::before,
+.project .project-name::after {
+  opacity: 0.95;
+  filter: blur(0.125rem);
+  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
+}
+
+.project:hover .project-name::before,
+.project:hover .project-name::after {
+  opacity: 1;
+  filter: blur(0);
+}
+
+/* 项目链接 */
+.project-links .project-link {
+  border: solid #ffffff 2px;
+  /* background: #009bdd; */
+  background: #0000;
+  color: #ffffff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
+  text-shadow: #7777 0px 0px 2px;
+  margin-right: .5rem;
+  user-select: none;
+}
+
+.project-links .project-link:hover {
+  border: solid #ffffff9f 2px;
+  color: #ffffff;
+  background: #00a2e89f;
+  text-shadow: #9997 0px 0px 2px;
+}
+
+.project-links .project-link:focus {
+  border: solid #ffffff7f 2px;
+  color: #ffffff;
+  background: #00a2e8af;
+  text-shadow: #eee7 0px 0px 2px;
+}
+
+.project .project-links {
+  padding-left: 1.25rem;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-items: center;
 }
