@@ -2,7 +2,7 @@ body {
   /*把 body 默认的 margin 设为 0*/
   margin: 0;
   background: url(../back.png) top -10rem left/100% no-repeat;
-  font-family: Arial, Helvetica, system-ui, sans-serif; /* 全局 font-family - Global font-family */
+  font-family: system-ui, Arial, Helvetica, sans-serif; /* 全局 font-family - Global font-family */
 }
 
 html {
@@ -70,12 +70,16 @@ nav ul a:hover {
   background-color: #0084bdbd;
 }
 
-span.bold {
+.bold {
   font-weight: bold;
 }
 
-span.italic {
+.italic {
   font-weight: italic;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .fullscreen-page {
@@ -426,4 +430,23 @@ span.italic {
   flex-direction: row;
   align-items: flex-start;
   justify-items: center;
+}
+
+.contact-link {
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.sector {
+  margin-top: 1.75rem;
+  margin-bottom: .25rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.contact {
+  margin-top: 1.75rem;
+  margin-bottom: .25rem;
+  font-size: 1.25rem;
 }
