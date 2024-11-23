@@ -2,7 +2,7 @@ body {
   /*把 body 默认的 margin 设为 0*/
   margin: 0;
   background: url(../back.png) top -10rem left/100% no-repeat;
-  font-family: Arial, Helvetica, system-ui, sans-serif; /* 全局 font-family - Global font-family */
+  font-family: system-ui, Arial, Helvetica, sans-serif; /* 全局 font-family - Global font-family */
 }
 
 html {
@@ -18,8 +18,6 @@ img {
 导航栏
 Tips: 导航栏高度 -> 最大元素高度+2*padding -> 48px+20px*2=88px
 */
-
-
 
 nav {
   position: -webkit-sticky;
@@ -70,12 +68,52 @@ nav ul a:hover {
   background-color: #0084bdbd;
 }
 
-span.bold {
+.bold {
   font-weight: bold;
 }
 
-span.italic {
+.italic {
   font-weight: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lbig {
+  font-size: 1.25rem;
+}
+
+pre.desc {
+  white-space: pre-line;
+  word-wrap: break-word;
+  margin: 0;
+  font-family: inherit;
+  font-size: 1.1rem;
+  /* padding: 0 35%; */
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.friendly-link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.friendly-link > a {
+  transition: all 250ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
+  transform: scale(0.9);
+  margin-inline: -1.5rem;
+}
+
+.friendly-link > a:hover {
+  transform: scale(1);
+  margin-inline: 0;
 }
 
 .fullscreen-page {
@@ -106,6 +144,7 @@ span.italic {
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
+  margin-block: 4rem;
 }
 
 .product-container a {
@@ -115,7 +154,14 @@ span.italic {
   filter: blur(0.6px) drop-shadow(5px 5px 0.15rem #0002);
   perspective: 600px;
   transform: scale3d(1, 1, 1) rotate3d(0.5, 1, 0.15, 40deg);
-  margin-inline: -16px;
+  margin-inline: -18px;
+  background: linear-gradient(
+    45deg,
+    #00000007,
+    #00000000,
+    #00000000,
+    #00000007
+  );
 }
 
 .product-container a:hover {
@@ -312,7 +358,7 @@ span.italic {
 }
 
 .footer {
-  padding-bottom: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 /* 项目容器 */
@@ -363,7 +409,6 @@ span.italic {
   color: #eee;
 }
 
-
 /* 项目名称装饰 */
 .project .project-name::before {
   content: "·";
@@ -401,7 +446,7 @@ span.italic {
   box-sizing: border-box;
   transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
   text-shadow: #7777 0px 0px 2px;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   user-select: none;
 }
 
@@ -426,4 +471,23 @@ span.italic {
   flex-direction: row;
   align-items: flex-start;
   justify-items: center;
+}
+
+.contact-link {
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.sector {
+  margin-top: 1.75rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.contact {
+  margin-top: 1.75rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
 }
