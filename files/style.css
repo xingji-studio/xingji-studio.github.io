@@ -80,40 +80,48 @@ nav ul a:hover {
   text-decoration: underline;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.lbig {
-  font-size: 1.25rem;
-}
-
 pre.desc {
   white-space: pre-line;
   word-wrap: break-word;
   margin: 0;
   font-family: inherit;
-  font-size: 1.1rem;
   /* padding: 0 35%; */
   text-align: left;
-  margin-bottom: 2rem;
 }
 
-.friendly-link {
+.friendly-links {
   display: flex;
-  justify-content: center;
-  margin-bottom: 4rem;
+  align-items: center;
 }
 
-.friendly-link > a {
+.friendly-links a {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  flex-direction: column;
+}
+
+.friendly-links a::after {
+  content: "";
+  width: 0;
+  height: 0;
+  background: #000e;
+  margin-top: 4px;
+  display: block;
   transition: all 250ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
-  transform: scale(0.9);
-  margin-inline: -1.5rem;
 }
 
-.friendly-link > a:hover {
-  transform: scale(1);
-  margin-inline: 0;
+.friendly-links a:hover::after {
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+}
+
+.friendly-links a:focus::after {
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
 }
 
 .fullscreen-page {
@@ -127,7 +135,7 @@ pre.desc {
 
 /*宣传图*/
 .poster {
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 
@@ -150,32 +158,33 @@ pre.desc {
 .product-container a {
   display: block;
   height: 10rem;
-  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
-  filter: blur(0.6px) drop-shadow(5px 5px 0.15rem #0002);
+  width: 10rem;
+  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1), margin-inline 150ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
+  filter: blur(0.6px) opacity(0.9);
   perspective: 600px;
   transform: scale3d(1, 1, 1) rotate3d(0.5, 1, 0.15, 40deg);
-  margin-inline: -18px;
+  margin-inline: -36px;
+  border: #0001 0.25px solid;
   background: linear-gradient(
-    45deg,
-    #00000007,
-    #00000000,
-    #00000000,
-    #00000007
+    0deg,
+    #eee3,
+    #eee7
   );
+  backdrop-filter: blur(8px);
 }
 
 .product-container a:hover {
-  filter: blur(0px) drop-shadow(0 0 0.05rem #0006);
-  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5, 1, 0.15, 0deg);
-  z-index: 2;
-  margin-inline: 8px;
-}
-
-.product-container a:focus {
-  filter: blur(0px) drop-shadow(0 0 0rem #0003);
+  filter: blur(0px) opacity(1);
   transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5, 1, 0.15, 0deg);
   z-index: 2;
   margin-inline: 16px;
+}
+
+.product-container a:focus {
+  filter: blur(0px) opacity(1);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5, 1, 0.15, 0deg);
+  z-index: 2;
+  margin-inline: 24px;
 }
 
 .product-container a img {
@@ -186,7 +195,7 @@ pre.desc {
 
 /*内容容器*/
 .content-container {
-  padding-inline: 2.5%;
+  padding-inline: 7.5%;
   padding-block: 1%;
   /* padding-top: 88px; */
   overflow: auto;
