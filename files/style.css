@@ -361,6 +361,10 @@ pre.desc {
   padding-bottom: 2rem;
 }
 
+.header {
+  padding-top: 2rem;
+}
+
 /* 项目容器 */
 
 .project-container {
@@ -433,10 +437,13 @@ pre.desc {
   filter: blur(0);
 }
 
-/* 项目链接 */
-.project-links .project-link {
+/* 项目(卡片)链接按钮 */
+
+.card-button {
   border: solid #ffffff 2px;
   /* background: #009bdd; */
+  display: block;
+  width: fit-content;
   background: #0000;
   color: #ffffff;
   padding: 16px 32px;
@@ -446,18 +453,19 @@ pre.desc {
   box-sizing: border-box;
   transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
   text-shadow: #7777 0px 0px 2px;
+  background: #7771;
   margin-right: 0.5rem;
   user-select: none;
 }
 
-.project-links .project-link:hover {
+.card-button:hover {
   border: solid #ffffff9f 2px;
   color: #ffffff;
   background: #00a2e89f;
   text-shadow: #9997 0px 0px 2px;
 }
 
-.project-links .project-link:focus {
+.card-button:focus {
   border: solid #ffffff7f 2px;
   color: #ffffff;
   background: #00a2e8af;
@@ -479,10 +487,51 @@ pre.desc {
   font-weight: bold;
 }
 
-.sector {
-  margin-top: 1.75rem;
-  margin-bottom: 0.25rem;
-  font-size: 1.75rem;
+.sectors {
+  display: flex;
+  margin-block: 2rem;
+}
+
+.sector-card {
+  width: 256px;
+  background-color: #c5ecff9d;
+  padding-inline: 16px;
+  padding-block: 8px 16px;
+  backdrop-filter: blur(8px);
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sector-card p, .sector-card a {
+  margin-block: .5rem;
+}
+
+.sector-card > .require {
+  white-space: pre-line;
+  font-family: inherit;
+}
+
+.light.card-button {
+  border: solid #0000008f 2px;
+  color: #000a;
+  text-shadow: #000a 0px 0px 1px;
+}
+
+.light.card-button:hover {
+  border: solid #0000008f 2px;
+  color: #000a;
+  text-shadow: #000c 0px 0px 1px;
+}
+
+.light.card-button:focus {
+  border: solid #0000009f 2px;
+  color: #000c;
+  text-shadow: #000e 0px 0px 2px;
+}
+
+.sector-card > .foot > .features {
   font-weight: bold;
 }
 
