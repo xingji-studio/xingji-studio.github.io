@@ -92,6 +92,7 @@ pre.desc {
 .friendly-links {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .friendly-links a {
@@ -106,7 +107,7 @@ pre.desc {
   content: "";
   width: 0;
   height: 0;
-  background: #000e;
+  background: #333e;
   margin-top: 4px;
   display: block;
   transition: all 250ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
@@ -114,14 +115,14 @@ pre.desc {
 
 .friendly-links a:hover::after {
   width: 100%;
-  height: 2px;
-  margin-top: 2px;
+  height: 0.75px;
+  margin-top: 3.25px;
 }
 
 .friendly-links a:focus::after {
   width: 100%;
-  height: 2px;
-  margin-top: 2px;
+  height: 1px;
+  margin-top: 3px;
 }
 
 .fullscreen-page {
@@ -160,31 +161,32 @@ pre.desc {
   height: 10rem;
   width: 10rem;
   transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1), margin-inline 150ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
-  filter: blur(0.6px) opacity(0.9);
+  filter: blur(0.75px) opacity(0.8);
   perspective: 600px;
-  transform: scale3d(1, 1, 1) rotate3d(0.5, 1, 0.15, 40deg);
-  margin-inline: -36px;
-  border: #0001 0.25px solid;
+  transform: scale3d(.9, .9, .9) rotate3d(0.5, 1, 0.15, 40deg) translate3d(0, 0, 0);
+  margin-inline: -32px;
+  border: #0003 0.25px solid;
   background: linear-gradient(
     0deg,
     #eee3,
     #eee7
   );
   backdrop-filter: blur(8px);
+  box-shadow: #0002 0px 0px 20px 0px;
 }
 
 .product-container a:hover {
   filter: blur(0px) opacity(1);
-  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5, 1, 0.15, 0deg);
-  z-index: 2;
-  margin-inline: 16px;
+  transform: scale3d(1, 1, 1) rotate3d(0.5, 1, 0.15, 40deg) translate3d(0,0,16px);
+  border: #0003 0.5px solid;
+  /* margin-inline: 16px; */
 }
 
 .product-container a:focus {
   filter: blur(0px) opacity(1);
-  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5, 1, 0.15, 0deg);
-  z-index: 2;
-  margin-inline: 24px;
+  transform: scale3d(1, 1, 1) rotate3d(0.5, 1, 0.15, 40deg) translate3d(0,0,24px);
+  border: #0003 1px solid;
+  /* margin-inline: 24px; */
 }
 
 .product-container a img {
@@ -208,13 +210,15 @@ pre.desc {
 /*贴纸展示*/
 .badge-viewer {
   float: right;
-  height: 13rem;
   display: flex;
-  justify-content: end;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .badge-viewer img {
-  height: inherit;
+  display: block;
+  max-width: 320px;
+  flex: 1;
 }
 
 /*产品展示*/
