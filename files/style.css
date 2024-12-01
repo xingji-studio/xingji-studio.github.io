@@ -80,40 +80,49 @@ nav ul a:hover {
   text-decoration: underline;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.lbig {
-  font-size: 1.25rem;
-}
-
 pre.desc {
   white-space: pre-line;
   word-wrap: break-word;
   margin: 0;
   font-family: inherit;
-  font-size: 1.1rem;
   /* padding: 0 35%; */
   text-align: left;
-  margin-bottom: 2rem;
 }
 
-.friendly-link {
+.friendly-links {
   display: flex;
-  justify-content: center;
-  margin-bottom: 4rem;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.friendly-link > a {
+.friendly-links a {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  flex-direction: column;
+}
+
+.friendly-links a::after {
+  content: "";
+  width: 0;
+  height: 0;
+  background: #333e;
+  margin-top: 4px;
+  display: block;
   transition: all 250ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
-  transform: scale(0.9);
-  margin-inline: -1.5rem;
 }
 
-.friendly-link > a:hover {
-  transform: scale(1);
-  margin-inline: 0;
+.friendly-links a:hover::after {
+  width: 100%;
+  height: 0.75px;
+  margin-top: 3.25px;
+}
+
+.friendly-links a:focus::after {
+  width: 100%;
+  height: 1px;
+  margin-top: 3px;
 }
 
 .fullscreen-page {
@@ -127,7 +136,7 @@ pre.desc {
 
 /*宣传图*/
 .poster {
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 
@@ -144,38 +153,42 @@ pre.desc {
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
-  margin-block: 4rem;
+  padding-block: 4rem;
 }
 
 .product-container a {
   display: block;
   height: 10rem;
-  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
-  filter: blur(0.6px) drop-shadow(5px 5px 0.15rem #0002);
-  perspective: 600px;
-  transform: scale3d(1, 1, 1) rotate3d(0.5, 1, 0.15, 40deg);
-  margin-inline: -18px;
-  background: linear-gradient(
-    45deg,
-    #00000007,
-    #00000000,
-    #00000000,
-    #00000007
-  );
+  width: 10rem;
+  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1),
+    margin-inline 150ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
+  filter: blur(0.75px) opacity(0.75);
+  transform: scale3d(0.9, 0.9, 0.9) translate3d(0, 0, 0);
+  margin-inline: -0.5rem;
+  margin-block: 0.5rem;
+  border: #0000 0px solid;
+  box-sizing: border-box;
+  /* background: linear-gradient(0deg, #eee3, #eee7); */
+  backdrop-filter: blur(8px);
+  box-shadow: #0000 0px 0px 20px 0px;
 }
 
 .product-container a:hover {
-  filter: blur(0px) drop-shadow(0 0 0.05rem #0006);
-  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5, 1, 0.15, 0deg);
+  filter: blur(0px) opacity(1);
+  transform: scale3d(1.1, 1.1, 1.1) translate3d(0, 0, 16px);
+  border: #0002 0.5px solid;
   z-index: 2;
   margin-inline: 8px;
+  margin-block: 0rem;
 }
 
 .product-container a:focus {
-  filter: blur(0px) drop-shadow(0 0 0rem #0003);
-  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0.5, 1, 0.15, 0deg);
+  filter: blur(0px) opacity(1);
+  transform: scale3d(1.1, 1.1, 1.1) translate3d(0, 0, 16px);
+  border: #0003 1px solid;
   z-index: 2;
-  margin-inline: 16px;
+  margin-inline: 8px;
+  margin-block: 0rem;
 }
 
 .product-container a img {
@@ -186,7 +199,7 @@ pre.desc {
 
 /*内容容器*/
 .content-container {
-  padding-inline: 2.5%;
+  padding-inline: 7.5%;
   padding-block: 1%;
   /* padding-top: 88px; */
   overflow: auto;
@@ -199,13 +212,15 @@ pre.desc {
 /*贴纸展示*/
 .badge-viewer {
   float: right;
-  height: 13rem;
   display: flex;
-  justify-content: end;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .badge-viewer img {
-  height: inherit;
+  display: block;
+  max-width: 320px;
+  flex: 1;
 }
 
 /*产品展示*/
@@ -504,8 +519,9 @@ pre.desc {
   justify-content: space-between;
 }
 
-.sector-card p, .sector-card a {
-  margin-block: .5rem;
+.sector-card p,
+.sector-card a {
+  margin-block: 0.5rem;
 }
 
 .sector-card > .require {
