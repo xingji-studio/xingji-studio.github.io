@@ -1,5 +1,5 @@
 body {
-  filter: grayscale(0);
+  filter: grayscale(1);
   /*把 body 默认的 margin 设为 0*/
   margin: 0;
   background: url(../back.png) top -10rem left/100% no-repeat;
