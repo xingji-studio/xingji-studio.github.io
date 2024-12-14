@@ -1,22 +1,12 @@
 body {
-  filter: grayscale(1);
-  -moz-filter: grayscale(1);
-  -ms-filter: grayscale(1);
-  -o-filter: grayscale(1);
-  -webkit-filter: grayscale(1);
   
   /*把 body 默认的 margin 设为 0*/
   margin: 0;
-  background: url(../back.png) top -10rem left/100% no-repeat filter: grayscale(1), -moz-filter: grayscale(1), -ms-filter: grayscale(1), -o-filter: grayscale(1), -webkit-filter: grayscale(1);
+  background: url(../back.png) top -10rem left/100% no-repeat;
   font-family: system-ui, Arial, Helvetica, sans-serif; /* 全局 font-family - Global font-family */
 }
 
 html {
-  filter: grayscale(1);
-  -moz-filter: grayscale(1);
-  -ms-filter: grayscale(1);
-  -o-filter: grayscale(1);
-  -webkit-filter: grayscale(1);
   width: 100%;
   height: 100%;
 }
