@@ -508,6 +508,11 @@ pre.desc {
   margin-block: 2rem;
 }
 
+.sectors2 {
+  display: flex;
+  margin-block: 3rem;
+}
+
 .sector-card {
   width: 256px;
   background-color: #c5ecff9d;
