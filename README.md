@@ -1,30 +1,93 @@
-# **XINGJI工作室**官网
+# XINGJI Studio Website
 
-这里是**XINGJI工作室**的官网项目仓库。
+XINGJI工作室官方网站，使用 Vue 3 + TypeScript + Tailwind CSS 构建。
 
-官网网址：<https://www.xingjisoft.top/>
+## 环境要求
 
-## ⚠️ 注意事项
+- Node.js >= 16.0.0
+- pnpm >= 8.0.0
 
-请不要直接打开index.html文件，请使用 ***live-server*** 或使用 **同类工具** 预览修改后的项目。
+## 安装 pnpm
 
-## 💬项目说明
+### Windows
 
-若要实时预览修改本项目，请使用 *npm（或其他**Node.js**包管理工具）* 安装***live-server*** 或使用 **同类工具** 实现本地预览。
+使用 PowerShell (管理员权限):
 
-以下是***live-server***的安装命令：
+```powershell
+iwr https://get.pnpm.io/install.ps1 -useb | iex
+```
+
+或使用 npm:
+
+```bash
+npm install -g pnpm
+```
+
+### macOS/Linux
+
+使用 curl:
+
+```bash
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+```
+
+或使用 npm:
+
+```bash
+npm install -g pnpm
+```
+
+## 项目设置
+
+1. 克隆项目
+
+```bash
+git clone https://github.com/xingji-studio/website.git
+cd website
+```
+
+2. 安装依赖
+
+```bash
+pnpm install
+```
+
+3. 启动开发服务器
+
+```bash
+pnpm dev
+```
+
+现在可以在浏览器中访问 http://localhost:5173 查看网站。
+
+4. 构建生产版本
+
+```bash
+pnpm build
+```
+
+构建后的文件将位于 `dist` 目录中。
+
+## 项目结构
 
 ```
-npm install -g live-server
+website/
+├── src/                    # 源代码
+│   ├── components/        # 通用组件
+│   ├── views/            # 页面组件
+│   ├── router/           # 路由配置
+│   └── App.vue           # 根组件
+├── public/               # 静态资源
+└── index.html           # HTML 模板
 ```
 
-安装后在**项目根目录**下执行：
+## 技术栈
 
-```
-live-server ./ --port=8080 --host=localhost
-```
-即可在浏览器中打开<http://localhost:8080>实时预览修改后的项目。
+- [Vue 3](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
 
-## © 版权说明
+## 许可证
 
-所有权利保留，侵权必究。
+[MIT License](LICENSE)

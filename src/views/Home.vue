@@ -1,0 +1,163 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const products = ref([
+  {
+    title: '操作系统',
+    description: 'XJ380操作系统，完全自主研发，内核使用XJ-Kernel 2.0，UEFI引导方式，安全、可靠',
+    image: '/files/os.png',
+    link: '/product/xj380/ind.html'
+  },
+  {
+    title: '星际云',
+    description: '高速、稳定、安全的云服务平台',
+    image: '/files/cloud.png',
+    link: 'https://cloud.xingjisoft.top/'
+  },
+  {
+    title: '软件及游戏',
+    description: '高质量的软件解决方案和游戏产品',
+    image: '/files/software.png',
+    link: '/product/software/menu.html'
+  },
+  {
+    title: '硬件产品',
+    description: '创新的硬件解决方案',
+    image: '/files/hardware.png',
+    link: '/product/hardware/ind.html'
+  }
+])
+
+const partners = ref([
+  {
+    name: '德沃洛普工作室',
+    logo: '/files/develop_studio.png',
+    link: 'http://pbhmjfsk.e.cn.vc/zh'
+  },
+  {
+    name: '537工作室',
+    logo: '/files/537logo.png',
+    link: 'https://537studio.com/'
+  },
+  {
+    name: 'PCC工作室',
+    logo: '/files/pcc.png',
+    link: 'https://pcc.xingjisoft.top/'
+  },
+  {
+    name: '星际云',
+    logo: '/files/XINGJI Cloud.png',
+    link: 'https://cloud.xingjisoft.top/'
+  }
+])
+</script>
+
+<template>
+  <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center text-white pt-20">
+      <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/30 via-purple-500/30 to-pink-500/30 backdrop-blur-3xl"></div>
+      </div>
+      
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <img src="/files/XINGJI_rect.svg" alt="XINGJI" class="h-32 mx-auto mb-8" />
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+          星际工作室
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          高质量，高服务，高技术，低价格
+        </p>
+        <div class="flex justify-center gap-4">
+          <button class="px-8 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold hover:from-blue-600 hover:to-purple-600 transition-all duration-200 shadow-lg hover:shadow-blue-500/25">
+            了解更多
+          </button>
+          <button class="px-8 py-3 rounded-full bg-white/10 text-white font-semibold hover:bg-white/20 transition-all duration-200 backdrop-blur-sm">
+            立即体验
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-20 px-4 relative">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold text-white mb-12 text-center">我们的产品及服务</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div v-for="product in products" :key="product.title" 
+               class="group relative">
+            <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur"></div>
+            <div class="relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 hover:transform hover:scale-[1.02] transition-all duration-300">
+              <img :src="product.image" :alt="product.title" class="w-full h-48 object-cover rounded-xl mb-4">
+              <h3 class="text-xl font-bold text-white mb-2">{{ product.title }}</h3>
+              <p class="text-gray-400 mb-4">{{ product.description }}</p>
+              <a :href="product.link" 
+                 class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-200">
+                了解更多
+                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="py-20 px-4 relative">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold text-white mb-12">我们有什么优势？</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+            <h3 class="text-xl font-bold text-white mb-4">学生团队，低成本优势</h3>
+            <p class="text-gray-400">
+              XINGJI工作室在2017年创立。由于我们都是学生，也就不需要支付大量工资费用，产品价格也大大降低。
+            </p>
+          </div>
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+            <h3 class="text-xl font-bold text-white mb-4">品质保证</h3>
+            <p class="text-gray-400">
+              在价格降低的同时，品质也不输大厂。我们保证我们的产品即便是免费的，也校验过每一项功能。即便我们没有校验出所有的问题，也会第一时间受理并修复任何人的报告。
+            </p>
+          </div>
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+            <h3 class="text-xl font-bold text-white mb-4">技术创新</h3>
+            <p class="text-gray-400">
+              我们的技术也堪比大厂，例如我们发明的XRMU锁存器速度高达640Gbps！双通道更是高达1.2Tbps！遥摇领先DDR5！
+            </p>
+          </div>
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+            <h3 class="text-xl font-bold text-white mb-4">XJ380操作系统</h3>
+            <p class="text-gray-400">
+              完全自主研发，内核使用XJ-Kernel 2.0，经过三次更新，UEFI引导方式，安全、可靠，并且完全免费（仅限于普通系列）
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="py-20 px-4 relative">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold text-white mb-12">我们的合作伙伴</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <a v-for="partner in partners" 
+             :key="partner.name"
+             :href="partner.link"
+             class="group relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 hover:transform hover:scale-[1.02] transition-all duration-300">
+            <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur"></div>
+            <img :src="partner.logo" :alt="partner.name" class="w-full h-auto">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-8 text-center text-white bg-gray-800/50 backdrop-blur-md">
+      <p class="text-xl font-semibold">
+        我们保证您所投入的每一分钱都会被我们用于有意义的事上！
+      </p>
+    </footer>
+  </div>
+</template> 
