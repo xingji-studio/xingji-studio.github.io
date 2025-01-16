@@ -15,6 +15,16 @@ const router = createRouter({
       component: () => import('../views/os/XJ380.vue')
     },
     {
+      path: '/os/xj380/download',
+      name: 'xj380-download',
+      component: () => import('../views/os/XJ380Download.vue')
+    },
+    {
+      path: '/os/xj380/error',
+      name: 'xj380-error',
+      component: () => import('../views/os/XJ380Error.vue')
+    },
+    {
       path: '/software',
       name: 'software',
       component: () => import('../views/software/Software.vue')
