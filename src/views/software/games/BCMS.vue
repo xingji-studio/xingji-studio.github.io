@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GameLayout from '@/components/software/GameLayout.vue'
+import GameLayout from '../../../components/software/GameLayout.vue'
 </script>
 
 <template>
