@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'Open Source | XINGJI Studio',
+  meta: [
+    {
+      name: 'description',
+      content: 'XINGJI工作室开发的开源软件 | 世界因开源而美好，我们因开源而奉献。',
+    },
+  ],
+})
 
 const projects = ref([
   {

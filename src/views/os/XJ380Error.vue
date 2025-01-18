@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'FAQ XJ380 | XINGJI Studio',
+  meta: [
+    {
+      name: 'description',
+      content: 'Defautl description',
+    },
+  ],
+})
 
 const bootErrors = ref([
   {

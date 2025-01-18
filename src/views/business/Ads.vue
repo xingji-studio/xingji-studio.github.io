@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'Ads | XINGJI Studio',
+  meta: [
+    {
+      name: 'description',
+      content: 'Defautl description',
+    },
+  ],
+})
 
 const contactInfo = ref({
   description: '@人朝的小郭同学 视频恰饭',

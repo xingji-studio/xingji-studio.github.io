@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import GameLayout from '../../../components/software/GameLayout.vue'
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'BCMS | XINGJI Studio',
+  meta: [
+    {
+      name: 'description',
+      content: 'Defautl description',
+    },
+  ],
+})
 </script>
 
 <template>

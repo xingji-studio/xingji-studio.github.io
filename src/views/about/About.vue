@@ -1,5 +1,19 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'About | XINGJI Studio',
+  meta: [
+    {
+      name: 'description',
+      content: '在2017年的一个冬天，XINGJI工作室（此时未更名为工作室）在人大附中朝阳学校（212校区）成立。 \
+最开始工作室由2017级9班的三位同学组建（右图右3右4），最开始从事任何杂活，并大量吸收成员， \
+巅峰时拥有高达17名成员（班里一共39人），包括右图全部同学都加入过XINGJI工作室。并且在2020 \
+年更名为XINGJI工作室。在2020年，全班模仿我们的其他小团体如雨后春笋般涌出，例如右图右2。',
+    },
+  ],
+})
 
 const ceoInfo = ref({
   name: '@人朝的小郭同学',
