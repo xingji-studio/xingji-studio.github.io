@@ -1,5 +1,19 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: '星际工作室 | XINGJI Studio',
+  meta: [
+    {
+      name: 'description',
+      content: 'XINGJI工作室在2017年创立。由于我们都是学生，也就不需要支付大量工资费用，产品价格也大大降低。 \
+在价格降低的同时，品质也不输大厂。我们保证我们的产品即便是免费的，也校验过每一项功能。即便我们没有校验出所有的问题，也会第一时间受理并修复任何人的报告。\
+我们的技术也堪比大厂，例如我们发明的XRMU锁存器速度高达640Gbps！双通道更是高达1.2Tbps！遥摇领先DDR5！\
+完全自主研发，内核使用XJ-Kernel 2.0，经过三次更新，UEFI引导方式，安全、可靠，并且完全免费（仅限于普通系列）',
+    },
+  ],
+})
 
 const products = ref([
   {
@@ -88,15 +102,17 @@ const partners = ref([
           <div v-for="product in products" :key="product.title" 
                class="group relative">
             <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur"></div>
-            <div class="relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 hover:transform hover:scale-[1.02] transition-all duration-300">
-              <img :src="product.image" :alt="product.title" class="w-full h-48 object-cover rounded-xl mb-4">
+            <div class="relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 group ">
+              <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
+                <img :src="product.image" :alt="product.title" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
+              </div>
               <h3 class="text-xl font-bold text-white mb-2">{{ product.title }}</h3>
               <p class="text-gray-400 mb-4">{{ product.description }}</p>
               <a :href="product.link" 
-                 class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-200">
-                了解更多
-                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                 class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
+                <span>了解更多</span>
+                <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                  <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
                 </svg>
               </a>
             </div>

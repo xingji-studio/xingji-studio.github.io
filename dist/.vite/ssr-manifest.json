@@ -1,0 +1,154 @@
+{
+  "\u0000plugin-vue:export-helper": [],
+  "\u0000vite/modulepreload-polyfill.js": [],
+  "\u0000vite/preload-helper.js": [],
+  "../../../../LOGO带底.png": [
+    "/assets/XJ380-C0Y1vP9v.js"
+  ],
+  "../../../../about/right1.jpg": [
+    "/assets/About-BQQWgt2B.js"
+  ],
+  "../../../../about/头像.png": [
+    "/assets/About-BQQWgt2B.js"
+  ],
+  "../../../../error/boot_error.png": [
+    "/assets/XJ380Error-Bqgw0_8V.js"
+  ],
+  "../../../../error/error.png": [
+    "/assets/XJ380Error-Bqgw0_8V.js"
+  ],
+  "../../../../files/XINGJI_blueback.png": [],
+  "../../../../files/XINGJI_rect.svg": [],
+  "../../../../ultra版LOGO带底.png": [
+    "/assets/XJ380-C0Y1vP9v.js"
+  ],
+  "index.html": [],
+  "node_modules/.deno/@unhead+dom@1.11.18/node_modules/@unhead/dom/dist/index.mjs": [],
+  "node_modules/.deno/@unhead+shared@1.11.18/node_modules/@unhead/shared/dist/index.mjs": [],
+  "node_modules/.deno/@unhead+vue@1.11.18/node_modules/@unhead/vue/dist/shared/vue.-sixQ7xP.mjs": [],
+  "node_modules/.deno/@unhead+vue@1.11.18/node_modules/@unhead/vue/dist/shared/vue.ziyDaVMR.mjs": [],
+  "node_modules/.deno/@vue+reactivity@3.5.13/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [],
+  "node_modules/.deno/@vue+runtime-core@3.5.13/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [],
+  "node_modules/.deno/@vue+runtime-dom@3.5.13/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [],
+  "node_modules/.deno/@vue+shared@3.5.13/node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/.deno/hookable@5.5.3/node_modules/hookable/dist/index.mjs": [],
+  "node_modules/.deno/unhead@1.11.18/node_modules/unhead/dist/index.mjs": [],
+  "node_modules/.deno/vite-ssg@25.0.0/node_modules/vite-ssg/dist/index.mjs": [],
+  "node_modules/.deno/vite-ssg@25.0.0/node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [],
+  "node_modules/.deno/vite-ssg@25.0.0/node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [],
+  "node_modules/.deno/vue-router@4.5.0/node_modules/vue-router/dist/vue-router.mjs": [],
+  "src/App.vue?vue&type=script&setup=true&lang.ts": [],
+  "src/App.vue?vue&type=style&index=0&lang.css": [],
+  "src/components/Navigation.vue": [],
+  "src/components/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
+  "src/components/Navigation.vue?vue&type=style&index=0&scoped=8ea9fc82&lang.css": [],
+  "src/components/software/GameLayout.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/GameLayout.vue_vue_type_script_setup_true_lang-DO7iRyg4.js"
+  ],
+  "src/main.ts": [],
+  "src/router/index.ts": [],
+  "src/style.css": [],
+  "src/views/Home.vue?vue&type=script&setup=true&lang.ts": [],
+  "src/views/OpenSource.vue": [
+    "/assets/OpenSource-DtJyacoX.js"
+  ],
+  "src/views/OpenSource.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/OpenSource-DtJyacoX.js"
+  ],
+  "src/views/about/About.vue": [
+    "/assets/About-BQQWgt2B.js"
+  ],
+  "src/views/about/About.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/About-BQQWgt2B.js"
+  ],
+  "src/views/about/Join.vue": [
+    "/assets/Join-CM77qiq1.js"
+  ],
+  "src/views/about/Join.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Join-CM77qiq1.js"
+  ],
+  "src/views/business/Ads.vue": [
+    "/assets/Ads-DbnYTIqm.js"
+  ],
+  "src/views/business/Ads.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Ads-DbnYTIqm.js"
+  ],
+  "src/views/business/BulkPurchase.vue": [
+    "/assets/BulkPurchase-DfkLuYxi.js"
+  ],
+  "src/views/business/BulkPurchase.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/BulkPurchase-DfkLuYxi.js"
+  ],
+  "src/views/business/Business.vue": [
+    "/assets/Business-C7NN1y9x.js"
+  ],
+  "src/views/business/Business.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Business-C7NN1y9x.js"
+  ],
+  "src/views/business/Cooperation.vue": [
+    "/assets/Cooperation-BDDng1uv.js"
+  ],
+  "src/views/business/Cooperation.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Cooperation-BDDng1uv.js"
+  ],
+  "src/views/business/Patent.vue": [
+    "/assets/Patent-CmQY5lvw.js"
+  ],
+  "src/views/business/Patent.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Patent-CmQY5lvw.js"
+  ],
+  "src/views/business/Reseller.vue": [
+    "/assets/Reseller-39-JQAwp.js"
+  ],
+  "src/views/business/Reseller.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Reseller-39-JQAwp.js"
+  ],
+  "src/views/business/TechCooperation.vue": [
+    "/assets/TechCooperation-BkkyLWGX.js"
+  ],
+  "src/views/business/TechCooperation.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/TechCooperation-BkkyLWGX.js"
+  ],
+  "src/views/os/XJ380.vue": [
+    "/assets/XJ380-C0Y1vP9v.js"
+  ],
+  "src/views/os/XJ380.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/XJ380-C0Y1vP9v.js"
+  ],
+  "src/views/os/XJ380Download.vue": [
+    "/assets/XJ380Download-B92kuXj3.js"
+  ],
+  "src/views/os/XJ380Download.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/XJ380Download-B92kuXj3.js"
+  ],
+  "src/views/os/XJ380Error.vue": [
+    "/assets/XJ380Error-Bqgw0_8V.js"
+  ],
+  "src/views/os/XJ380Error.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/XJ380Error-Bqgw0_8V.js"
+  ],
+  "src/views/software/Software.vue": [
+    "/assets/Software-j_jXtaP2.js"
+  ],
+  "src/views/software/Software.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Software-j_jXtaP2.js"
+  ],
+  "src/views/software/games/BCMS.vue": [
+    "/assets/BCMS-CGoWSmBG.js"
+  ],
+  "src/views/software/games/BCMS.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/BCMS-CGoWSmBG.js"
+  ],
+  "src/views/software/games/BCMS2.vue": [
+    "/assets/BCMS2-B5JAkoGP.js"
+  ],
+  "src/views/software/games/BCMS2.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/BCMS2-B5JAkoGP.js"
+  ],
+  "src/views/software/games/BCMSDeluxe.vue": [
+    "/assets/BCMSDeluxe-DEWoHMgO.js"
+  ],
+  "src/views/software/games/BCMSDeluxe.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/BCMSDeluxe-DEWoHMgO.js"
+  ]
+}

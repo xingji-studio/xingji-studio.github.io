@@ -1,6 +1,16 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'XJ380 | XINGJI Studio',
+  meta: [
+    {
+      name: 'description',
+      content: 'Defautl description',
+    },
+  ],
+})
 
 const router = useRouter()
 

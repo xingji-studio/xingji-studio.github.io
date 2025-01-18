@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'Cooperation | XINGJI Studio',
+  meta: [
+    {
+      name: 'description',
+      content: 'Defautl description',
+    },
+  ],
+})
 
 const cooperationTypes = ref([
   {
