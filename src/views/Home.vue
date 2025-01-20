@@ -84,12 +84,16 @@ const partners = ref([
           高质量，高服务，高技术，低价格
         </p>
         <div class="flex justify-center gap-4">
-          <button class="px-8 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold hover:from-blue-600 hover:to-purple-600 transition-all duration-200 shadow-lg hover:shadow-blue-500/25">
-            了解更多
-          </button>
-          <button class="px-8 py-3 rounded-full bg-white/10 text-white font-semibold hover:bg-white/20 transition-all duration-200 backdrop-blur-sm">
-            立即体验
-          </button>
+          <a href="/about">
+            <button class="px-8 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold hover:from-blue-600 hover:to-purple-600 transition-all duration-200 shadow-lg hover:shadow-blue-500/25">
+              了解更多
+            </button>
+          </a>
+          <a href="/software">
+            <button class="px-8 py-3 rounded-full bg-white/10 text-white font-semibold hover:bg-white/20 transition-all duration-200 backdrop-blur-sm">
+              立即体验
+            </button>
+          </a>
         </div>
       </div>
     </section>
