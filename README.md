@@ -1,49 +1,19 @@
 # XINGJI Studio Website
 
-XINGJI工作室官方网站，使用 Vue 3 + TypeScript + Tailwind CSS 构建。
+XINGJI工作室官方网站，使用 Vue 3 + TypeScript + Tailwind CSS + Vite-SSG 构建。
 
 ## 环境要求
 
-- Node.js >= 16.0.0
-- pnpm >= 8.0.0
-
-## 安装 pnpm
-
-### Windows
-
-使用 PowerShell (管理员权限):
-
-```powershell
-iwr https://get.pnpm.io/install.ps1 -useb | iex
-```
-
-或使用 npm:
-
-```bash
-npm install -g pnpm
-```
-
-### macOS/Linux
-
-使用 curl:
-
-```bash
-curl -fsSL https://get.pnpm.io/install.sh | sh -
-```
-
-或使用 npm:
-
-```bash
-npm install -g pnpm
-```
+- Node.js >= 16.0.0 (或只使用 Deno 构建)
+- pnpm >= 8.0.0 (或其他 Node.js 包管理器)
 
 ## 项目设置
 
 1. 克隆项目
 
 ```bash
-git clone https://github.com/xingji-studio/website.git
-cd website
+git clone https://github.com/xingji-studio/xingji-studio.github.io.git
+cd xingji-studio.github.io
 ```
 
 2. 安装依赖
@@ -70,8 +40,8 @@ pnpm build
 
 ## 项目结构
 
-```
-website/
+```bash
+xingji-studio.github.io/
 ├── src/                    # 源代码
 │   ├── components/        # 通用组件
 │   ├── views/            # 页面组件

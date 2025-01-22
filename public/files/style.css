@@ -1,9 +1,12 @@
 body {
-  
   /*把 body 默认的 margin 设为 0*/
   margin: 0;
   background: url(../back.png) top -10rem left/100% no-repeat;
-  font-family: system-ui, Arial, Helvetica, sans-serif; /* 全局 font-family - Global font-family */
+  font-family:
+    system-ui,
+    Arial,
+    Helvetica,
+    sans-serif; /* 全局 font-family - Global font-family */
 }
 
 html {
@@ -161,7 +164,8 @@ pre.desc {
   display: block;
   height: 10rem;
   width: 10rem;
-  transition: all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1),
+  transition:
+    all 200ms cubic-bezier(0.5, -0.1, 0.5, 1.1),
     margin-inline 150ms cubic-bezier(0.5, -0.1, 0.5, 1.1);
   filter: blur(0.75px) opacity(0.75);
   transform: scale3d(0.9, 0.9, 0.9) translate3d(0, 0, 0);
