@@ -3,24 +3,24 @@
   "\u0000vite/modulepreload-polyfill.js": [],
   "\u0000vite/preload-helper.js": [],
   "../../../../LOGO带底.png": [
-    "/assets/XJ380-C0Y1vP9v.js"
+    "/assets/XJ380-43hXzmAd.js"
   ],
   "../../../../about/right1.jpg": [
-    "/assets/About-BQQWgt2B.js"
+    "/assets/About-acC4WX0x.js"
   ],
   "../../../../about/头像.png": [
-    "/assets/About-BQQWgt2B.js"
+    "/assets/About-acC4WX0x.js"
   ],
   "../../../../error/boot_error.png": [
-    "/assets/XJ380Error-Bqgw0_8V.js"
+    "/assets/XJ380Error-BJDPvjqn.js"
   ],
   "../../../../error/error.png": [
-    "/assets/XJ380Error-Bqgw0_8V.js"
+    "/assets/XJ380Error-BJDPvjqn.js"
   ],
   "../../../../files/XINGJI_blueback.png": [],
   "../../../../files/XINGJI_rect.svg": [],
   "../../../../ultra版LOGO带底.png": [
-    "/assets/XJ380-C0Y1vP9v.js"
+    "/assets/XJ380-43hXzmAd.js"
   ],
   "index.html": [],
   "node_modules/.deno/@unhead+dom@1.11.18/node_modules/@unhead/dom/dist/index.mjs": [],
@@ -41,114 +41,114 @@
   "src/App.vue?vue&type=style&index=0&lang.css": [],
   "src/components/Navigation.vue": [],
   "src/components/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
-  "src/components/Navigation.vue?vue&type=style&index=0&scoped=8ea9fc82&lang.css": [],
+  "src/components/Navigation.vue?vue&type=style&index=0&scoped=f90bf125&lang.css": [],
   "src/components/software/GameLayout.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/GameLayout.vue_vue_type_script_setup_true_lang-DO7iRyg4.js"
+    "/assets/GameLayout.vue_vue_type_script_setup_true_lang-DzleH9F_.js"
   ],
   "src/main.ts": [],
   "src/router/index.ts": [],
   "src/style.css": [],
   "src/views/Home.vue?vue&type=script&setup=true&lang.ts": [],
   "src/views/OpenSource.vue": [
-    "/assets/OpenSource-DtJyacoX.js"
+    "/assets/OpenSource-OqaVqLFf.js"
   ],
   "src/views/OpenSource.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/OpenSource-DtJyacoX.js"
+    "/assets/OpenSource-OqaVqLFf.js"
   ],
   "src/views/about/About.vue": [
-    "/assets/About-BQQWgt2B.js"
+    "/assets/About-acC4WX0x.js"
   ],
   "src/views/about/About.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/About-BQQWgt2B.js"
+    "/assets/About-acC4WX0x.js"
   ],
   "src/views/about/Join.vue": [
-    "/assets/Join-CM77qiq1.js"
+    "/assets/Join-Bnr5XqoB.js"
   ],
   "src/views/about/Join.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Join-CM77qiq1.js"
+    "/assets/Join-Bnr5XqoB.js"
   ],
   "src/views/business/Ads.vue": [
-    "/assets/Ads-DbnYTIqm.js"
+    "/assets/Ads-8rGGtq5T.js"
   ],
   "src/views/business/Ads.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Ads-DbnYTIqm.js"
+    "/assets/Ads-8rGGtq5T.js"
   ],
   "src/views/business/BulkPurchase.vue": [
-    "/assets/BulkPurchase-DfkLuYxi.js"
+    "/assets/BulkPurchase-YgdxGGiy.js"
   ],
   "src/views/business/BulkPurchase.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BulkPurchase-DfkLuYxi.js"
+    "/assets/BulkPurchase-YgdxGGiy.js"
   ],
   "src/views/business/Business.vue": [
-    "/assets/Business-C7NN1y9x.js"
+    "/assets/Business-Ce-f1ANp.js"
   ],
   "src/views/business/Business.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Business-C7NN1y9x.js"
+    "/assets/Business-Ce-f1ANp.js"
   ],
   "src/views/business/Cooperation.vue": [
-    "/assets/Cooperation-BDDng1uv.js"
+    "/assets/Cooperation-zPKCS7Qc.js"
   ],
   "src/views/business/Cooperation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Cooperation-BDDng1uv.js"
+    "/assets/Cooperation-zPKCS7Qc.js"
   ],
   "src/views/business/Patent.vue": [
-    "/assets/Patent-CmQY5lvw.js"
+    "/assets/Patent-BdAPX4w8.js"
   ],
   "src/views/business/Patent.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Patent-CmQY5lvw.js"
+    "/assets/Patent-BdAPX4w8.js"
   ],
   "src/views/business/Reseller.vue": [
-    "/assets/Reseller-39-JQAwp.js"
+    "/assets/Reseller-DtQ0_GcA.js"
   ],
   "src/views/business/Reseller.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Reseller-39-JQAwp.js"
+    "/assets/Reseller-DtQ0_GcA.js"
   ],
   "src/views/business/TechCooperation.vue": [
-    "/assets/TechCooperation-BkkyLWGX.js"
+    "/assets/TechCooperation-BRfsA3mW.js"
   ],
   "src/views/business/TechCooperation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/TechCooperation-BkkyLWGX.js"
+    "/assets/TechCooperation-BRfsA3mW.js"
   ],
   "src/views/os/XJ380.vue": [
-    "/assets/XJ380-C0Y1vP9v.js"
+    "/assets/XJ380-43hXzmAd.js"
   ],
   "src/views/os/XJ380.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380-C0Y1vP9v.js"
+    "/assets/XJ380-43hXzmAd.js"
   ],
   "src/views/os/XJ380Download.vue": [
-    "/assets/XJ380Download-B92kuXj3.js"
+    "/assets/XJ380Download-C5DduGSn.js"
   ],
   "src/views/os/XJ380Download.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Download-B92kuXj3.js"
+    "/assets/XJ380Download-C5DduGSn.js"
   ],
   "src/views/os/XJ380Error.vue": [
-    "/assets/XJ380Error-Bqgw0_8V.js"
+    "/assets/XJ380Error-BJDPvjqn.js"
   ],
   "src/views/os/XJ380Error.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Error-Bqgw0_8V.js"
+    "/assets/XJ380Error-BJDPvjqn.js"
   ],
   "src/views/software/Software.vue": [
-    "/assets/Software-j_jXtaP2.js"
+    "/assets/Software-CHQz06Yt.js"
   ],
   "src/views/software/Software.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Software-j_jXtaP2.js"
+    "/assets/Software-CHQz06Yt.js"
   ],
   "src/views/software/games/BCMS.vue": [
-    "/assets/BCMS-CGoWSmBG.js"
+    "/assets/BCMS-DodQqFEq.js"
   ],
   "src/views/software/games/BCMS.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-CGoWSmBG.js"
+    "/assets/BCMS-DodQqFEq.js"
   ],
   "src/views/software/games/BCMS2.vue": [
-    "/assets/BCMS2-B5JAkoGP.js"
+    "/assets/BCMS2-BtOrOhFL.js"
   ],
   "src/views/software/games/BCMS2.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS2-B5JAkoGP.js"
+    "/assets/BCMS2-BtOrOhFL.js"
   ],
   "src/views/software/games/BCMSDeluxe.vue": [
-    "/assets/BCMSDeluxe-DEWoHMgO.js"
+    "/assets/BCMSDeluxe-Crh_gWP_.js"
   ],
   "src/views/software/games/BCMSDeluxe.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMSDeluxe-DEWoHMgO.js"
+    "/assets/BCMSDeluxe-Crh_gWP_.js"
   ]
 }

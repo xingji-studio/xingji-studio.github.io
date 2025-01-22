@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 const isOpen = ref(false);
 
@@ -14,31 +14,40 @@ const menuItems = ref([
   { name: '加入我们', link: '/join' },
   { name: '开源软件', link: '/open-source' }
 ]);
+
+watch(isOpen, (newVal, _oldVal) => {
+  if (newVal) {
+    document.body.classList.add("overflow-hidden")
+  }else{
+    document.body.classList.remove("overflow-hidden")
+  }
+})
+
 </script>
 
 <template>
-  <nav class="fixed w-full z-50 backdrop-blur-md bg-gray-900/50">
-    <ul class="flex h-20 items-center justify-between">
-      <li class="nav-left">
-        <ul class="flex h-20 items-center">
-          <li class="h-full overflow-hidden">
-            <router-link to="/" class="flex items-center outline-none p-4 h-full w-full">
-              <img src="/files/XINGJI_blueback.png" alt="XINGJI" class="h-10 w-auto ml-2 mr-2" />
-              <span class="ml-2 mr-2 text-2xl font-bold text-white/90">
+  <nav class="fixed min-w-full z-50 backdrop-blur-md bg-gray-900/50">
+    <ul class="flex h-16 items-center justify-between">
+      <li class="nav-left h-16">
+        <ul class="flex items-center justify-start h-full">
+          <li class="h-full whitespace-nowrap">
+            <router-link to="/" class="flex items-center justify-center outline-none pl-4 pr-4 h-full w-max">
+              <img src="/files/XINGJI_blueback.png" alt="XINGJI" class="h-8 mr-1" />
+              <span class="ml-1 text-2xl font-bold text-white/90">
                 星际工作室
               </span>
             </router-link>
           </li>
           <template v-for="item in menuItems" :key="item.name">
-            <li class="hidden md:block overflow-hidden h-full">
+            <li class="hidden lg:block whitespace-nowrap h-full">
               <router-link v-if="!item.link.startsWith('http')" :to="item.link"
-                class="p-4 pl-6 pr-6 h-full w-full flex items-center group text-sm font-medium hover:bg-gray-400/10 transition-all duration-200 item">
+                class="pl-4 pr-4 h-full w-max flex items-center justify-center group text-sm font-medium hover:bg-gray-400/10 transition-all duration-200 item">
                 <span class="text-gray-300 group-hover:text-white transition-colors duration-200">
                   {{ item.name }}
                 </span>
               </router-link>
               <a v-else :href="item.link" target="_blank"
-                class="p-4 pl-6 pr-6 h-full w-full flex items-center group text-sm font-medium hover:bg-gray-400/10 transition-all duration-200 item">
+                class="pl-4 pr-4 h-full w-max flex items-center justify-center group text-sm font-medium hover:bg-gray-400/10 transition-all duration-200 item">
                 <span class="text-gray-300 group-hover:text-white transition-colors duration-200">
                   {{ item.name }}
                 </span>
@@ -48,7 +57,7 @@ const menuItems = ref([
         </ul>
       </li>
       <!-- For moblie: Menu Button -->
-      <li class="md:hidden nav-right w-20 h-20">
+      <li class="lg:hidden nav-right w-16 h-16">
         <button @click="isOpen = !isOpen"
           class="flex items-center justify-center w-full h-full rounded-md text-gray-400/90 hover:text-white hover:bg-gray-400/10 transition-all duration-200 outline-none">
           <span class="sr-only">打开菜单</span>
@@ -62,12 +71,12 @@ const menuItems = ref([
       </li>
     </ul>
   </nav>
-  <nav :class="{ 'opacity-0 invisible': !isOpen }"
-  class="fixed top-20 z-50 left-0 w-full md:hidden backdrop-blur-md bg-gray-900/50 transition-all duration-200 overflow-hidden">
+  <nav id="mobile-navbar" :class="{ 'opacity-0 invisible': !isOpen }"
+    class="fixed top-16 z-50 left-0 w-full h-[calc(100%-4rem)] lg:hidden backdrop-blur-md bg-gray-900/50 transition-all duration-200 overflow-auto dark">
     <!-- For moblie: Vertical menu -->
     <ul>
       <template v-for="item in menuItems" :key="item.name">
-        <router-link v-if="!item.link.startsWith('http')" :to="item.link"
+        <router-link v-if="!item.link.startsWith('http')" :to="item.link" @click="isOpen = false"
           class="p-4 pl-6 pr-6 h-full w-full flex items-center group font-medium hover:bg-gray-400/10 transition-all duration-200 item">
           <span class="text-gray-300 group-hover:text-white transition-colors duration-200">
             {{ item.name }}
