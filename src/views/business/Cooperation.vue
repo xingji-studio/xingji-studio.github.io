@@ -19,6 +19,11 @@ const cooperationTypes = ref([
     description: '寻求技术合作伙伴'
   },
   {
+    title: '项目代工',
+    link: '/business/oem',
+    description: '网页\软件'
+  },
+  {
     title: '成为授权经销商',
     link: '/business/cooperation/reseller',
     description: '加入我们的销售网络'

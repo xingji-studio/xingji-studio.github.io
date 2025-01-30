@@ -16,7 +16,7 @@ const cooperationTypes = ref([
   {
     title: '知名UP主/博主',
     description: '粉丝≥100000',
-    link: 'mailto:business@xingjisoft.top?subject=技术合作（知名UP主\\博主） &body=UP主\\博主所在平台：________________%0D0AUP主\\博主名称：________________________%0D%0A粉丝量：_____._万%0D%0A合作内容：',
+    link: 'mailto:business@xingjisoft.top?subject=技术合作（知名UP主\\博主） &body=UP主\\博主所在平台：________________%0D%0AUP主\\博主名称：________________________%0D%0A粉丝量：_____._万%0D%0A合作内容：',
     contact: {
       qq: '1559689519',
       wechat: 'xingji_software'

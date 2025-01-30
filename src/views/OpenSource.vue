@@ -49,7 +49,7 @@ OpenXJ380现已被OSDev收录。`,
 </script>
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-20">
+  <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-16">
     <!-- Hero Section -->
     <section class="relative py-20">
       <div class="absolute inset-0 overflow-hidden">

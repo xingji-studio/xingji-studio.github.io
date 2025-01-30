@@ -21,7 +21,7 @@ const positions = ref([
     title: 'XJ380 C/C++ 工程师',
     department: 'XINGJI Interactive Software',
     requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验者优先。',
-    headcount: 8,
+    headcount: 7,
     tags: ['有奖金', '急招', '核心项目']
   },
   {
@@ -35,22 +35,29 @@ const positions = ref([
     title: 'C/C++图形化工程师',
     department: 'XINGJI Interactive Software',
     requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。有WinAPI开发经验者优先。',
-    headcount: 5,
+    headcount: 4,
     tags: ['岗位稳定', '急招']
   },
   {
     title: 'DirectX开发工程师',
-    department: 'XINGJI Games',
+    department: 'XINGJI Interactive Software',
     requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。会一点线性代数等内容。有DirectX 3D开发经验者优先。',
     headcount: 5,
     tags: ['岗位稳定', '急招']
+  },
+  {
+    title: '网页开发工程师',
+    department: 'XINGJI Interactive Software',
+    requirements: '会较为熟练的使用vue、vite、css等进行开发。',
+    headcount: 3,
+    tags: ['岗位稳定']
   },
   {
     title: '2D游戏美术组',
     department: 'XINGJI Games',
     requirements: '会使用绘制人物、动物、静物等，最好有少量福瑞类绘画经验。',
     headcount: 2,
-    tags: ['岗位灵活稳定']
+    tags: ['岗位灵活稳定', '急招']
   }
 ])
 
@@ -61,7 +68,7 @@ const benefits = ref([
   },
   {
     title: '及其人性的作息',
-    description: '从不强迫你干活！如果你有所耳闻XJ380的开发速度，你就知道有多宽松了。（但似乎最近要严抓了？）'
+    description: 'GOOOOOOOO WORRRRRRRRRRRRKKKKKKK!!!!!!!!!!!!!!!!!!'
   },
   {
     title: '全国顶尖的初中生工作室',
@@ -69,7 +76,7 @@ const benefits = ref([
   },
   {
     title: '丰富的资源',
-    description: 'XINGJI工作室已与全国 2 家其他工作室达成合作！来这里，你可以体验到最丰富的资源！'
+    description: 'XINGJI工作室已与全国 3 家其他工作室达成合作！来这里，你可以体验到最丰富的资源！'
   }
 ])
 </script>

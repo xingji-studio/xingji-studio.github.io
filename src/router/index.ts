@@ -52,9 +52,9 @@ const routes = [
     component: () => import("../views/business/Business.vue"),
   },
   {
-    path: "/business/patent",
-    name: "patent",
-    component: () => import("../views/business/Patent.vue"),
+    path: "/business/oem",
+    name: "oem",
+    component: () => import("../views/business/Outsourcing.vue"),
   },
   {
     path: "/business/ads",
