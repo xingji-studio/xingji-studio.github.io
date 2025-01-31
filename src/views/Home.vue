@@ -73,9 +73,10 @@ const partners = ref([
       <div class="md:flex">
           <img src="/primage.png" alt="宣传图" class="w-full md:w-2/3">
           <div class="p-10">
-            <h1 class="text-4xl font-bold text-white mb-2 md:text-6xl md:mb-4">大标题</h1>
-            <p class="text-1xl text-white mb-2 md:mb-10">副标题 副标题 副标题</p>
-            <a class="font-bold index_news_button inbutton1">我是按钮</a>
+            <h1 class="text-4xl font-bold text-white mb-2 md:text-6xl md:mb-4">第22集 APIC</h1>
+            <p class="text-1xl text-white mb-2 md:mb-10">XJ380OS 开发日记</p>
+            <a href="https://www.bilibili.com/video/BV1RJf7YFErY/"
+             class="font-bold index_news_button inbutton1">立刻观看</a>
           </div>
       </div>
     </div>

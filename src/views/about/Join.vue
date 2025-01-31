@@ -62,7 +62,7 @@ const positions = ref([
   {
     title: '董事助理',
     department: 'XINGJI Board',
-    requirements: '会使用绘制人物、动物、静物等，最好有少量福瑞类绘画经验。',
+    requirements: '在线时间长，能随时用电脑，可以简练的汇报内容，会使用word等软件编写文档。',
     headcount: 1,
     tags: ['岗位稳定']
   },

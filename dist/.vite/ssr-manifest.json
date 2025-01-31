@@ -3,24 +3,24 @@
   "\u0000vite/modulepreload-polyfill.js": [],
   "\u0000vite/preload-helper.js": [],
   "../../../../../LOGO带底.png": [
-    "/assets/XJ380-DX07rXHk.js"
+    "/assets/XJ380-C0GRE9dL.js"
   ],
   "../../../../../about/right1.jpg": [
-    "/assets/About-DtgSdZ1d.js"
+    "/assets/About-SviUsz05.js"
   ],
   "../../../../../about/头像.png": [
-    "/assets/About-DtgSdZ1d.js"
+    "/assets/About-SviUsz05.js"
   ],
   "../../../../../error/boot_error.png": [
-    "/assets/XJ380Error-BReJ-inQ.js"
+    "/assets/XJ380Error-D0SPVH8m.js"
   ],
   "../../../../../error/error.png": [
-    "/assets/XJ380Error-BReJ-inQ.js"
+    "/assets/XJ380Error-D0SPVH8m.js"
   ],
   "../../../../../files/XINGJI_blueback.png": [],
-  "../../../../../files/XINGJI_rect.svg": [],
+  "../../../../../primage.png": [],
   "../../../../../ultra版LOGO带底.png": [
-    "/assets/XJ380-DX07rXHk.js"
+    "/assets/XJ380-C0GRE9dL.js"
   ],
   "index.html": [],
   "node_modules/@unhead/dom/dist/index.mjs": [],
@@ -43,112 +43,112 @@
   "src/components/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
   "src/components/Navigation.vue?vue&type=style&index=0&scoped=efefdb87&lang.css": [],
   "src/components/software/GameLayout.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/GameLayout.vue_vue_type_script_setup_true_lang-rv6rWfD4.js"
+    "/assets/GameLayout.vue_vue_type_script_setup_true_lang-Eu5C4Pxr.js"
   ],
   "src/main.ts": [],
   "src/router/index.ts": [],
   "src/style.css": [],
   "src/views/Home.vue?vue&type=script&setup=true&lang.ts": [],
   "src/views/OpenSource.vue": [
-    "/assets/OpenSource-CHphRHG4.js"
+    "/assets/OpenSource-_E5-UxYP.js"
   ],
   "src/views/OpenSource.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/OpenSource-CHphRHG4.js"
+    "/assets/OpenSource-_E5-UxYP.js"
   ],
   "src/views/about/About.vue": [
-    "/assets/About-DtgSdZ1d.js"
+    "/assets/About-SviUsz05.js"
   ],
   "src/views/about/About.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/About-DtgSdZ1d.js"
+    "/assets/About-SviUsz05.js"
   ],
   "src/views/about/Join.vue": [
-    "/assets/Join-BLLKx1Uc.js"
+    "/assets/Join-B3UACmdr.js"
   ],
   "src/views/about/Join.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Join-BLLKx1Uc.js"
+    "/assets/Join-B3UACmdr.js"
   ],
   "src/views/business/Ads.vue": [
-    "/assets/Ads-QzXdpBuL.js"
+    "/assets/Ads-DcS0KRdI.js"
   ],
   "src/views/business/Ads.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Ads-QzXdpBuL.js"
+    "/assets/Ads-DcS0KRdI.js"
   ],
   "src/views/business/BulkPurchase.vue": [
-    "/assets/BulkPurchase-CsXBrQ7o.js"
+    "/assets/BulkPurchase-Bx2KLvDe.js"
   ],
   "src/views/business/BulkPurchase.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BulkPurchase-CsXBrQ7o.js"
+    "/assets/BulkPurchase-Bx2KLvDe.js"
   ],
   "src/views/business/Business.vue": [
-    "/assets/Business-DfbKkhhO.js"
+    "/assets/Business-CCIbZY8k.js"
   ],
   "src/views/business/Business.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Business-DfbKkhhO.js"
+    "/assets/Business-CCIbZY8k.js"
   ],
   "src/views/business/Cooperation.vue": [
-    "/assets/Cooperation-kyNCsX7I.js"
+    "/assets/Cooperation-DJQi3FE5.js"
   ],
   "src/views/business/Cooperation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Cooperation-kyNCsX7I.js"
+    "/assets/Cooperation-DJQi3FE5.js"
   ],
   "src/views/business/Outsourcing.vue": [
-    "/assets/Outsourcing-CO_syD4w.js"
+    "/assets/Outsourcing-Co4OQgC6.js"
   ],
   "src/views/business/Outsourcing.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Outsourcing-CO_syD4w.js"
+    "/assets/Outsourcing-Co4OQgC6.js"
   ],
   "src/views/business/Reseller.vue": [
-    "/assets/Reseller-Gn3zzaF2.js"
+    "/assets/Reseller-BhEnjLuZ.js"
   ],
   "src/views/business/Reseller.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Reseller-Gn3zzaF2.js"
+    "/assets/Reseller-BhEnjLuZ.js"
   ],
   "src/views/business/TechCooperation.vue": [
-    "/assets/TechCooperation-B8SxuVUt.js"
+    "/assets/TechCooperation-qpbU5ZDS.js"
   ],
   "src/views/business/TechCooperation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/TechCooperation-B8SxuVUt.js"
+    "/assets/TechCooperation-qpbU5ZDS.js"
   ],
   "src/views/os/XJ380.vue": [
-    "/assets/XJ380-DX07rXHk.js"
+    "/assets/XJ380-C0GRE9dL.js"
   ],
   "src/views/os/XJ380.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380-DX07rXHk.js"
+    "/assets/XJ380-C0GRE9dL.js"
   ],
   "src/views/os/XJ380Download.vue": [
-    "/assets/XJ380Download-C0ysHuAP.js"
+    "/assets/XJ380Download-DbV9OsAI.js"
   ],
   "src/views/os/XJ380Download.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Download-C0ysHuAP.js"
+    "/assets/XJ380Download-DbV9OsAI.js"
   ],
   "src/views/os/XJ380Error.vue": [
-    "/assets/XJ380Error-BReJ-inQ.js"
+    "/assets/XJ380Error-D0SPVH8m.js"
   ],
   "src/views/os/XJ380Error.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Error-BReJ-inQ.js"
+    "/assets/XJ380Error-D0SPVH8m.js"
   ],
   "src/views/software/Software.vue": [
-    "/assets/Software-D4L0kQ_T.js"
+    "/assets/Software-CLNyki99.js"
   ],
   "src/views/software/Software.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Software-D4L0kQ_T.js"
+    "/assets/Software-CLNyki99.js"
   ],
   "src/views/software/games/BCMS.vue": [
-    "/assets/BCMS-EilZN1dH.js"
+    "/assets/BCMS-DPLua73S.js"
   ],
   "src/views/software/games/BCMS.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-EilZN1dH.js"
+    "/assets/BCMS-DPLua73S.js"
   ],
   "src/views/software/games/BCMS2.vue": [
-    "/assets/BCMS2-D-kE_FYD.js"
+    "/assets/BCMS2-yzWADylr.js"
   ],
   "src/views/software/games/BCMS2.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS2-D-kE_FYD.js"
+    "/assets/BCMS2-yzWADylr.js"
   ],
   "src/views/software/games/BCMSDeluxe.vue": [
-    "/assets/BCMSDeluxe-MkZbbJNk.js"
+    "/assets/BCMSDeluxe-Brd3I3KN.js"
   ],
   "src/views/software/games/BCMSDeluxe.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMSDeluxe-MkZbbJNk.js"
+    "/assets/BCMSDeluxe-Brd3I3KN.js"
   ]
 }
