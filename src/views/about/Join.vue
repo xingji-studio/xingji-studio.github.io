@@ -18,6 +18,13 @@ useHead({
 
 const positions = ref([
   {
+    title: 'C/C++图形化工程师',
+    department: 'XINGJI Interactive Software',
+    requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。有WinAPI开发经验者优先。',
+    headcount: 4,
+    tags: ['有奖金', '岗位稳定', '急招']
+  },
+  {
     title: 'XJ380 C/C++ 工程师',
     department: 'XINGJI Interactive Software',
     requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验者优先。',
@@ -32,13 +39,6 @@ const positions = ref([
     tags: ['有奖金', '急招', '核心项目']
   },
   {
-    title: 'C/C++图形化工程师',
-    department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。有WinAPI开发经验者优先。',
-    headcount: 4,
-    tags: ['岗位稳定', '急招']
-  },
-  {
     title: 'DirectX开发工程师',
     department: 'XINGJI Interactive Software',
     requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。会一点线性代数等内容。有DirectX 3D开发经验者优先。',
@@ -46,10 +46,24 @@ const positions = ref([
     tags: ['岗位稳定', '急招']
   },
   {
+    title: 'C/C++算法工程师',
+    department: 'XINGJI Interactive Software',
+    requirements: '会较为熟练运用基础的C\\C++，了解一些基础算法。',
+    headcount: 1,
+    tags: ['岗位灵活稳定']
+  },
+  {
     title: '网页开发工程师',
     department: 'XINGJI Interactive Software',
     requirements: '会较为熟练的使用vue、vite、css等进行开发。',
-    headcount: 3,
+    headcount: 2,
+    tags: ['岗位稳定']
+  },
+  {
+    title: '董事助理',
+    department: 'XINGJI Board',
+    requirements: '会使用绘制人物、动物、静物等，最好有少量福瑞类绘画经验。',
+    headcount: 1,
     tags: ['岗位稳定']
   },
   {

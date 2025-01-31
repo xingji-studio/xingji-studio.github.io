@@ -69,46 +69,21 @@ const partners = ref([
 <template>
   <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
     <!-- Hero Section -->
-    <section class="relative min-h-screen flex items-center justify-center text-white pt-20">
-      <div class="absolute inset-0 overflow-hidden">
-        <div
-          class="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]">
-        </div>
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-blue-500/30 via-purple-500/30 to-pink-500/30 backdrop-blur-3xl">
-        </div>
+    <div class="pt-16 relative">
+      <div class="md:flex">
+          <img src="/primage.png" alt="宣传图" class="w-full md:w-2/3">
+          <div class="p-10">
+            <h1 class="text-4xl font-bold text-white mb-2 md:text-6xl md:mb-4">大标题</h1>
+            <p class="text-1xl text-white mb-2 md:mb-10">副标题 副标题 副标题</p>
+            <a class="font-bold index_news_button inbutton1">我是按钮</a>
+          </div>
       </div>
-
-      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <img src="/files/XINGJI_rect.svg" alt="XINGJI" class="h-32 mx-auto mb-8" />
-        <h1
-          class="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-          星际工作室
-        </h1>
-        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-          高质量，高服务，高技术，低价格
-        </p>
-        <div class="flex justify-center gap-4">
-          <a href="/about">
-            <button
-              class="px-8 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold hover:from-blue-600 hover:to-purple-600 transition-all duration-200 shadow-lg hover:shadow-blue-500/25">
-              了解更多
-            </button>
-          </a>
-          <a href="/software">
-            <button
-              class="px-8 py-3 rounded-full bg-white/10 text-white font-semibold hover:bg-white/20 transition-all duration-200 backdrop-blur-sm">
-              立即体验
-            </button>
-          </a>
-        </div>
-      </div>
-    </section>
+    </div>
 
     <!-- Products Section -->
-    <section class="py-20 px-4 relative">
+    <section class="py-14 px-4 relative">
       <div class="max-w-7xl mx-auto">
-        <h2 class="text-4xl font-bold text-white mb-12 text-center">我们的产品及服务</h2>
+        <h2 class="text-4xl font-bold text-white mb-9 text-center">我们的产品及服务</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div v-for="product in products" :key="product.title" class="group relative">
             <div
@@ -176,7 +151,7 @@ const partners = ref([
           <a v-for="partner in partners" :key="partner.name" :href="partner.link"
             class="group relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 hover:transform hover:scale-[1.02] transition-all duration-300">
             <div
-              class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur">
+              class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10">
             </div>
             <img :src="partner.logo" :alt="partner.name" class="w-full h-auto">
           </a>
