@@ -43,15 +43,19 @@ const handleDownload = () => {
     </section>
 
     <!-- Logo Section -->
-    <section class="py-10 px-4">
-      <div class="max-w-7xl mx-auto flex justify-center gap-8">
-        <img src="/LOGO带底.png" alt="XJ380" class="w-1/5 h-auto" />
-        <img src="/ultra版LOGO带底.png" alt="XJ380 ULTRA" class="w-1/5 h-auto" />
+    <section class="p-4">
+      <div class="h-32 w-full flex justify-center gap-2">
+        <div>
+          <img src="/LOGO带底.png" alt="XJ380" class="object-contain" />
+        </div>
+        <div>
+          <img src="/ultra版LOGO带底.png" alt="XJ380 ULTRA" class="object-contain" />
+        </div>
       </div>
     </section>
 
     <!-- Features Section -->
-    <section class="py-20 px-4">
+    <section class="p-4">
       <div class="max-w-7xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
