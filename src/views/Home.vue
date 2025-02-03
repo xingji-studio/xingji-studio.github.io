@@ -64,20 +64,43 @@ const partners = ref([
     link: 'https://cloud.xingjisoft.top/'
   }
 ])
+
+const news = ref({
+  title: '第22集 APIC',
+  subtitle: 'XJ380OS 开发日记',
+  link: 'https://www.bilibili.com/video/BV1RJf7YFErY/',
+  image: {
+    src: '/primage.png',
+    alt: '宣传图',
+  },
+});
+
 </script>
 
 <template>
   <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-    <!-- Hero Section -->
+    <!-- News Section -->
     <div class="pt-16 relative">
-      <div class="md:flex">
-          <img src="/primage.png" alt="宣传图" class="w-full md:w-2/3">
-          <div class="p-10">
-            <h1 class="text-4xl font-bold text-white mb-2 md:text-6xl md:mb-4">第22集 APIC</h1>
-            <p class="text-1xl text-white mb-2 md:mb-10">XJ380OS 开发日记</p>
-            <a href="https://www.bilibili.com/video/BV1RJf7YFErY/"
-             class="font-bold index_news_button inbutton1">立刻观看</a>
+      <!-- News Background Image -->
+      <div class="news-bg-container">
+        <!-- <img :src="news.image.src" :alt="news.image.alt" class="image">
+        <div class="overlay"></div> -->
+      </div>
+      <div class="news-container">
+        <div class="cover">
+          <img :src="news.image.src" :alt="news.image.alt" class="image">
+        </div>
+        <div class="body">
+          <div class="container">
+            <h1 class="title">
+              {{ news.title }}
+            </h1>
+            <p class="subtitle">
+              {{ news.subtitle }}
+            </p>
           </div>
+          <a :href="news.link" class="link-button text-white">立刻观看</a>
+        </div>
       </div>
     </div>
 
