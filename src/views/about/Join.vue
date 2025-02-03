@@ -72,6 +72,13 @@ const positions = ref([
     requirements: '会使用绘制人物、动物、静物等，最好有少量福瑞类绘画经验。',
     headcount: 2,
     tags: ['岗位灵活稳定', '急招']
+  },
+  {
+    title:'数据录入',
+    department:'XINGJI Cloud',
+    requirements:'要求会打字儿，会转述，有时间',
+    headcount:'不限人数',
+    tags:['岗位灵活']
   }
 ])
 
