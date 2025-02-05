@@ -20,7 +20,7 @@ const products = ref([
     title: '操作系统',
     description: 'XJ380操作系统，完全自主研发，内核使用XJ-Kernel 2.0，UEFI引导方式，安全、可靠',
     image: '/files/os.png',
-    link: '/product/xj380/ind.html'
+    link: '/os/xj380'
   },
   {
     title: '星际云',
@@ -29,16 +29,16 @@ const products = ref([
     link: 'https://cloud.xingjisoft.top/'
   },
   {
-    title: '软件及游戏',
-    description: '高质量的软件解决方案和游戏产品',
+    title: '软件产品',
+    description: '高质量的软件解决方案',
     image: '/files/software.png',
-    link: '/product/software/menu.html'
+    link: '/software'
   },
   {
-    title: '硬件产品',
-    description: '创新的硬件解决方案',
-    image: '/files/hardware.png',
-    link: '/product/hardware/ind.html'
+    title: '游戏',
+    description: '低价高质的游戏产品',
+    image: '/files/games.png',
+    link: '/software'
   }
 ])
 
