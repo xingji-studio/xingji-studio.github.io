@@ -21,27 +21,27 @@ const positions = ref([
     title: 'C/C++图形化工程师',
     department: 'XINGJI Interactive Software',
     requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。有WinAPI开发经验者优先。',
-    headcount: 4,
+    headcount: 9,
     tags: ['有奖金', '岗位稳定', '急招']
   },
   {
     title: 'XJ380 C/C++ 工程师',
     department: 'XINGJI Interactive Software',
     requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验者优先。',
-    headcount: 7,
+    headcount: 6,
     tags: ['有奖金', '急招', '核心项目']
   },
   {
     title: 'XJ380 GCC汇编工程师',
     department: 'XINGJI Interactive Software',
     requirements: '会熟练运用GCC汇编，有较强debug能力。有操作系统开发经验，可同时担任C\\C++开发者。',
-    headcount: 2,
+    headcount: 1,
     tags: ['有奖金', '急招', '核心项目']
   },
   {
     title: 'DirectX开发工程师',
     department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。会一点线性代数等内容。有DirectX 3D开发经验者优先。',
+    requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。会一点点线性代数等内容。有DirectX 3D开发经验者优先。',
     headcount: 5,
     tags: ['岗位稳定', '急招']
   },
@@ -53,17 +53,10 @@ const positions = ref([
     tags: ['岗位灵活稳定']
   },
   {
-    title: '网页开发工程师',
+    title: '网页开发工程师（前端）',
     department: 'XINGJI Interactive Software',
     requirements: '会较为熟练的使用vue、vite、css等进行开发。',
     headcount: 2,
-    tags: ['岗位稳定']
-  },
-  {
-    title: '董事助理',
-    department: 'XINGJI Board',
-    requirements: '在线时间长，能随时用电脑，可以简练的汇报内容，会使用word等软件编写文档。',
-    headcount: 1,
     tags: ['岗位稳定']
   },
   {
@@ -71,7 +64,21 @@ const positions = ref([
     department: 'XINGJI Games',
     requirements: '会使用绘制人物、动物、静物等，最好有少量福瑞类绘画经验。',
     headcount: 2,
-    tags: ['岗位灵活稳定', '急招']
+    tags: ['岗位灵活稳定']
+  },
+  {
+    title: '动作设计',
+    department: 'XINGJI Games',
+    requirements: '你画过火柴人“大片”吗（？直接点就行我也不知道怎么描述（（（',
+    headcount: 1,
+    tags: ['岗位灵活稳定']
+  },
+  {
+    title: '董事助理',
+    department: 'XINGJI Board',
+    requirements: '在线时间长，能随时用电脑，可以简练的汇报内容，会使用word等软件编写文档。',
+    headcount: 1,
+    tags: ['岗位稳定']
   },
   {
     title:'数据录入',
@@ -85,7 +92,7 @@ const positions = ref([
 const benefits = ref([
   {
     title: '成员福利',
-    description: '每个XINGJI工作室成员都可以免费申请一台云服务器！只要你干的出色，每个项目你都可以拿到奖金！甚至我们可以为你买一台电脑！只要你对该项目做出贡献，我们一定会在下期视频点名表扬！加入我们，享受所有初中生工作室里最好的福利！'
+    description: '每个XINGJI工作室成员都可以免费申请一台云服务器和邮箱！只要你干的出色，每个项目你都可以拿到奖金！甚至我们可以为你买一台电脑！只要你对该项目做出贡献，我们一定会在下期视频点名表扬！加入我们，享受所有初中生工作室里最好的福利！'
   },
   {
     title: '及其人性的作息',
