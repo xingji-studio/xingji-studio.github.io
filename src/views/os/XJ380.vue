@@ -24,10 +24,14 @@ const handleDownload = () => {
     <!-- Hero Section -->
     <section class="relative py-20">
       <div class="absolute inset-0 overflow-hidden">
-        <div class="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
-        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/30 via-purple-500/30 to-pink-500/30 backdrop-blur-3xl"></div>
+        <div
+          class="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]">
+        </div>
+        <div
+          class="absolute inset-0 bg-gradient-to-br from-blue-500/30 via-purple-500/30 to-pink-500/30 backdrop-blur-3xl">
+        </div>
       </div>
-      
+
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">
           XJ380操作系统 —— 极少数的64位操作系统
@@ -43,14 +47,10 @@ const handleDownload = () => {
     </section>
 
     <!-- Logo Section -->
-    <section class="p-4">
-      <div class="h-32 w-full flex justify-center gap-2">
-        <div>
-          <img src="/LOGO带底.png" alt="XJ380" class="object-contain" />
-        </div>
-        <div>
-          <img src="/ultra版LOGO带底.png" alt="XJ380 ULTRA" class="object-contain" />
-        </div>
+    <section class="max-h-64 p-4 flex justify-center">
+      <div class="max-w-7xl flex justify-center gap-2">
+        <img src="/LOGO带底.png" alt="XJ380" class="overflow-hidden object-contain" />
+        <img src="/ultra版LOGO带底.png" alt="XJ380 ULTRA" class="overflow-hidden object-contain" />
       </div>
     </section>
 
@@ -79,7 +79,8 @@ const handleDownload = () => {
           <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
             <h3 class="text-2xl font-bold text-white mb-4">XJ380的交互怎么样？</h3>
             <p class="text-gray-400">
-              XJ380采用GUI和命令行终端进行控制，权限完全放开，只要你有管理员密码（由自己设定）即可上天入地（例如干掉引导）。XJ380采用32位色配合XINGJI GlassUI以实现如Windows Vista一般的美丽效果。桌面壁纸可通过设置进行更换，支持多种编码格式。方向键命令回档，节省时间。
+              XJ380采用GUI和命令行终端进行控制，权限完全放开，只要你有管理员密码（由自己设定）即可上天入地（例如干掉引导）。XJ380采用32位色配合XINGJI GlassUI以实现如Windows
+              Vista一般的美丽效果。桌面壁纸可通过设置进行更换，支持多种编码格式。方向键命令回档，节省时间。
             </p>
           </div>
         </div>
@@ -98,4 +99,4 @@ const handleDownload = () => {
       </div>
     </section>
   </div>
-</template> 
+</template>
