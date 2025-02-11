@@ -15,7 +15,7 @@ useHead({
 const categories = ref([
   {
     title: '实用工具',
-    description: 'XINGJI工作室 预计开发一系列实用工具，帮助用户解决日常工作中的各种问题。但是我们尚未实施，敬请期待。',
+    description: 'XINGJI工作室 预计开发一系列实用工具，帮助用户解决日常工作中的各种问题。但是我们尚未发布，敬请期待。',
     items: [
       { name: 'SpaceCode2024', link: '#' },
       { name: 'SpacePaint2024', link: '#' }
@@ -25,9 +25,7 @@ const categories = ref([
     title: '娱乐游戏',
     description: 'XINGJI工作室 开发了一系列娱乐游戏，以满足用户的娱乐需求。',
     items: [
-      { name: '挖矿模拟器1.7.1', link: '/software/games/bcms' },
-      { name: '挖矿模拟器重制版', link: '/software/games/bcms-de' },
-      { name: '挖矿模拟器2', link: '/software/games/bcms2' }
+      { name: '挖矿模拟器', link: '/software/games/bcms' }
     ]
   },
   {

@@ -29,13 +29,12 @@ const devTools = ref([
   { name: 'XJ380 应用程序编译套件（XACT for Linux）', url: '#' },
   { name: 'XJ380 应用程序编译套件（XACT for XJ380）', url: '#' },
   { name: 'XJ380 API 标准文档（C/C++）', url: '#' },
-  { name: 'XJ380 API 标准文档（汇编）', url: '#' },
   { name: 'XJ380 API 标准文档（SimplePL）', url: '#' }
 ])
 
 const requirements = ref([
   { name: '处理器', spec: 'x64 架构的 64 位处理器，基准频率 1 GHz 或更高' },
-  { name: 'RAM', spec: '4 GB' },
+  { name: 'RAM', spec: '2 GB' },
   { name: '硬盘', spec: '至少 20 GB 或更大' },
   { name: '显卡', spec: '要什么自行车，支持24位真彩色即可' },
   { name: '显示器', spec: '800 x 600 或更高，推荐 1600 x 900 或 1080p' }
