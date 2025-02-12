@@ -32,16 +32,6 @@ const routes = [
     component: () => import("../views/software/games/BCMS.vue"),
   },
   {
-    path: "/software/games/bcms-de",
-    name: "bcms-de",
-    component: () => import("../views/software/games/BCMSDeluxe.vue"),
-  },
-  {
-    path: "/software/games/bcms2",
-    name: "bcms2",
-    component: () => import("../views/software/games/BCMS2.vue"),
-  },
-  {
     path: "/open-source",
     name: "open-source",
     component: () => import("../views/OpenSource.vue"),

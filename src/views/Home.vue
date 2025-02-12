@@ -66,9 +66,9 @@ const partners = ref([
 ])
 
 const news = ref({
-  title: '第22集 APIC',
+  title: '第23集 突飞猛进',
   subtitle: 'XJ380OS 开发日记',
-  link: 'https://www.bilibili.com/video/BV1RJf7YFErY/',
+  link: 'https://www.bilibili.com/video/BV1TmK5efEse/',
   image: {
     src: '/primage.png',
     alt: '宣传图',

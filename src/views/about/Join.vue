@@ -20,7 +20,7 @@ const positions = ref([
   {
     title: 'C/C++图形化工程师',
     department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。有WinAPI开发经验者优先。',
+    requirements: '会较为熟练运用基础的C\\C++，，学习能力强。有Vullkan开发经验者优先。',
     headcount: 9,
     tags: ['有奖金', '岗位稳定', '急招']
   },
@@ -41,7 +41,7 @@ const positions = ref([
   {
     title: 'DirectX开发工程师',
     department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，会使用VisualStudio、封装dll、调试等，学习能力强。会一点点线性代数等内容。有DirectX 3D开发经验者优先。',
+    requirements: '会较为熟练运用基础的C\\C++，学习能力强。会一点点线性代数等内容。有Vullkan(3D)开发经验者优先。',
     headcount: 5,
     tags: ['岗位稳定', '急招']
   },
@@ -85,7 +85,7 @@ const positions = ref([
     department:'XINGJI Cloud',
     requirements:'要求会打字儿，会转述，有时间',
     headcount:'不限人数',
-    tags:['岗位灵活']
+    tags:['岗位灵活', '非正式岗位']
   }
 ])
 
