@@ -18,13 +18,6 @@ useHead({
 
 const positions = ref([
   {
-    title: 'C/C++图形化工程师',
-    department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，，学习能力强。有Vullkan开发经验者优先。',
-    headcount: 9,
-    tags: ['有奖金', '岗位稳定', '急招']
-  },
-  {
     title: 'XJ380 C/C++ 工程师',
     department: 'XINGJI Interactive Software',
     requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验者优先。',
@@ -32,18 +25,25 @@ const positions = ref([
     tags: ['有奖金', '急招', '核心项目']
   },
   {
+    title: 'C/C++图形化工程师（Win）',
+    department: 'XINGJI Interactive Software',
+    requirements: '会较为熟练运用基础的C\\C++，学习能力强。有WinAPI开发经验者优先。',
+    headcount: 7,
+    tags: ['有奖金', '岗位稳定', '急招']
+  },
+  {
+    title: 'C/C++图形化工程师（Linux）',
+    department: 'XINGJI Interactive Software',
+    requirements: '会较为熟练运用基础的C\\C++，学习能力强。有Linux图形化应用程序开发经验者优先。',
+    headcount: 2,
+    tags: ['有奖金', '岗位稳定', '急招']
+  },
+  {
     title: 'XJ380 GCC汇编工程师',
     department: 'XINGJI Interactive Software',
     requirements: '会熟练运用GCC汇编，有较强debug能力。有操作系统开发经验，可同时担任C\\C++开发者。',
     headcount: 1,
     tags: ['有奖金', '急招', '核心项目']
-  },
-  {
-    title: 'DirectX开发工程师',
-    department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，学习能力强。会一点点线性代数等内容。有Vullkan(3D)开发经验者优先。',
-    headcount: 5,
-    tags: ['岗位稳定', '急招']
   },
   {
     title: 'C/C++算法工程师',
@@ -63,7 +63,7 @@ const positions = ref([
     title: '2D游戏美术组',
     department: 'XINGJI Games',
     requirements: '会使用绘制人物、动物、静物等，最好有少量福瑞类绘画经验。',
-    headcount: 2,
+    headcount: 1,
     tags: ['岗位灵活稳定']
   },
   {
