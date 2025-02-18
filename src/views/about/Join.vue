@@ -20,30 +20,23 @@ const positions = ref([
   {
     title: 'XJ380 C/C++ 工程师',
     department: 'XINGJI Interactive Software',
-    requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验者优先。',
-    headcount: 6,
+    requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验者优先。最好有汇编编写经验。',
+    headcount: 7,
     tags: ['有奖金', '急招', '核心项目']
   },
   {
-    title: 'C/C++图形化工程师（Win）',
+    title: 'C/C++图形化工程师(Win)',
     department: 'XINGJI Interactive Software',
     requirements: '会较为熟练运用基础的C\\C++，学习能力强。有WinAPI开发经验者优先。',
     headcount: 7,
     tags: ['有奖金', '岗位稳定', '急招']
   },
   {
-    title: 'C/C++图形化工程师（Linux）',
+    title: 'C/C++图形化工程师(Linux)',
     department: 'XINGJI Interactive Software',
     requirements: '会较为熟练运用基础的C\\C++，学习能力强。有Linux图形化应用程序开发经验者优先。',
     headcount: 2,
     tags: ['有奖金', '岗位稳定', '急招']
-  },
-  {
-    title: 'XJ380 GCC汇编工程师',
-    department: 'XINGJI Interactive Software',
-    requirements: '会熟练运用GCC汇编，有较强debug能力。有操作系统开发经验，可同时担任C\\C++开发者。',
-    headcount: 1,
-    tags: ['有奖金', '急招', '核心项目']
   },
   {
     title: 'C/C++算法工程师',
@@ -69,7 +62,7 @@ const positions = ref([
   {
     title: '动作设计',
     department: 'XINGJI Games',
-    requirements: '你画过火柴人“大片”吗（？直接点就行我也不知道怎么描述（（（',
+    requirements: '我也不知道怎么描述（（（',
     headcount: 1,
     tags: ['岗位灵活稳定']
   },
