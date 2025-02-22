@@ -17,6 +17,7 @@ const categories = ref([
     title: '实用工具',
     description: 'XINGJI工作室 预计开发一系列实用工具，帮助用户解决日常工作中的各种问题。但是我们尚未发布，敬请期待。',
     items: [
+      { name: 'BrigeEngine', link: '#' },
       { name: 'SpaceCode2024', link: '#' },
       { name: 'SpacePaint2024', link: '#' }
     ]
