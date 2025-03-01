@@ -45,6 +45,54 @@ const runtimeErrors = ref([
     cause: '无法开辟足够的内存空间用于存放MemoryMap。',
     possible: '可用内存不足。',
     solution: '检查配置是否符合XJ380运行的最低要求。'
+  }, 
+  {
+    code: 'PAGE_FAULT',
+    cause: '页错误。',
+    possible: '该错误有可能因为多种原因引起，请将所有保存的寄存器发送给XJ380开发团队。',
+    solution: '将所有保存的寄存器发送给XJ380开发团队以进行诊断。'
+  }, 
+  {
+    code: 'GENERAL_PROTECTION',
+    cause: '一般保护异常。',
+    possible: '该错误有可能因为多种原因引起，请将所有保存的寄存器发送给XJ380开发团队。',
+    solution: '将所有保存的寄存器发送给XJ380开发团队以进行诊断。'
+  }, 
+  {
+    code: 'DIVIDE_ERROR',
+    cause: '当程序试图除以零是触发此异常。',
+    possible: '该错误有可能是因为应用程序或系统BUG引起。',
+    solution: '将所有保存的寄存器发送给XJ380开发团队以进行诊断。'
+  }, 
+  {
+    code: 'UNDEFINED_OPCODE',
+    cause: '无法识别的指令。',
+    possible: '应用程序执行了一个不受处理器支持的指令。',
+    solution: '检查程序及SDK版本。'
+  }, 
+  {
+    code: 'NMI',
+    cause: '收到了不可屏蔽中断。',
+    possible: '由硬件发送。',
+    solution: '检查硬件问题。'
+  }, 
+  {
+    code: 'DOUBLE_FAULT',
+    cause: '双重错误。',
+    possible: '短时间内两次触发PAGE_FAULT或类似错误。',
+    solution: '将所有保存的寄存器发送给XJ380开发团队以进行诊断。'
+  }, 
+  {
+    code: 'SYSTEM_KERNEL_ERROR',
+    cause: '内核错误。',
+    possible: 'XJ380内核出现问题。',
+    solution: '将所有保存的寄存器发送给XJ380开发团队以进行诊断与修复。'
+  }, 
+  {
+    code: 'APIC_NOT_FOUND',
+    cause: '找不到高级可编程中断控制器。',
+    possible: '设备太老或损坏。',
+    solution: '检查是否满足最低配置要求。如果满足，则硬件可能损坏。'
   }
 ])
 </script>
