@@ -18,6 +18,13 @@ useHead({
 
 const positions = ref([
   {
+    title: '服务器运维',
+    department: 'XINGJI Cloud',
+    requirements: '会较为熟练使用PVE，并熟悉显卡直通等操作。',
+    headcount: 1,
+    tags: ['岗位稳定', '急招']
+  },
+  {
     title: 'XJ380 C/C++ 工程师',
     department: 'XINGJI Interactive Software',
     requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验者优先。最好有汇编编写经验。',
@@ -46,13 +53,6 @@ const positions = ref([
     tags: ['岗位灵活稳定']
   },
   {
-    title: '网页开发工程师（前端）',
-    department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练的使用vue、vite、css等进行开发。',
-    headcount: 2,
-    tags: ['岗位稳定']
-  },
-  {
     title: '2D游戏美术组',
     department: 'XINGJI Games',
     requirements: '会使用绘制人物、动物、静物等，最好有少量福瑞类绘画经验。',
@@ -65,13 +65,6 @@ const positions = ref([
     requirements: '我也不知道怎么描述（（（',
     headcount: 1,
     tags: ['岗位灵活稳定']
-  },
-  {
-    title: '董事助理',
-    department: 'XINGJI Board',
-    requirements: '在线时间长，能随时用电脑，可以简练的汇报内容，会使用word等软件编写文档。',
-    headcount: 1,
-    tags: ['岗位稳定']
   },
   {
     title:'数据录入',
