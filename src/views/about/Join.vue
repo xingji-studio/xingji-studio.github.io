@@ -32,17 +32,10 @@ const positions = ref([
     tags: ['有奖金', '急招', '核心项目']
   },
   {
-    title: 'C/C++图形化工程师(Win)',
+    title: 'C/C++ 图形化工程师（2D）',
     department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，学习能力强。有WinAPI开发经验者优先。',
-    headcount: 7,
-    tags: ['有奖金', '岗位稳定', '急招']
-  },
-  {
-    title: 'C/C++图形化工程师(Linux)',
-    department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，学习能力强。有Linux图形化应用程序开发经验者优先。',
-    headcount: 2,
+    requirements: '会较为熟练运用基础的C\\C++，学习能力强。有OpenGL开发经验或计算机图形学经验者优先。',
+    headcount: 9,
     tags: ['有奖金', '岗位稳定', '急招']
   },
   {
