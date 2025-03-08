@@ -134,6 +134,65 @@ const news = ref({
       </div>
     </section>
 
+    <section class="py-20 px-4 relative">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold text-white mb-12">近期新闻</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+            <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
+              <img src="/files/XJnews.png" alt="" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
+            </div>
+            <h3 class="text-xl font-bold text-white mb-4">暂无新闻</h3>
+            <p class="text-gray-400 mb-4">
+              暂无新闻。
+            </p>
+            <a href="#"
+              class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
+              <span>没有更多了</span>
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+              </svg>
+            </a>
+          </div>
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+            <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
+              <img src="/files/XJnews.png" alt="" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
+            </div>
+            <h3 class="text-xl font-bold text-white mb-4">暂无新闻</h3>
+            <p class="text-gray-400 mb-4">
+              暂无新闻。
+            </p>
+            <a href="#"
+              class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
+              <span>没有更多了</span>
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+              </svg>
+            </a>
+          </div>
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+            <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
+              <img src="/files/XJnews.png" alt="" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
+            </div>
+            <h3 class="text-xl font-bold text-white mb-4">BridgeEngine再次重构</h3>
+            <p class="text-gray-400 mb-4">
+              由于WinAPI的效率低下，XINGJI工作室软件开发部经过全体成员商讨后决定使用OpenGL重构BridgeEngine以提高性能并降低开发难度。
+            </p>
+            <a href="#"
+              class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
+              <span>没有更多了</span>
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Advantages Section -->
     <section class="py-20 px-4 relative">
       <div class="max-w-7xl mx-auto">
