@@ -3,26 +3,26 @@
   "\u0000vite/modulepreload-polyfill.js": [],
   "\u0000vite/preload-helper.js": [],
   "../../../../../LOGO带底.png": [
-    "/assets/XJ380-BXs_L-YO.js"
+    "/assets/XJ380-CluVPXys.js"
   ],
   "../../../../../about/right1.jpg": [
-    "/assets/About-B3FEL23e.js"
+    "/assets/About-iOeRZrQn.js"
   ],
   "../../../../../about/头像.png": [
-    "/assets/About-B3FEL23e.js"
+    "/assets/About-iOeRZrQn.js"
   ],
   "../../../../../error/boot_error.png": [
-    "/assets/XJ380Error-CHOaXWYB.js"
+    "/assets/XJ380Error-BQSNV50r.js"
   ],
   "../../../../../error/error.png": [
-    "/assets/XJ380Error-CHOaXWYB.js"
+    "/assets/XJ380Error-BQSNV50r.js"
   ],
   "../../../../../files/XINGJI_blueback.png": [],
   "../../../../../files/news/XJnews.png": [],
   "../../../../../files/news/bridge_engine.png": [],
   "../../../../../software/bcms.png": [],
   "../../../../../ultra版LOGO带底.png": [
-    "/assets/XJ380-BXs_L-YO.js"
+    "/assets/XJ380-CluVPXys.js"
   ],
   "index.html": [],
   "node_modules/@unhead/dom/dist/index.mjs": [],
@@ -45,106 +45,112 @@
   "src/components/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
   "src/components/Navigation.vue?vue&type=style&index=0&scoped=f3b33d67&lang.css": [],
   "src/components/software/GameLayout.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-D99sd9MD.js"
+    "/assets/BCMS-DM26O5sB.js"
   ],
   "src/main.ts": [],
   "src/router/index.ts": [],
   "src/style.css": [],
   "src/views/Home.vue?vue&type=script&setup=true&lang.ts": [],
   "src/views/OpenSource.vue": [
-    "/assets/OpenSource-Cr2LaD7n.js"
+    "/assets/OpenSource-G6lyMDMw.js"
   ],
   "src/views/OpenSource.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/OpenSource-Cr2LaD7n.js"
+    "/assets/OpenSource-G6lyMDMw.js"
   ],
   "src/views/about/About.vue": [
-    "/assets/About-B3FEL23e.js"
+    "/assets/About-iOeRZrQn.js"
   ],
   "src/views/about/About.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/About-B3FEL23e.js"
+    "/assets/About-iOeRZrQn.js"
   ],
   "src/views/about/Join.vue": [
-    "/assets/Join-Du7DMC6y.js"
+    "/assets/Join-mQp1b-6g.js"
   ],
   "src/views/about/Join.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Join-Du7DMC6y.js"
+    "/assets/Join-mQp1b-6g.js"
   ],
   "src/views/business/Ads.vue": [
-    "/assets/Ads-7Xzbjp3B.js"
+    "/assets/Ads-BOB5Zxs1.js"
   ],
   "src/views/business/Ads.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Ads-7Xzbjp3B.js"
+    "/assets/Ads-BOB5Zxs1.js"
   ],
   "src/views/business/BulkPurchase.vue": [
-    "/assets/BulkPurchase-BPXFGDqV.js"
+    "/assets/BulkPurchase-CsDF5z0v.js"
   ],
   "src/views/business/BulkPurchase.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BulkPurchase-BPXFGDqV.js"
+    "/assets/BulkPurchase-CsDF5z0v.js"
   ],
   "src/views/business/Business.vue": [
-    "/assets/Business-Ctje54KH.js"
+    "/assets/Business-hFcMFx-I.js"
   ],
   "src/views/business/Business.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Business-Ctje54KH.js"
+    "/assets/Business-hFcMFx-I.js"
   ],
   "src/views/business/Cooperation.vue": [
-    "/assets/Cooperation-C7_Z_iNi.js"
+    "/assets/Cooperation-CKZu4ksk.js"
   ],
   "src/views/business/Cooperation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Cooperation-C7_Z_iNi.js"
+    "/assets/Cooperation-CKZu4ksk.js"
   ],
   "src/views/business/Outsourcing.vue": [
-    "/assets/Outsourcing-YE-IHFLf.js"
+    "/assets/Outsourcing-CYfy8pBe.js"
   ],
   "src/views/business/Outsourcing.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Outsourcing-YE-IHFLf.js"
+    "/assets/Outsourcing-CYfy8pBe.js"
   ],
   "src/views/business/Reseller.vue": [
-    "/assets/Reseller-Bg4wKeDc.js"
+    "/assets/Reseller-CRrzXJDw.js"
   ],
   "src/views/business/Reseller.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Reseller-Bg4wKeDc.js"
+    "/assets/Reseller-CRrzXJDw.js"
   ],
   "src/views/business/TechCooperation.vue": [
-    "/assets/TechCooperation-BogZnTDs.js"
+    "/assets/TechCooperation-BuIaU94l.js"
   ],
   "src/views/business/TechCooperation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/TechCooperation-BogZnTDs.js"
+    "/assets/TechCooperation-BuIaU94l.js"
   ],
   "src/views/news/news2025031501.vue": [
-    "/assets/news2025031501-UX3_EXQY.js"
+    "/assets/news2025031501-CURlmdNn.js"
   ],
   "src/views/news/news2025031501.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/news2025031501-UX3_EXQY.js"
+    "/assets/news2025031501-CURlmdNn.js"
+  ],
+  "src/views/news/news2025032201.vue": [
+    "/assets/news2025032201-CBQEy4VG.js"
+  ],
+  "src/views/news/news2025032201.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/news2025032201-CBQEy4VG.js"
   ],
   "src/views/os/XJ380.vue": [
-    "/assets/XJ380-BXs_L-YO.js"
+    "/assets/XJ380-CluVPXys.js"
   ],
   "src/views/os/XJ380.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380-BXs_L-YO.js"
+    "/assets/XJ380-CluVPXys.js"
   ],
   "src/views/os/XJ380Download.vue": [
-    "/assets/XJ380Download-4OtbCunO.js"
+    "/assets/XJ380Download-C4hAMonL.js"
   ],
   "src/views/os/XJ380Download.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Download-4OtbCunO.js"
+    "/assets/XJ380Download-C4hAMonL.js"
   ],
   "src/views/os/XJ380Error.vue": [
-    "/assets/XJ380Error-CHOaXWYB.js"
+    "/assets/XJ380Error-BQSNV50r.js"
   ],
   "src/views/os/XJ380Error.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Error-CHOaXWYB.js"
+    "/assets/XJ380Error-BQSNV50r.js"
   ],
   "src/views/software/Software.vue": [
-    "/assets/Software-CY_92JG-.js"
+    "/assets/Software-BR8Moi0t.js"
   ],
   "src/views/software/Software.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Software-CY_92JG-.js"
+    "/assets/Software-BR8Moi0t.js"
   ],
   "src/views/software/games/BCMS.vue": [
-    "/assets/BCMS-D99sd9MD.js"
+    "/assets/BCMS-DM26O5sB.js"
   ],
   "src/views/software/games/BCMS.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-D99sd9MD.js"
+    "/assets/BCMS-DM26O5sB.js"
   ]
 }

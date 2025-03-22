@@ -142,13 +142,13 @@ const news = ref({
             <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
               <img src="/files/news/XJnews.png" alt="" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
             </div>
-            <h3 class="text-xl font-bold text-white mb-4">暂无新闻</h3>
+            <h3 class="text-xl font-bold text-white mb-4">XINGJI工作室服务器崩溃</h3>
             <p class="text-gray-400 mb-4">
-              暂无新闻。
+              XINGJI工作室主服务器网络模块过热崩溃下线。
             </p>
-            <a href="#"
+            <a href="/news/2025032201"
               class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
-              <span>没有更多了</span>
+              <span>了解更多</span>
               <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path
                   d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />

@@ -86,6 +86,11 @@ const routes = [
     name: "news2025031501",
     component: () => import("../views/news/news2025031501.vue"),
   },
+  {
+    path: "/news/2025032201",
+    name: "news2025032201",
+    component: () => import("../views/news/news2025032201.vue"),
+  },
 ];
 
 // const router = createRouter({
