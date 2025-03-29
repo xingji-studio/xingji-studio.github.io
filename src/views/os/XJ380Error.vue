@@ -49,19 +49,19 @@ const runtimeErrors = ref([
   {
     code: 'PAGE_FAULT',
     cause: '页错误。',
-    possible: '该错误有可能因为多种原因引起，请将所有保存的寄存器发送给XJ380开发团队。',
+    possible: '该错误有可能由多种原因引起，请将所有保存的寄存器发送给XJ380开发团队。',
     solution: '将所有保存的寄存器发送给XJ380开发团队以进行诊断。'
   }, 
   {
     code: 'GENERAL_PROTECTION',
     cause: '一般保护异常。',
-    possible: '该错误有可能因为多种原因引起，请将所有保存的寄存器发送给XJ380开发团队。',
+    possible: '该错误有可能由多种原因引起，请将所有保存的寄存器发送给XJ380开发团队。',
     solution: '将所有保存的寄存器发送给XJ380开发团队以进行诊断。'
   }, 
   {
     code: 'DIVIDE_ERROR',
     cause: '当程序试图除以零时触发此异常。',
-    possible: '该错误有可能是因为应用程序或系统BUG引起。',
+    possible: '该错误有可能由应用程序或系统BUG引起。',
     solution: '将所有保存的寄存器发送给XJ380开发团队以进行诊断。'
   }, 
   {

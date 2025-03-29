@@ -3,26 +3,26 @@
   "\u0000vite/modulepreload-polyfill.js": [],
   "\u0000vite/preload-helper.js": [],
   "../../../../../LOGO带底.png": [
-    "/assets/XJ380-B5nPyLCd.js"
+    "/assets/XJ380-ByWy07CL.js"
   ],
   "../../../../../about/right1.jpg": [
-    "/assets/About-JQNRrj43.js"
+    "/assets/About-kEFdPefc.js"
   ],
   "../../../../../about/头像.png": [
-    "/assets/About-JQNRrj43.js"
+    "/assets/About-kEFdPefc.js"
   ],
   "../../../../../error/boot_error.png": [
-    "/assets/XJ380Error-Tfw_cXvH.js"
+    "/assets/XJ380Error-6vjea1JT.js"
   ],
   "../../../../../error/error.png": [
-    "/assets/XJ380Error-Tfw_cXvH.js"
+    "/assets/XJ380Error-6vjea1JT.js"
   ],
   "../../../../../files/XINGJI_blueback.png": [],
   "../../../../../files/news/XJnews.png": [],
   "../../../../../files/news/bridge_engine.png": [],
   "../../../../../software/bcms.png": [],
   "../../../../../ultra版LOGO带底.png": [
-    "/assets/XJ380-B5nPyLCd.js"
+    "/assets/XJ380-ByWy07CL.js"
   ],
   "index.html": [],
   "node_modules/@unhead/dom/dist/index.mjs": [],
@@ -45,112 +45,112 @@
   "src/components/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
   "src/components/Navigation.vue?vue&type=style&index=0&scoped=f3b33d67&lang.css": [],
   "src/components/software/GameLayout.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-DiFLrC6V.js"
+    "/assets/BCMS-BY2TXdNc.js"
   ],
   "src/main.ts": [],
   "src/router/index.ts": [],
   "src/style.css": [],
   "src/views/Home.vue?vue&type=script&setup=true&lang.ts": [],
   "src/views/OpenSource.vue": [
-    "/assets/OpenSource-CvLgY-TS.js"
+    "/assets/OpenSource-xZz4m6cD.js"
   ],
   "src/views/OpenSource.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/OpenSource-CvLgY-TS.js"
+    "/assets/OpenSource-xZz4m6cD.js"
   ],
   "src/views/about/About.vue": [
-    "/assets/About-JQNRrj43.js"
+    "/assets/About-kEFdPefc.js"
   ],
   "src/views/about/About.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/About-JQNRrj43.js"
+    "/assets/About-kEFdPefc.js"
   ],
   "src/views/about/Join.vue": [
-    "/assets/Join-CzAWS5gP.js"
+    "/assets/Join-Bg-K1MnQ.js"
   ],
   "src/views/about/Join.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Join-CzAWS5gP.js"
+    "/assets/Join-Bg-K1MnQ.js"
   ],
   "src/views/business/Ads.vue": [
-    "/assets/Ads-CgSa3wn8.js"
+    "/assets/Ads-CGobFOfO.js"
   ],
   "src/views/business/Ads.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Ads-CgSa3wn8.js"
+    "/assets/Ads-CGobFOfO.js"
   ],
   "src/views/business/BulkPurchase.vue": [
-    "/assets/BulkPurchase-CVzNQmG6.js"
+    "/assets/BulkPurchase-CCPMlrDj.js"
   ],
   "src/views/business/BulkPurchase.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BulkPurchase-CVzNQmG6.js"
+    "/assets/BulkPurchase-CCPMlrDj.js"
   ],
   "src/views/business/Business.vue": [
-    "/assets/Business-DRWwt9Js.js"
+    "/assets/Business-VOklcNrU.js"
   ],
   "src/views/business/Business.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Business-DRWwt9Js.js"
+    "/assets/Business-VOklcNrU.js"
   ],
   "src/views/business/Cooperation.vue": [
-    "/assets/Cooperation-BG47qe5c.js"
+    "/assets/Cooperation--zp5BP44.js"
   ],
   "src/views/business/Cooperation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Cooperation-BG47qe5c.js"
+    "/assets/Cooperation--zp5BP44.js"
   ],
   "src/views/business/Outsourcing.vue": [
-    "/assets/Outsourcing-B6sh2uvK.js"
+    "/assets/Outsourcing-Dg6VZgAm.js"
   ],
   "src/views/business/Outsourcing.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Outsourcing-B6sh2uvK.js"
+    "/assets/Outsourcing-Dg6VZgAm.js"
   ],
   "src/views/business/Reseller.vue": [
-    "/assets/Reseller-D9iuCq5n.js"
+    "/assets/Reseller-LMGBvgXQ.js"
   ],
   "src/views/business/Reseller.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Reseller-D9iuCq5n.js"
+    "/assets/Reseller-LMGBvgXQ.js"
   ],
   "src/views/business/TechCooperation.vue": [
-    "/assets/TechCooperation-8vZOU0v0.js"
+    "/assets/TechCooperation-zeZDI5gF.js"
   ],
   "src/views/business/TechCooperation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/TechCooperation-8vZOU0v0.js"
+    "/assets/TechCooperation-zeZDI5gF.js"
   ],
   "src/views/news/news2025031501.vue": [
-    "/assets/news2025031501-CC04YdrJ.js"
+    "/assets/news2025031501-pPlqEw3q.js"
   ],
   "src/views/news/news2025031501.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/news2025031501-CC04YdrJ.js"
+    "/assets/news2025031501-pPlqEw3q.js"
   ],
   "src/views/news/news2025032201.vue": [
-    "/assets/news2025032201-BKyEJZfv.js"
+    "/assets/news2025032201-BbXIdd4A.js"
   ],
   "src/views/news/news2025032201.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/news2025032201-BKyEJZfv.js"
+    "/assets/news2025032201-BbXIdd4A.js"
   ],
   "src/views/os/XJ380.vue": [
-    "/assets/XJ380-B5nPyLCd.js"
+    "/assets/XJ380-ByWy07CL.js"
   ],
   "src/views/os/XJ380.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380-B5nPyLCd.js"
+    "/assets/XJ380-ByWy07CL.js"
   ],
   "src/views/os/XJ380Download.vue": [
-    "/assets/XJ380Download-m6yhaBrZ.js"
+    "/assets/XJ380Download-CNP72UNh.js"
   ],
   "src/views/os/XJ380Download.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Download-m6yhaBrZ.js"
+    "/assets/XJ380Download-CNP72UNh.js"
   ],
   "src/views/os/XJ380Error.vue": [
-    "/assets/XJ380Error-Tfw_cXvH.js"
+    "/assets/XJ380Error-6vjea1JT.js"
   ],
   "src/views/os/XJ380Error.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Error-Tfw_cXvH.js"
+    "/assets/XJ380Error-6vjea1JT.js"
   ],
   "src/views/software/Software.vue": [
-    "/assets/Software-DOhIkvKe.js"
+    "/assets/Software-ompIE4F1.js"
   ],
   "src/views/software/Software.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Software-DOhIkvKe.js"
+    "/assets/Software-ompIE4F1.js"
   ],
   "src/views/software/games/BCMS.vue": [
-    "/assets/BCMS-DiFLrC6V.js"
+    "/assets/BCMS-BY2TXdNc.js"
   ],
   "src/views/software/games/BCMS.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-DiFLrC6V.js"
+    "/assets/BCMS-BY2TXdNc.js"
   ]
 }
