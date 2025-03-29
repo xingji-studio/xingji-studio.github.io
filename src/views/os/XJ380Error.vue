@@ -60,7 +60,7 @@ const runtimeErrors = ref([
   }, 
   {
     code: 'DIVIDE_ERROR',
-    cause: '当程序试图除以零是触发此异常。',
+    cause: '当程序试图除以零时触发此异常。',
     possible: '该错误有可能是因为应用程序或系统BUG引起。',
     solution: '将所有保存的寄存器发送给XJ380开发团队以进行诊断。'
   }, 
