@@ -66,9 +66,9 @@ const partners = ref([
 ])
 
 const news = ref({
-  title: '第23集 突飞猛进',
+  title: '第24集 用户态',
   subtitle: 'XJ380OS 开发日记',
-  link: 'https://www.bilibili.com/video/BV1TmK5efEse/',
+  link: 'https://www.bilibili.com/video/BV1JCRRYeE7S/',
   image: {
     src: '/primage.png',
     alt: '宣传图',
