@@ -33,7 +33,7 @@ useHead({
       <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
         <h2 class="text-2xl font-bold text-white mb-4">下载</h2>
         <div class="flex flex-col space-y-4">
-          <a href="https://github.com/xingji-studio/BitCoinMiningSimulator/releases/tag/v1.7.1"
+          <a href="https://github.com/xingji-studio/BitCoinMiningSimulator/releases"
              class="inline-flex items-center px-6 py-3 rounded-xl bg-blue-500/20 text-blue-400 hover:bg-blue-500/30 transition-colors duration-200 w-fit">
             Github下载
             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
