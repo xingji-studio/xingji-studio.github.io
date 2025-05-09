@@ -14,13 +14,13 @@ useHead({
 
 const versions = ref([
   {
-    version: '1.0.0',
-    downloads: [
-      { name: '中文安装介质', type: 'iso文件', url: '#' },
-      { name: '英文安装介质', type: 'iso文件', url: '#' },
-      { name: '中文虚拟硬盘', type: 'vhd文件', url: '#' },
-      { name: '英文虚拟硬盘', type: 'vhd文件', url: '#' }
-    ]
+    version: '1.0.0 - 即将上线 Comming Soon',
+    // downloads: [
+    //   { name: '中文安装介质', type: 'iso文件', url: '#' },
+    //   { name: '英文安装介质', type: 'iso文件', url: '#' },
+    //   { name: '中文虚拟硬盘', type: 'vhd文件', url: '#' },
+    //   { name: '英文虚拟硬盘', type: 'vhd文件', url: '#' }
+    // ]
   }
 ])
 
