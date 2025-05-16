@@ -3,23 +3,23 @@
   "\u0000vite/modulepreload-polyfill.js": [],
   "\u0000vite/preload-helper.js": [],
   "../../../../../LOGO带底.png": [
-    "/assets/XJ380-BD2lXWDR.js"
+    "/assets/XJ380-C-CFLQsG.js"
   ],
   "../../../../../about/right1.jpg": [
-    "/assets/About-CTvU9JEM.js"
+    "/assets/About-DhnC0YTZ.js"
   ],
   "../../../../../error/boot_error.png": [
-    "/assets/XJ380Error-CK6q5nm5.js"
+    "/assets/XJ380Error-PIyhkF0B.js"
   ],
   "../../../../../error/error.png": [
-    "/assets/XJ380Error-CK6q5nm5.js"
+    "/assets/XJ380Error-PIyhkF0B.js"
   ],
   "../../../../../files/XINGJI_blueback.png": [],
   "../../../../../files/news/XJnews.png": [],
   "../../../../../files/news/bridge_engine.png": [],
   "../../../../../software/bcms.png": [],
   "../../../../../ultra版LOGO带底.png": [
-    "/assets/XJ380-BD2lXWDR.js"
+    "/assets/XJ380-C-CFLQsG.js"
   ],
   "index.html": [],
   "node_modules/@unhead/dom/dist/index.mjs": [],
@@ -42,70 +42,70 @@
   "src/components/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
   "src/components/Navigation.vue?vue&type=style&index=0&scoped=29de6b2b&lang.css": [],
   "src/components/software/GameLayout.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-B49xwSfN.js"
+    "/assets/BCMS-zOkiLLD7.js"
   ],
   "src/main.ts": [],
   "src/router/index.ts": [],
   "src/style.css": [],
   "src/views/Home.vue?vue&type=script&setup=true&lang.ts": [],
   "src/views/OpenSource.vue": [
-    "/assets/OpenSource-Cbi96WHo.js"
+    "/assets/OpenSource-DIbGnGES.js"
   ],
   "src/views/OpenSource.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/OpenSource-Cbi96WHo.js"
+    "/assets/OpenSource-DIbGnGES.js"
   ],
   "src/views/about/About.vue": [
-    "/assets/About-CTvU9JEM.js"
+    "/assets/About-DhnC0YTZ.js"
   ],
   "src/views/about/About.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/About-CTvU9JEM.js"
+    "/assets/About-DhnC0YTZ.js"
   ],
   "src/views/about/Join.vue": [
-    "/assets/Join-DYZ_bfCO.js"
+    "/assets/Join-DBxAA1Q0.js"
   ],
   "src/views/about/Join.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Join-DYZ_bfCO.js"
+    "/assets/Join-DBxAA1Q0.js"
   ],
   "src/views/news/news2025031501.vue": [
-    "/assets/news2025031501--l9bT0vW.js"
+    "/assets/news2025031501-Uq62kxtD.js"
   ],
   "src/views/news/news2025031501.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/news2025031501--l9bT0vW.js"
+    "/assets/news2025031501-Uq62kxtD.js"
   ],
   "src/views/news/news2025032201.vue": [
-    "/assets/news2025032201-UObiLhUP.js"
+    "/assets/news2025032201-BDmgvIcj.js"
   ],
   "src/views/news/news2025032201.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/news2025032201-UObiLhUP.js"
+    "/assets/news2025032201-BDmgvIcj.js"
   ],
   "src/views/os/XJ380.vue": [
-    "/assets/XJ380-BD2lXWDR.js"
+    "/assets/XJ380-C-CFLQsG.js"
   ],
   "src/views/os/XJ380.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380-BD2lXWDR.js"
+    "/assets/XJ380-C-CFLQsG.js"
   ],
   "src/views/os/XJ380Download.vue": [
-    "/assets/XJ380Download-1muFlVPn.js"
+    "/assets/XJ380Download-vKw2WjWR.js"
   ],
   "src/views/os/XJ380Download.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Download-1muFlVPn.js"
+    "/assets/XJ380Download-vKw2WjWR.js"
   ],
   "src/views/os/XJ380Error.vue": [
-    "/assets/XJ380Error-CK6q5nm5.js"
+    "/assets/XJ380Error-PIyhkF0B.js"
   ],
   "src/views/os/XJ380Error.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Error-CK6q5nm5.js"
+    "/assets/XJ380Error-PIyhkF0B.js"
   ],
   "src/views/software/Software.vue": [
-    "/assets/Software-CqFp79en.js"
+    "/assets/Software-CmYcv2aO.js"
   ],
   "src/views/software/Software.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Software-CqFp79en.js"
+    "/assets/Software-CmYcv2aO.js"
   ],
   "src/views/software/games/BCMS.vue": [
-    "/assets/BCMS-B49xwSfN.js"
+    "/assets/BCMS-zOkiLLD7.js"
   ],
   "src/views/software/games/BCMS.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-B49xwSfN.js"
+    "/assets/BCMS-zOkiLLD7.js"
   ]
 }

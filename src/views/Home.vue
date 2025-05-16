@@ -66,9 +66,9 @@ const partners = ref([
 ])
 
 const news = ref({
-  title: '第24集 用户态',
+  title: 'XJ380 API 公布',
   subtitle: 'XJ380OS 开发日记',
-  link: 'https://www.bilibili.com/video/BV1JCRRYeE7S/',
+  link: '/os/download',
   image: {
     src: '/primage.png',
     alt: '宣传图',
@@ -99,7 +99,7 @@ const news = ref({
               {{ news.subtitle }}
             </p>
           </div>
-          <a :href="news.link" class="link-button text-white">立刻观看</a>
+          <a :href="news.link" class="link-button text-white">立刻开始“星际”之旅</a>
         </div>
       </div>
     </div>
