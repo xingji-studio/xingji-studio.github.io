@@ -37,41 +37,6 @@ const routes = [
     component: () => import("../views/OpenSource.vue"),
   },
   {
-    path: "/business",
-    name: "business",
-    component: () => import("../views/business/Business.vue"),
-  },
-  {
-    path: "/business/oem",
-    name: "oem",
-    component: () => import("../views/business/Outsourcing.vue"),
-  },
-  {
-    path: "/business/ads",
-    name: "ads",
-    component: () => import("../views/business/Ads.vue"),
-  },
-  {
-    path: "/business/cooperation",
-    name: "cooperation",
-    component: () => import("../views/business/Cooperation.vue"),
-  },
-  {
-    path: "/business/cooperation/tech",
-    name: "tech-cooperation",
-    component: () => import("../views/business/TechCooperation.vue"),
-  },
-  {
-    path: "/business/cooperation/reseller",
-    name: "reseller",
-    component: () => import("../views/business/Reseller.vue"),
-  },
-  {
-    path: "/business/cooperation/bulk",
-    name: "bulk-purchase",
-    component: () => import("../views/business/BulkPurchase.vue"),
-  },
-  {
     path: "/about",
     name: "about",
     component: () => import("../views/about/About.vue"),
