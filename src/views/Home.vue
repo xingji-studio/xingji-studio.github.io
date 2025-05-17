@@ -68,7 +68,7 @@ const partners = ref([
 const news = ref({
   title: 'XJ380 API 公布',
   subtitle: 'XJ380OS 开发日记',
-  link: '/os/download',
+  link: '/os/xj380/download',
   image: {
     src: '/primage.png',
     alt: '宣传图',
