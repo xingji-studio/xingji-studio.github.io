@@ -47,14 +47,9 @@ const routes = [
     component: () => import("../views/about/Join.vue"),
   },
   {
-    path: "/news/2025031501",
-    name: "news2025031501",
-    component: () => import("../views/news/news2025031501.vue"),
-  },
-  {
-    path: "/news/2025032201",
-    name: "news2025032201",
-    component: () => import("../views/news/news2025032201.vue"),
+    path: "/xdc2025",
+    name: "xdc2025",
+    component: () => import("../views/xdc/xdc2025.vue"),
   },
 ];
 

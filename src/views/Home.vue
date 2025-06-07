@@ -66,9 +66,9 @@ const partners = ref([
 ])
 
 const news = ref({
-  title: 'XJ380 API 公布',
-  subtitle: 'XJ380OS 开发日记',
-  link: '/os/xj380/download',
+  title: '预告片 1',
+  subtitle: 'XINGJI 2025 开发者大会',
+  link: 'https://www.bilibili.com/video/BV1xcjEzpEh7/',
   image: {
     src: '/primage.png',
     alt: '宣传图',
@@ -99,7 +99,7 @@ const news = ref({
               {{ news.subtitle }}
             </p>
           </div>
-          <a :href="news.link" class="link-button text-white">立刻开始“星际”之旅</a>
+          <a :href="news.link" class="link-button text-white">了解更多信息</a>
         </div>
       </div>
     </div>
@@ -140,15 +140,15 @@ const news = ref({
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
             <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
-              <img src="/files/news/XJnews.png" alt="" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
+              <img src="/LOGO带底.png" alt="" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
             </div>
-            <h3 class="text-xl font-bold text-white mb-4">XINGJI工作室服务器崩溃</h3>
+            <h3 class="text-xl font-bold text-white mb-4">XJ380 API手册现已公布</h3>
             <p class="text-gray-400 mb-4">
-              XINGJI工作室主服务器网络模块过热崩溃下线。
+              适用于XJ380操作系统的XJ380 API手册现已公布。开发工具将于稍后发布。请注意：该手册为测试版，可能与稍后发布的正式版有所出入。
             </p>
-            <a href="/news/2025032201"
+            <a href="/os/xj380/download"
               class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
-              <span>了解更多</span>
+              <span>立刻开始“星际”之旅</span>
               <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path
                   d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
