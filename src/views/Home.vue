@@ -99,7 +99,7 @@ const news = ref({
               {{ news.subtitle }}
             </p>
           </div>
-          <a :href="news.link" class="link-button text-white">了解更多信息</a>
+          <a :href="news.link" class="link-button text-white">立刻观看预告片</a>
         </div>
       </div>
     </div>
