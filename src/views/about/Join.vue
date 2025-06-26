@@ -20,28 +20,35 @@ const positions = ref([
   {
     title: 'XJ380 C/C++ 工程师',
     department: 'XINGJI Interactive Software',
-    requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验者优先。最好有汇编编写经验。',
-    headcount: 7,
+    requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验，有汇编编写经验。',
+    headcount: 2,
     tags: ['有奖金', '急招', '核心项目']
   },
   {
     title: 'C/C++ 图形化工程师（2D）',
     department: 'XINGJI Interactive Software',
     requirements: '会较为熟练运用基础的C\\C++，学习能力强。有SDL开发经验或计算机图形学经验者优先。',
-    headcount: 9,
+    headcount: 10,
     tags: ['有奖金', '岗位稳定', '急招']
   },
   {
-    title: '服务器运维',
+    title: '网站前端工程师',
     department: 'XINGJI Cloud',
-    requirements: '会较为熟练使用PVE，并熟悉显卡直通等操作。',
+    requirements: '会使用vue+vite制作网站，会制作滚动驱动动画，有相关项目者优先。',
+    headcount: 2,
+    tags: ['有奖金', '急招', '核心项目']
+  },
+  {
+    title: '网站运维',
+    department: 'XINGJI Cloud',
+    requirements: '会配置网站及相关工具。',
     headcount: 1,
     tags: ['岗位稳定', '急招']
   },
   {
     title: 'C/C++算法工程师',
     department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，了解一些基础算法。',
+    requirements: '会较为熟练运用基础的C\\C++，了解一些基础算法，会自主构思算法。',
     headcount: 1,
     tags: ['岗位灵活稳定']
   },
@@ -58,13 +65,6 @@ const positions = ref([
     requirements: '我也不知道怎么描述（（（',
     headcount: 1,
     tags: ['岗位灵活稳定']
-  },
-  {
-    title:'数据录入',
-    department:'XINGJI Cloud',
-    requirements:'要求会打字儿，会转述，有时间',
-    headcount:'不限人数',
-    tags:['岗位灵活', '非正式岗位']
   }
 ])
 
