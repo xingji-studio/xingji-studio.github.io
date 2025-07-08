@@ -61,7 +61,7 @@ const handleDownload = () => {
           <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
             <h3 class="text-2xl font-bold text-white mb-4">XJ380有什么特别？</h3>
             <p class="text-gray-400">
-              XJ380采用UEFI进行引导，先进安全稳定。64位架构，发挥设备的最大潜力。方便的GUI，灵活的命令行，无论你喜欢图形化还是命令行都可以获得最好的体验。
+              XJ380采用XSK2.1内核，先进安全稳定。64位架构，发挥设备的最大潜力。方便的GUI，灵活的命令行，无论你喜欢图形化还是命令行都可以获得最好的体验。
             </p>
           </div>
           <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
@@ -73,14 +73,14 @@ const handleDownload = () => {
           <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
             <h3 class="text-2xl font-bold text-white mb-4">XJ380有怎样的生态？</h3>
             <p class="text-gray-400">
-              XJ380为第三方软件提供了3种API接口：汇编版、C/C++版以及SimplePL版。3种编程语言都可选择。
+              XJ380为第三方软件提供了非常方便的API接口，仅需几分钟就可快速上手。我们已与多个工作室和个人开发者达成合作。
             </p>
           </div>
           <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
             <h3 class="text-2xl font-bold text-white mb-4">XJ380的交互怎么样？</h3>
             <p class="text-gray-400">
-              XJ380采用GUI和命令行终端进行控制，权限完全放开，只要你有管理员密码（由自己设定）即可上天入地（例如干掉引导）。XJ380采用32位色配合XINGJI GlassUI以实现如Windows
-              Vista一般的美丽效果。桌面壁纸可通过设置进行更换，支持多种编码格式。方向键命令回档，节省时间。
+              XJ380采用GUI和命令行终端进行控制，权限完全放开，只要你有管理员密码（由自己设定）即可上天入地（例如干掉引导）。XJ380采用32位色配合XINGJI GlassUI以实现玻璃一般
+              的美丽效果。桌面壁纸可通过设置进行更换，支持多种编码格式。方向键命令回档，节省时间。
             </p>
           </div>
         </div>

@@ -51,6 +51,11 @@ const routes = [
     name: "xdc2025",
     component: () => import("../views/xdc/xdc2025.vue"),
   },
+  {
+    path: "/software/bridge-engine",
+    name: "xdc2025",
+    component: () => import("../views/software/bridge-engine.vue"),
+  },
 ];
 
 // const router = createRouter({
