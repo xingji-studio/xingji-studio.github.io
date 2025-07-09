@@ -15,18 +15,23 @@ useHead({
 const categories = ref([
   {
     title: '实用工具',
-    description: 'XINGJI工作室 预计开发一系列实用工具，帮助用户解决日常工作中的各种问题。但是我们尚未发布，敬请期待。',
+    description: 'XINGJI工作室 预计开发一系列实用工具，帮助用户解决日常工作中的各种问题。',
     items: [
       { name: 'BrigeEngine', link: '/software/bridge-engine' },
-      { name: 'SpaceCode2024', link: '#' },
-      { name: 'SpacePaint2024', link: '#' }
+      { name: 'SpaceTerminal', link: '#' },
+      { name: 'SpaceCode2026', link: '#' },
+      { name: 'SpacePaint2026', link: '#' },
+      { name: 'SpaceSheet2026', link: '#' },
+      { name: 'SpaceMark2026', link: '#' },
+      { name: 'SpaceEditor2026', link: '#' },
     ]
   },
   {
     title: '娱乐游戏',
     description: 'XINGJI工作室 开发了一系列娱乐游戏，以满足用户的娱乐需求。',
     items: [
-      { name: '挖矿模拟器', link: '/software/games/bcms' }
+      { name: '挖矿模拟器', link: '/software/games/bcms' },
+      { name: '挖矿模拟器2', link: '#' }
     ]
   },
   {

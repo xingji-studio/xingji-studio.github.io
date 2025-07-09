@@ -83,7 +83,7 @@ const benefits = ref([
   },
   {
     title: '丰富的资源',
-    description: 'XINGJI工作室已与全国 3 家其他工作室达成合作！来这里，你可以体验到最丰富的资源！'
+    description: 'XINGJI工作室已与全国 4 家其他工作室达成合作！来这里，你可以体验到最丰富的资源！'
   }
 ])
 </script>
