@@ -19,7 +19,7 @@ const memInfo = ref([
   {
     name: '@人朝的小郭同学',
     title: '董事长，CEO，XJ380操作系统总工程师等',
-    image: '/about/rdfzsg.png',
+    image: '/about/rdfzsg.jpg',
     achievements: [
       'XINGJI工作室创始人、董事长兼CEO',
       '朝阳区信息学素养前30名，校级选拔满分通过',
