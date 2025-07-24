@@ -42,6 +42,28 @@ const products = ref([
   }
 ])
 
+const news_posts = ref([{
+  title: 'XDC2025 推迟举行',
+  image: '/xdc2025_black.png',
+  description: '由于各项目开发进度落后于原计划、发布形式变更等原因，且为了留出足够时间用于打磨项目以给大家提供更完美稳定的产品（同时防止某些喷子\
+因为XDC与项目正式发布日期不同步而喷人），经过商议，我们决定将XDC2025推迟至8月27日于线上举行（这是废话）。各位的支持就是我们更新的\
+最大动力！希望大家能谅解！',
+  more_text: '没有更多了',
+  link: '#'
+}, {
+  title: 'XJ380 API手册现已公布',
+  image: '/LOGO带底.png',
+  description: '适用于XJ380操作系统的XJ380 API手册现已公布。开发工具将于稍后发布。请注意：该手册为测试版，可能与稍后发布的正式版有所出入。',
+  more_text: '立刻开始“星际”之旅',
+  link: '/os/xj380/download'
+}, {
+  title: '挖矿模拟器将迎来最后更新',
+  image: '/software/bcms.png',
+  description: '挖矿模拟器1.8.0 将于近期推出。本次更新将是挖矿模拟器的最后一次内容更新，之后我们将停止对挖矿模拟器的维护（这个破烂还有维护的必要吗（悲））。',
+  more_text: '了解更多',
+  link: '/news/2025031501'
+}]);
+
 const partners = ref([
   {
     name: '德沃洛普工作室',
@@ -105,21 +127,24 @@ const news = ref({
     </div>
 
     <!-- Products Section -->
-    <section class="py-14 px-4 relative">
+    <section class="py-12 px-4 relative">
       <div class="max-w-7xl mx-auto">
-        <h2 class="text-4xl font-bold text-white mb-9 text-center">我们的产品及服务</h2>
+        <h2 class="text-4xl font-bold text-white mb-6 px-6">我们的产品及服务</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div v-for="product in products" :key="product.title" class="group relative">
             <div
               class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur">
             </div>
-            <div class="relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 group ">
-              <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
-                <img :src="product.image" :alt="product.title"
-                  class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
+            <div class="relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 group h-full flex flex-col">
+              <div>
+                <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
+                  <img :src="product.image" :alt="product.title"
+                    class="w-full h-full object-contain transition-all duration-300">
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">{{ product.title }}</h3>
+                <p class="text-gray-400 mb-4">{{ product.description }}</p>
               </div>
-              <h3 class="text-xl font-bold text-white mb-2">{{ product.title }}</h3>
-              <p class="text-gray-400 mb-4">{{ product.description }}</p>
+
               <a :href="product.link"
                 class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
                 <span>了解更多</span>
@@ -134,57 +159,21 @@ const news = ref({
       </div>
     </section>
 
-    <section class="py-20 px-4 relative">
+    <section class="py-12 px-4 relative">
       <div class="max-w-7xl mx-auto">
-        <h2 class="text-4xl font-bold text-white mb-12">近期新闻</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+        <h2 class="text-4xl font-bold text-white mb-6 px-6">近期新闻</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div v-for="post in news_posts" class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-6">
             <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
-              <img src="/xdc2025_black.png" alt="" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
+              <img :src="post.image" alt="" class="w-full h-full object-contain transition-all duration-300">
             </div>
-            <h3 class="text-xl font-bold text-white mb-4">XDC2025 推迟举行</h3>
+            <h3 class="text-xl font-bold text-white mb-4">{{ post.title }}</h3>
             <p class="text-gray-400 mb-4">
-              由于各项目开发进度落后于原计划、发布形式变更等原因，且为了留出足够时间用于打磨项目以给大家提供更完美稳定的产品（同时防止某些喷子
-            因为XDC与项目正式发布日期不同步而喷人），经过商议，我们决定将XDC2025推迟至8月27日于线上举行（这是废话）。各位的支持就是我们更新的
-            最大动力！希望大家能谅解！
+              {{ post.description }}
             </p>
-            <a href="#"
+            <a :href="post.link"
               class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
-              <span>没有更多了</span>
-              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path
-                  d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-              </svg>
-            </a>
-          </div>
-          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
-            <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
-              <img src="/LOGO带底.png" alt="" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
-            </div>
-            <h3 class="text-xl font-bold text-white mb-4">XJ380 API手册现已公布</h3>
-            <p class="text-gray-400 mb-4">
-              适用于XJ380操作系统的XJ380 API手册现已公布。开发工具将于稍后发布。请注意：该手册为测试版，可能与稍后发布的正式版有所出入。
-            </p>
-            <a href="/os/xj380/download"
-              class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
-              <span>立刻开始“星际”之旅</span>
-              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path
-                  d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-              </svg>
-            </a>
-          </div>
-          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
-            <div class="w-full h-48 rounded mb-4 bg-gray-50 overflow-hidden">
-              <img src="/software/bcms.png" alt="" class="w-full h-full object-contain group-hover:transform group-hover:scale-[1.05] transition-all duration-300">
-            </div>
-            <h3 class="text-xl font-bold text-white mb-4">挖矿模拟器将迎来最后更新</h3>
-            <p class="text-gray-400 mb-4">
-              挖矿模拟器1.8.0 将于近期推出。本次更新将是挖矿模拟器的最后一次内容更新，之后我们将停止对挖矿模拟器的维护（这个破烂还有维护的必要吗（悲））。
-            </p>
-            <a href="/news/2025031501"
-              class="inline-flex items-center text-blue-400 fill-blue-400 hover:text-blue-300 hover:fill-blue-300 transition-all duration-200 leading-4">
-              <span>了解更多</span>
+              <span>{{ post.more_text }}</span>
               <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path
                   d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
@@ -196,29 +185,29 @@ const news = ref({
     </section>
 
     <!-- Advantages Section -->
-    <section class="py-20 px-4 relative">
+    <section class="py-12 px-4 relative">
       <div class="max-w-7xl mx-auto">
-        <h2 class="text-4xl font-bold text-white mb-12">我们有什么优势？</h2>
+        <h2 class="text-4xl font-bold text-white mb-6 px-6">我们有什么优势？</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-6">
             <h3 class="text-xl font-bold text-white mb-4">学生团队，低成本优势</h3>
             <p class="text-gray-400">
               XINGJI工作室在2017年创立。由于我们都是学生，也就不需要支付大量工资费用，产品价格也大大降低。
             </p>
           </div>
-          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-6">
             <h3 class="text-xl font-bold text-white mb-4">品质保证</h3>
             <p class="text-gray-400">
               在价格降低的同时，品质也不输大厂。我们保证我们的产品即便是免费的，也校验过每一项功能。即便我们没有校验出所有的问题，也会第一时间受理并修复任何人的报告。
             </p>
           </div>
-          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-6">
             <h3 class="text-xl font-bold text-white mb-4">技术创新</h3>
             <p class="text-gray-400">
               我们的技术也堪比大厂，例如我们发明的XRMU锁存器速度高达640Gbps！双通道更是高达1.2Tbps！遥摇领先DDR5！
             </p>
           </div>
-          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
+          <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-6">
             <h3 class="text-xl font-bold text-white mb-4">XJ380操作系统</h3>
             <p class="text-gray-400">
               完全自主研发，内核使用XJ-Kernel 2.0，经过三次更新，UEFI引导方式，安全、可靠，并且完全免费（仅限于普通系列）
@@ -229,9 +218,9 @@ const news = ref({
     </section>
 
     <!-- Partners Section -->
-    <section class="py-20 px-4 relative">
-      <div class="max-w-7xl mx-auto">
-        <h2 class="text-4xl font-bold text-white mb-12">我们的合作伙伴</h2>
+    <section class="py-12 px-4 relative">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-white mb-6">我们的合作伙伴</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <a v-for="partner in partners" :key="partner.name" :href="partner.link"
             class="group relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 hover:transform hover:scale-[1.02] transition-all duration-300">
