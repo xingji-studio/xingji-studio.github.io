@@ -2,25 +2,25 @@
   "\u0000plugin-vue:export-helper": [],
   "\u0000vite/modulepreload-polyfill.js": [],
   "\u0000vite/preload-helper.js": [],
-  "../../../../LOGO带底.png": [],
+  "../../../../LOGO带底.png": [
+    "/assets/XJ380-Dc9r_doz.js"
+  ],
   "../../../../about/right1.jpg": [
-    "/assets/About-DEoyU_Ky.js"
+    "/assets/About-jAw-goNt.js"
   ],
   "../../../../error/boot_error.png": [
-    "/assets/XJ380Error-D5x2TYp_.js"
+    "/assets/XJ380Error-CCtdPRVz.js"
   ],
   "../../../../error/error.png": [
-    "/assets/XJ380Error-D5x2TYp_.js"
+    "/assets/XJ380Error-CCtdPRVz.js"
   ],
   "../../../../files/XINGJI_blueback.png": [],
-  "../../../../software/bcms.png": [],
   "../../../../ultra版LOGO带底.png": [
-    "/assets/XJ380-BerwBQlq.js"
+    "/assets/XJ380-Dc9r_doz.js"
   ],
   "../../../../xdc2025.png": [
-    "/assets/xdc2025-70iRqSiv.js"
+    "/assets/xdc2025--Xaa_Wen.js"
   ],
-  "../../../../xdc2025_black.png": [],
   "index.html": [],
   "node_modules/.deno/@unhead+dom@1.11.18/node_modules/@unhead/dom/dist/index.mjs": [],
   "node_modules/.deno/@unhead+shared@1.11.18/node_modules/@unhead/shared/dist/index.mjs": [],
@@ -42,70 +42,70 @@
   "src/components/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
   "src/components/Navigation.vue?vue&type=style&index=0&scoped=5606ff06&lang.css": [],
   "src/components/software/GameLayout.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/GameLayout.vue_vue_type_script_setup_true_lang-CMm8m3gd.js"
+    "/assets/GameLayout.vue_vue_type_script_setup_true_lang-D4wWGExJ.js"
   ],
   "src/main.ts": [],
   "src/router/index.ts": [],
   "src/style.css": [],
   "src/views/Home.vue?vue&type=script&setup=true&lang.ts": [],
   "src/views/OpenSource.vue": [
-    "/assets/OpenSource-BPcROp2l.js"
+    "/assets/OpenSource-DheWrNLW.js"
   ],
   "src/views/OpenSource.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/OpenSource-BPcROp2l.js"
+    "/assets/OpenSource-DheWrNLW.js"
   ],
   "src/views/about/About.vue": [
-    "/assets/About-DEoyU_Ky.js"
+    "/assets/About-jAw-goNt.js"
   ],
   "src/views/about/About.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/About-DEoyU_Ky.js"
+    "/assets/About-jAw-goNt.js"
   ],
   "src/views/about/Join.vue": [
-    "/assets/Join-J2tQl-cg.js"
+    "/assets/Join-CgLmrMsi.js"
   ],
   "src/views/about/Join.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Join-J2tQl-cg.js"
+    "/assets/Join-CgLmrMsi.js"
   ],
   "src/views/os/XJ380.vue": [
-    "/assets/XJ380-BerwBQlq.js"
+    "/assets/XJ380-Dc9r_doz.js"
   ],
   "src/views/os/XJ380.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380-BerwBQlq.js"
+    "/assets/XJ380-Dc9r_doz.js"
   ],
   "src/views/os/XJ380Download.vue": [
-    "/assets/XJ380Download-DG7YGNQ1.js"
+    "/assets/XJ380Download-BA8sEfYU.js"
   ],
   "src/views/os/XJ380Download.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Download-DG7YGNQ1.js"
+    "/assets/XJ380Download-BA8sEfYU.js"
   ],
   "src/views/os/XJ380Error.vue": [
-    "/assets/XJ380Error-D5x2TYp_.js"
+    "/assets/XJ380Error-CCtdPRVz.js"
   ],
   "src/views/os/XJ380Error.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Error-D5x2TYp_.js"
+    "/assets/XJ380Error-CCtdPRVz.js"
   ],
   "src/views/software/Software.vue": [
-    "/assets/Software-JqaBkc9j.js"
+    "/assets/Software-BpT_LVp2.js"
   ],
   "src/views/software/Software.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Software-JqaBkc9j.js"
+    "/assets/Software-BpT_LVp2.js"
   ],
   "src/views/software/bridge-engine.vue": [
-    "/assets/bridge-engine-KL7INJQN.js"
+    "/assets/bridge-engine-auh02aXm.js"
   ],
   "src/views/software/bridge-engine.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/bridge-engine-KL7INJQN.js"
+    "/assets/bridge-engine-auh02aXm.js"
   ],
   "src/views/software/games/BCMS.vue": [
-    "/assets/BCMS-DlFRm8W2.js"
+    "/assets/BCMS-BqIt4kUT.js"
   ],
   "src/views/software/games/BCMS.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-DlFRm8W2.js"
+    "/assets/BCMS-BqIt4kUT.js"
   ],
   "src/views/xdc/xdc2025.vue": [
-    "/assets/xdc2025-70iRqSiv.js"
+    "/assets/xdc2025--Xaa_Wen.js"
   ],
   "src/views/xdc/xdc2025.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/xdc2025-70iRqSiv.js"
+    "/assets/xdc2025--Xaa_Wen.js"
   ]
 }
