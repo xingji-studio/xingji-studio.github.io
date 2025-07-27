@@ -18,14 +18,7 @@ useHead({
 
 const positions = ref([
   {
-    title: 'XJ380 C/C++ 工程师',
-    department: 'XINGJI Interactive Software',
-    requirements: 'C\\C++至少学到或能理解类和对象，有较强debug能力，有操作系统开发经验，有汇编编写经验。',
-    headcount: 2,
-    tags: ['有奖金', '急招', '核心项目']
-  },
-  {
-    title: 'C/C++ 图形化工程师（2D）',
+    title: 'C/C++ 图形化工程师',
     department: 'XINGJI Interactive Software',
     requirements: '会较为熟练运用基础的C\\C++，学习能力强。有SDL开发经验或计算机图形学经验者优先。',
     headcount: 10,
@@ -38,34 +31,6 @@ const positions = ref([
     headcount: 2,
     tags: ['有奖金', '急招', '核心项目']
   },
-  {
-    title: '网站运维',
-    department: 'XINGJI Cloud',
-    requirements: '会配置网站及相关工具。',
-    headcount: 1,
-    tags: ['岗位稳定', '急招']
-  },
-  {
-    title: 'C/C++算法工程师',
-    department: 'XINGJI Interactive Software',
-    requirements: '会较为熟练运用基础的C\\C++，了解一些基础算法，会自主构思算法。',
-    headcount: 1,
-    tags: ['岗位灵活稳定']
-  },
-  {
-    title: '2D游戏美术组',
-    department: 'XINGJI Games',
-    requirements: '会使用绘制人物、动物、静物等，最好有少量福瑞类绘画经验。',
-    headcount: 1,
-    tags: ['岗位灵活稳定']
-  },
-  {
-    title: '动作设计',
-    department: 'XINGJI Games',
-    requirements: '我也不知道怎么描述（（（',
-    headcount: 1,
-    tags: ['岗位灵活稳定']
-  }
 ])
 
 const benefits = ref([
@@ -91,14 +56,33 @@ const benefits = ref([
 <template>
   <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <h1 class="text-4xl font-bold text-white mb-12 text-center">XINGJI工作室，欢迎您的加入！</h1>
-
+      <h1 class="text-4xl font-bold text-white mb-20 text-center">XINGJI工作室，欢迎您的加入！</h1> <!-- 这里mb原来是12 -->
       <!-- Job Positions -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+
+      <!-- 你好，这是临时放的史，过段时间就删 -->
+      <div class="grid grid-cols-1 md:grid-cols-1 gap-10 mb-8">
+        <div class="relative bg-yellow-800/50 backdrop-blur-md rounded-2xl p-8">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <h2 class="text-2xl font-bold text-white">紧急通知 NOTICE</h2>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-4">
+            由于突发情况，XINGJI工作室所有具有保密等级的项目均停止招新，恢复时间未定。
+            请谅解我们给您带来的不便，但您仍可以进行准备以及投递申请，我们审核通过后会进行记录并在恢复招新后为您办理手续。
+            此外，请不要伪造获奖经历或试图盗窃具有保密等级的文件（尤其是您还看不懂的情况下）（不行了每次一想起来某人我就要笑死了），
+            否则我们不排除通过法律手段向您索取赔偿的可能。
+          </p>
+          <p class="text-gray-300 mb-4">
+            受影响的部门包括：XJ380开发组、挖矿模拟器开发组、FurryLab开发组
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
         <div v-for="position in positions" 
           :key="position.title"
           class="group relative">
-          <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur"></div>
           <div class="relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
             <div class="flex justify-between items-start mb-4">
               <div>

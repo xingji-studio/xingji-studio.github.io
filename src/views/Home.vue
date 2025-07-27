@@ -236,7 +236,7 @@ const news = ref({
           <a v-for="partner in partners" :key="partner.name" :href="partner.link"
             class="group relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 hover:transform hover:scale-[1.02] transition-all duration-300">
             <div
-              class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10">
+              class="absolute inset-0 rounded-2xl bg-gray-700/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10">
             </div>
             <img :src="partner.logo" :alt="partner.name" class="w-full h-auto">
           </a>

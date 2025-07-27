@@ -53,8 +53,13 @@ const routes = [
   },
   {
     path: "/software/bridge-engine",
-    name: "xdc2025",
+    name: "bridge-engine",
     component: () => import("../views/software/bridge-engine.vue"),
+  },
+  {
+    path: "/black-list",
+    name: "black-list",
+    component: () => import("../views/black-list/black-list.vue"),
   },
 ];
 
