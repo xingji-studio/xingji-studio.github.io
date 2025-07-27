@@ -2,23 +2,24 @@
   "\u0000plugin-vue:export-helper": [],
   "\u0000vite/modulepreload-polyfill.js": [],
   "\u0000vite/preload-helper.js": [],
-  "../../../../../LOGO带底.png": [],
-  "../../../../../about/right1.jpg": [
-    "/assets/About-DYwnfCxG.js"
+  "../../../../LOGO带底.png": [
+    "/assets/XJ380-BNhKnizq.js"
   ],
-  "../../../../../error/boot_error.png": [
-    "/assets/XJ380Error-B3BYiBU2.js"
+  "../../../../about/right1.jpg": [
+    "/assets/About-CS1_pUG4.js"
   ],
-  "../../../../../error/error.png": [
-    "/assets/XJ380Error-B3BYiBU2.js"
+  "../../../../error/boot_error.png": [
+    "/assets/XJ380Error-BoktgXSe.js"
   ],
-  "../../../../../files/XINGJI_blueback.png": [],
-  "../../../../../software/bcms.png": [],
-  "../../../../../ultra版LOGO带底.png": [
-    "/assets/XJ380-BexQCilD.js"
+  "../../../../error/error.png": [
+    "/assets/XJ380Error-BoktgXSe.js"
   ],
-  "../../../../../xdc2025.png": [
-    "/assets/xdc2025-CwTCWORZ.js"
+  "../../../../files/XINGJI_blueback.png": [],
+  "../../../../ultra版LOGO带底.png": [
+    "/assets/XJ380-BNhKnizq.js"
+  ],
+  "../../../../xdc2025.png": [
+    "/assets/xdc2025-CVkJhkWC.js"
   ],
   "index.html": [],
   "node_modules/.deno/@unhead+dom@1.11.18/node_modules/@unhead/dom/dist/index.mjs": [],
@@ -39,78 +40,78 @@
   "src/App.vue?vue&type=style&index=0&lang.css": [],
   "src/components/Navigation.vue": [],
   "src/components/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
-  "src/components/Navigation.vue?vue&type=style&index=0&scoped=2796d0c0&lang.css": [],
+  "src/components/Navigation.vue?vue&type=style&index=0&scoped=a58ea51f&lang.css": [],
   "src/components/software/GameLayout.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/GameLayout.vue_vue_type_script_setup_true_lang-C3TThsl5.js"
+    "/assets/GameLayout.vue_vue_type_script_setup_true_lang-VEZ7nOJp.js"
   ],
   "src/main.ts": [],
   "src/router/index.ts": [],
   "src/style.css": [],
   "src/views/Home.vue?vue&type=script&setup=true&lang.ts": [],
   "src/views/OpenSource.vue": [
-    "/assets/OpenSource-B6UVIa7d.js"
+    "/assets/OpenSource-CYtVx9-a.js"
   ],
   "src/views/OpenSource.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/OpenSource-B6UVIa7d.js"
+    "/assets/OpenSource-CYtVx9-a.js"
   ],
   "src/views/about/About.vue": [
-    "/assets/About-DYwnfCxG.js"
+    "/assets/About-CS1_pUG4.js"
   ],
   "src/views/about/About.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/About-DYwnfCxG.js"
+    "/assets/About-CS1_pUG4.js"
   ],
   "src/views/about/Join.vue": [
-    "/assets/Join-CpMlpRg8.js"
+    "/assets/Join-BOrBqbpM.js"
   ],
   "src/views/about/Join.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Join-CpMlpRg8.js"
+    "/assets/Join-BOrBqbpM.js"
   ],
   "src/views/black-list/black-list.vue": [
-    "/assets/black-list-BtV0X4dm.js"
+    "/assets/black-list-BaIYCApI.js"
   ],
   "src/views/black-list/black-list.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/black-list-BtV0X4dm.js"
+    "/assets/black-list-BaIYCApI.js"
   ],
   "src/views/os/XJ380.vue": [
-    "/assets/XJ380-BexQCilD.js"
+    "/assets/XJ380-BNhKnizq.js"
   ],
   "src/views/os/XJ380.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380-BexQCilD.js"
+    "/assets/XJ380-BNhKnizq.js"
   ],
   "src/views/os/XJ380Download.vue": [
-    "/assets/XJ380Download-VW0MJzfG.js"
+    "/assets/XJ380Download-Bi8CevzJ.js"
   ],
   "src/views/os/XJ380Download.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Download-VW0MJzfG.js"
+    "/assets/XJ380Download-Bi8CevzJ.js"
   ],
   "src/views/os/XJ380Error.vue": [
-    "/assets/XJ380Error-B3BYiBU2.js"
+    "/assets/XJ380Error-BoktgXSe.js"
   ],
   "src/views/os/XJ380Error.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/XJ380Error-B3BYiBU2.js"
+    "/assets/XJ380Error-BoktgXSe.js"
   ],
   "src/views/software/Software.vue": [
-    "/assets/Software-CoQDMCPH.js"
+    "/assets/Software-CSnFsNGK.js"
   ],
   "src/views/software/Software.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Software-CoQDMCPH.js"
+    "/assets/Software-CSnFsNGK.js"
   ],
   "src/views/software/bridge-engine.vue": [
-    "/assets/bridge-engine-B6AoRYlb.js"
+    "/assets/bridge-engine-MHaYT5rW.js"
   ],
   "src/views/software/bridge-engine.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/bridge-engine-B6AoRYlb.js"
+    "/assets/bridge-engine-MHaYT5rW.js"
   ],
   "src/views/software/games/BCMS.vue": [
-    "/assets/BCMS-Dwy-kQId.js"
+    "/assets/BCMS-D3vTO-u_.js"
   ],
   "src/views/software/games/BCMS.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/BCMS-Dwy-kQId.js"
+    "/assets/BCMS-D3vTO-u_.js"
   ],
   "src/views/xdc/xdc2025.vue": [
-    "/assets/xdc2025-CwTCWORZ.js"
+    "/assets/xdc2025-CVkJhkWC.js"
   ],
   "src/views/xdc/xdc2025.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/xdc2025-CwTCWORZ.js"
+    "/assets/xdc2025-CVkJhkWC.js"
   ]
 }
