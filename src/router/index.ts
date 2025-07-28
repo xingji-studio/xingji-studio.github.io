@@ -29,6 +29,9 @@ const routes = [
   {
     path: "/software/games/bcms",
     name: "bcms",
+    meta: {
+      navName: "BCMS",
+    },
     component: () => import("../views/software/games/BCMS.vue"),
   },
   {
@@ -49,11 +52,17 @@ const routes = [
   {
     path: "/xdc2025",
     name: "xdc2025",
+    meta: {
+      navName: "XDC2025",
+    },
     component: () => import("../views/xdc/xdc2025.vue"),
   },
   {
     path: "/software/bridge-engine",
     name: "bridge-engine",
+    meta: {
+      navName: "BridgeEngine",
+    },
     component: () => import("../views/software/bridge-engine.vue"),
   },
   {
