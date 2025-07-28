@@ -31,13 +31,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
         with:
-          # Upload entire repository
-          path: "./dist"
+          deno-version: lts
+          cache: true
+      - name: Install dependencies
+        run: deno i
+      - name: Build webpages
+        run: deno task build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          force_orphan: true
+          keep_files: false
