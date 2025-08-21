@@ -49,3 +49,5 @@ jobs:
           publish_branch: gh-pages
           force_orphan: true
           keep_files: false
+          cname: www.xingjisoft.top
+
