@@ -23,6 +23,7 @@ const positions = ref([
     age: '< 18岁',
     qqid: '3895094720',
     vxid: '未知',
+    id: '未知',
     githuburl: 'https://github.com/osfxkali',
     bilibili: 'https://b23.tv/Ii0Mn7S （kalifxos）',
     address: '中国河北省',
@@ -58,7 +59,6 @@ const benefits = ref([
         互联网生物多样性大赏，可以来看看有没有什么好笑的，顺便进食后人（警示后人）。同时欢迎投稿至 board@xingjisoft.top 。
       </p>
 
-      <!-- 你好，这是临时放的史，过段时间就删 -->
       <div class="grid grid-cols-1 md:grid-cols-1 gap-10 mb-8">
         <div class="relative bg-red-800/50 backdrop-blur-md rounded-2xl p-8">
           <div class="flex justify-between items-start mb-4">
@@ -86,6 +86,7 @@ const benefits = ref([
             <p class="text-gray-300 mb-4">网名：{{ position.webname }}</p>
             <p class="text-gray-300 mb-4">年龄：{{ position.age }}</p>
             <p class="text-gray-300 mb-4">QQ：{{ position.qqid }}</p>
+            <p class="text-gray-300 mb-4">身份ID：{{ position.id }}</p>
             <p class="text-gray-300 mb-4">微信：{{ position.vxid }}</p>
             <p class="text-gray-300 mb-4">Github：{{ position.githuburl }}</p>
             <p class="text-gray-300 mb-4">B站：{{ position.bilibili }}</p>

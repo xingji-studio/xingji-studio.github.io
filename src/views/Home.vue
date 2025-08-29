@@ -43,6 +43,12 @@ const products = ref([
 ])
 
 const news_posts = ref([{
+  title: 'XDC2025 再次推迟举行',
+  image: '/xdc2025_black.png',
+  description: '。。。最后一次，10月3日',
+  more_text: '啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊',
+  link: '#'
+}, {
   title: 'XDC2025 推迟举行',
   image: '/xdc2025_black.png',
   description: '由于各项目开发进度落后于原计划、发布形式变更等原因，且为了留出足够时间用于打磨项目以给大家提供更完美稳定的产品（同时防止某些喷子\
@@ -56,12 +62,6 @@ const news_posts = ref([{
   description: '适用于XJ380操作系统的XJ380 API手册现已公布。开发工具将于稍后发布。请注意：该手册为测试版，可能与稍后发布的正式版有所出入。',
   more_text: '立刻开始“星际”之旅',
   link: '/os/xj380/download'
-}, {
-  title: '挖矿模拟器将迎来最后更新',
-  image: '/software/bcms.png',
-  description: '挖矿模拟器1.8.0 将于近期推出。本次更新将是挖矿模拟器的最后一次内容更新，之后我们将停止对挖矿模拟器的维护（这个破烂还有维护的必要吗（悲））。',
-  more_text: '了解更多',
-  link: '/news/2025031501'
 }]);
 
 const partners = ref([
@@ -88,9 +88,9 @@ const partners = ref([
 ])
 
 const news = ref({
-  title: '预告片 1',
-  subtitle: 'XINGJI 2025 开发者大会',
-  link: 'https://www.bilibili.com/video/BV1xcjEzpEh7/',
+  title: '星际工作室8周年',
+  subtitle: 'XINGJI 工作室 8 周年庆祝活动',
+  link: '#',
   image: {
     src: '/primage.png',
     alt: '宣传图',
@@ -121,7 +121,7 @@ const news = ref({
               {{ news.subtitle }}
             </p>
           </div>
-          <a :href="news.link" class="link-button text-white">立刻观看预告片</a>
+          <a :href="news.link" class="link-button text-white">已阅　　</a>
         </div>
       </div>
     </div>
