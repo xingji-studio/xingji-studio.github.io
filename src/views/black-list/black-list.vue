@@ -3,17 +3,7 @@ import { ref } from 'vue'
 import { useHead } from '@vueuse/head'
 
 useHead({
-  title: 'Join Us | XINGJI Studio',
-  meta: [
-    {
-      name: 'description',
-      content: '成员福利：每个XINGJI工作室成员都可以免费申请一台云服务器！只要你干的出色，每个项目你都可以拿到奖金！甚至我们可以为你买一台电脑！\
-只要你对该项目做出贡献，我们一定会在下期视频点名表扬！加入我们，享受所有初中生工作室里最好的福利！\n\
-及其人性的作息：从不强迫你干活！如果你有所耳闻XJ380的开发速度，你就知道有多宽松了。（但似乎最近要严抓了？）\n\
-全国顶尖的初中生工作室：XINGJI工作室创立于2017年，历史悠久。目前创始人在读初中，工作室也已取得卓越成就。加入我们，你也可以！\n\
-丰富的资源：XINGJI工作室拥有丰富的资源，包括但不限于：C/C++、汇编、图形化、游戏开发、美术、服务器等。',
-    },
-  ],
+  title: '黑名单 | XINGJI Studio'
 })
 
 const positions = ref([

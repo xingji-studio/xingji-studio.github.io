@@ -210,7 +210,7 @@ const news = ref({
           <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-6">
             <h3 class="text-xl font-bold text-white mb-4">XJ380操作系统</h3>
             <p class="text-gray-400">
-              完全自主研发，内核使用XJ-Kernel 2.0，经过三次更新，UEFI引导方式，安全、可靠，并且完全免费（仅限于普通系列）
+              完全自主研发，内核使用XJ-Kernel 2.1，经过三次更新，UEFI引导方式，安全、可靠，并且完全免费（仅限于普通系列）
             </p>
           </div>
         </div>
