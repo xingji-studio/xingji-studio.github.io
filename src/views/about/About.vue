@@ -84,6 +84,26 @@ const memInfo = ref([
     ]
   }, 
   {
+    name: '@code-cube',
+    title: 'XJ380开发者',
+    image: '/about/members/codecube.jpg',
+    achievements: [
+      'XJ380开发组核心成员',
+      '清华附郑州期末前八、郑东新区三好学生',
+      'IRO擂台赛金奖'
+    ]
+  }, 
+  {
+    name: '@XSlime',
+    title: 'XJ380开发者、前端工程师',
+    image: '/about/members/xslime.jpg',
+    achievements: [
+      'XJ380开发组核心成员、网页开发组前端工程师',
+      'Uinexed-Kernel开发者',
+      '好像什么都会点'
+    ]
+  }, 
+  {
     name: '@BugDuck-15-',
     title: '前端工程师',
     image: '/about/members/bugduck.jpg',
@@ -95,64 +115,6 @@ const memInfo = ref([
   }, 
 ])
 
-const history = ref([
-  {
-    year: 2017,
-    events: [
-      '在人大附中朝阳学校（212校区）成立',
-      '最开始由2017级9班的三位同学组建',
-      '巅峰时拥有高达17名成员（班里一共39人）'
-    ]
-  },
-  {
-    year: 2020,
-    events: [
-      '更名为XINGJI工作室',
-      '全班模仿的其他小团体如雨后春笋般涌出',
-      '定义了全班的流通货币：数学作业纸，并大受欢迎'
-    ]
-  },
-  {
-    year: 2021,
-    events: [
-      'XINGJI在手工业迅速衰落，转战软件',
-      '做出了第一个作品：小游戏《挖矿模拟器》',
-      '该游戏一经推出，大受欢迎'
-    ]
-  },
-  {
-    year: 2022,
-    events: [
-      '手工业于2022年彻底衰落，结束手工业及其在人朝的业务',
-      '12月正式启动XJ380计划',
-      '采用XINGJI-hairbote内核'
-    ]
-  },
-  {
-    year: 2023,
-    events: [
-      '6月1日重构XJ380',
-      '内核改为XJ-Kernel 1.1',
-      '主力开发成员Simoger退出XINGJI'
-    ]
-  },
-  {
-    year: 2024,
-    events: [
-      '6月1日，XJ380再次重构',
-      '内核架构变更为XJ-Kernel 2.0',
-      '采用UEFI代替了原来的MBR引导方式'
-    ]
-  },
-  {
-    year: 2025,
-    events: [
-      '还是操作系统大佬',
-      '启动新项目 代号“Paw”',
-      '我们仍在书写历史，铸就未来……我们的故事未完待续。'
-    ]
-  }
-])
 </script>
 
 <template>
@@ -191,7 +153,7 @@ const history = ref([
 
       <!-- Member Info -->
       <div class="space-y-8">
-        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 flex space-x-4">
           <div v-for="member in memInfo" 
             :key="member.name"
             class="group relative">
@@ -215,26 +177,8 @@ const history = ref([
         </div>
       </div>
 
-      <h1 class="text-4xl font-blod text-white mb-12 text-left">我们的历史</h1>
 
-      <!-- History Timeline -->
-      <div class="space-y-8">
-        <div v-for="period in history" 
-          :key="period.year"
-          class="group relative">
-          <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur"></div>
-          <div class="relative bg-gray-800/50 backdrop-blur-md rounded-2xl p-8">
-            <h2 class="text-2xl font-bold text-white mb-4">{{ period.year }}</h2>
-            <ul class="space-y-2">
-              <li v-for="event in period.events" 
-                :key="event"
-                class="text-gray-400">
-                {{ event }}
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
 </template> 
