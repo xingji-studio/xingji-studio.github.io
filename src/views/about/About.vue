@@ -90,7 +90,7 @@ const memInfo = ref([
     achievements: [
       'XJ380开发组核心成员',
       '清华附郑州期末前八、郑东新区三好学生',
-      'IRO擂台赛金奖'
+      //'IRO擂台赛金奖'
     ]
   }, 
   {
