@@ -25,11 +25,123 @@ const positions = ref([
     tags: ['有奖金', '岗位稳定', '急招']
   },
   {
-    title: '网站前端工程师',
-    department: 'XINGJI Cloud',
-    requirements: '会使用vue+vite制作网站，会制作滚动驱动动画，有相关项目者优先。',
+    title: 'XJ380 C/C++ 工程师',
+    department: 'XINGJI XJ380 Develop Department',
+    requirements: '会较为熟练运用基础的C\\C++，学习能力强。有操作系统开发经验者优先。',
+    headcount: 5,
+    tags: ['有奖金', '岗位稳定', '急招']
+  },
+  {
+    title: '美工',
+    department: 'XINGJI XJ380 Develop Department',
+    requirements: '会设计UI。',
     headcount: 2,
-    tags: ['有奖金', '急招', '核心项目']
+    tags: ['岗位稳定', '急招']
+  },
+  {
+    title: '网页工程师',
+    department: 'XINGJI Website Develop Department',
+    requirements: '会较为熟练运用基础的Vue+Vite、CSS等，学习能力强。有网页开发经验者（尤其是做过滚动驱动动画的）优先。',
+    headcount: 3,
+    tags: ['有奖金', '岗位稳定', '急招']
+  },
+  {
+    title: '封面设计',
+    department: 'XINGJI Propaganda Department',
+    requirements: '知道如何设计封面、标题可以获得最大流量。',
+    headcount: 2,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '视频结构规划（导演）',
+    department: 'XINGJI Propaganda Department',
+    requirements: '知道如何规划视频结构及特效可以最大留存关注并激励其互动',
+    headcount: 2,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '视频制作（剪辑）',
+    department: 'XINGJI Propaganda Department',
+    requirements: '会较为熟练运用Pr、Ae (达芬奇等也可以) 等专业剪辑工具的基础功能，学习能力强。',
+    headcount: 5,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '宣传部副部长',
+    department: 'XINGJI Propaganda Department',
+    requirements: '拥有宣传部其他岗位的能力（可以稍微弱一些但肯定不能不懂），擅长管理与激励成员。',
+    headcount: 1,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '人力资源部部长/副部长',
+    department: 'XINGJI Nigger Resources Department',
+    requirements: '会说话会挖人，能精准选取需要或预备需要的人才。',
+    headcount: 2,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '市场部部长/副部长',
+    department: 'XINGJI Marketing Department',
+    requirements: '拥有市场部其他岗位的能力，擅长管理与激励成员。',
+    headcount: 2,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '市场营销/规划',
+    department: 'XINGJI Marketing Department',
+    requirements: '会分析市场形势、趋势及如何定价、设计、包装并营销。',
+    headcount: 3,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '纪检部部长/副部长',
+    department: 'XINGJI Discipline Inspection Department',
+    requirements: '预防、阻止和上报可疑人员、泄密人员和私自挪用公款人员。',
+    headcount: 3,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '董事/CEO秘书',
+    department: 'XINGJI Board Organization',
+    requirements: '会分析市场形势、趋势及如何定价、设计、包装并营销。',
+    headcount: 1,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '董事/CEO秘书',
+    department: 'XINGJI Board Organization',
+    requirements: '会分析市场形势、趋势及如何定价、设计、包装并营销。',
+    headcount: 1,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: 'XINGJI Games 工作室室长',
+    department: 'XINGJI Games',
+    requirements: '有较强领导能力，会较为熟练运用基础的C\\C++，学习能力强。',
+    headcount: 2,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '星际云工作室室长/副室长',
+    department: 'XINGJI Cloud',
+    requirements: '有较强领导能力，会较为熟练运用基础的C\\C++、Python，熟悉硬件，学习能力强。',
+    headcount: 2,
+    tags: ['有奖金', '岗位稳定']
+  },
+  {
+    title: '资金管理员',
+    department: 'Miao Xing United Saving Department',
+    requirements: '会记账、会规划经费用途即可。（暂时还不招人，等之后再招）',
+    headcount: 1,
+    tags: ['岗位稳定']
+  },
+  {
+    title: '美术',
+    department: 'XINGJI Games',
+    requirements: '会画画。',
+    headcount: 5,
+    tags: ['有奖金', '岗位稳定']
   },
 ])
 
@@ -56,28 +168,8 @@ const benefits = ref([
 <template>
   <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <h1 class="text-4xl font-bold text-white mb-20 text-center">XINGJI工作室，欢迎您的加入！</h1> <!-- 这里mb原来是12 -->
+      <h1 class="text-4xl font-bold text-white mb-12 text-center">XINGJI工作室，欢迎您的加入！</h1> <!-- 这里mb原来是12 -->
       <!-- Job Positions -->
-
-      <!-- 你好，这是临时放的史，过段时间就删 -->
-      <div class="grid grid-cols-1 md:grid-cols-1 gap-10 mb-8">
-        <div class="relative bg-yellow-800/50 backdrop-blur-md rounded-2xl p-8">
-          <div class="flex justify-between items-start mb-4">
-            <div>
-              <h2 class="text-2xl font-bold text-white">紧急通知 NOTICE</h2>
-            </div>
-          </div>
-          <p class="text-gray-300 mb-4">
-            由于突发情况，XINGJI工作室所有具有保密等级的项目均停止招新，恢复时间未定。
-            请谅解我们给您带来的不便，但您仍可以进行准备以及投递申请，我们审核通过后会进行记录并在恢复招新后为您办理手续。
-            此外，请不要伪造获奖经历或试图盗窃具有保密等级的文件（尤其是您还看不懂的情况下）（不行了每次一想起来某人我就要笑死了），
-            否则我们不排除通过法律手段向您索取赔偿的可能。
-          </p>
-          <p class="text-gray-300 mb-4">
-            受影响的部门包括：XJ380开发组、挖矿模拟器开发组、FurryLab开发组
-          </p>
-        </div>
-      </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
         <div v-for="position in positions" 
