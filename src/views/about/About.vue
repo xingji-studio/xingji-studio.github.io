@@ -38,7 +38,7 @@ const memInfo = ref([
     ]
   }, 
   {
-    name: '@D90',
+    name: '@魏tree',
     title: '副董事长',
     image: '/about/d90.jpg',
     achievements: [
