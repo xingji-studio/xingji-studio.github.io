@@ -80,7 +80,7 @@ const memInfo = ref([
     achievements: [
       'BridgeEngine总工程师、XJ380开发者',
       'Rainy工作室创始人',
-      'Uinexed-Kernel开发者'
+      'Uinxed-Kernel开发者'
     ]
   }, 
   {
@@ -99,7 +99,7 @@ const memInfo = ref([
     image: '/about/members/xslime.jpg',
     achievements: [
       'XJ380开发组核心成员、网页开发组前端工程师',
-      'Uinexed-Kernel开发者',
+      'Uinxed-Kernel开发者',
       '好像什么都会点'
     ]
   }, 
