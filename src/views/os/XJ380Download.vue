@@ -28,16 +28,22 @@ const devTools = ref([
   // { name: 'XJ380 应用程序编译套件（XACT for Windows）', url: '#' },
   // { name: 'XJ380 应用程序编译套件（XACT for Linux）', url: '#' },
   // { name: 'XJ380 应用程序编译套件（XACT for XJ380）', url: '#' },
-  { name: 'XJ380 API 标准文档（C/C++）', url: '/os/XJ380_API_Spec_CPP_BETA.pdf' },
+  { name: 'XJ380 API 标准文档（C/C++）', url: '/os/XJ380_API_Spec_CPP_1_0.pdf' },
   // { name: 'XJ380 API 标准文档（SimplePL）', url: '#' }
 ])
 
 const requirements = ref([
   { name: '处理器', spec: 'x64 架构的 64 位处理器，基准频率 1 GHz 或更高' },
+  { name: 'RAM', spec: '256 MB' },
+  { name: '硬盘', spec: '至少 256 MB 或更大' },
+  { name: '显示器', spec: '800 x 600 或更高' }
+])
+
+const requirements2 = ref([
+  { name: '处理器', spec: 'x64 架构的 64 位处理器，基准频率 2 GHz 或更高' },
   { name: 'RAM', spec: '4 GB' },
-  { name: '硬盘', spec: '至少 1 GB 或更大' },
-  { name: '显卡', spec: '要什么自行车，支持24位真彩色即可' },
-  { name: '显示器', spec: '800 x 600 或更高，推荐 1600 x 900 或 1080p' }
+  { name: '硬盘', spec: '至少 10 GB 或更大' },
+  { name: '显示器', spec: '1920 x 1080 或更高' }
 ])
 </script>
 
@@ -81,11 +87,23 @@ const requirements = ref([
         </div>
       </div>
 
+      <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8 mb-8">
+        <h2 class="text-2xl font-bold text-white mb-6">推荐配置要求</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div v-for="req in requirements2" 
+               :key="req.name"
+               class="flex items-start space-x-4 p-4 rounded-xl bg-gray-700/30">
+            <div class="font-semibold text-white min-w-[80px]">{{ req.name }}</div>
+            <div class="text-gray-400">{{ req.spec }}</div>
+          </div>
+        </div>
+      </div>
+
       <!-- Developer Tools -->
       <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8 mb-8">
         <h2 class="text-2xl font-bold text-white mb-6">开发者工具及文档</h2>
         <p class="text-gray-400 mb-8">
-          请注意：目前XJ380仅公开C/C++版的API标准文档，并且仅有4-1和4-2章已经完成实现可以进行使用。我们不建议您使用暂未实现的功能，因为我们后期可能会进行更改，造成不便。
+          请注意：目前XJ380仅公开C/C++版的API标准文档。编译套件将于稍后推出。
           同时API头文件我们规划存放在 工程目录/include 下，请您注意使用相对路径。
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
