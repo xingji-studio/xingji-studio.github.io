@@ -12,7 +12,6 @@ const menuItems = ref([
   { name: "关于我们", link: "/about" },
   { name: "加入我们", link: "/join" },
   { name: "开源软件", link: "/open-source" },
-  { name: "黑名单", link: "/black-list" },
 ]);
 
 watch(isOpen, (newVal, _oldVal) => {
