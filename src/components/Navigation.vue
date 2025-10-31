@@ -6,7 +6,7 @@ const isOpen = ref(false);
 const menuItems = ref([
   { name: "首页", link: "/" },
   { name: "操作系统", link: "/os/xj380" },
-  { name: "星际云", link: "https://cloud.xingjisoft.top/" },
+  { name: "星际云", link: "https://cloud.xingjisoft.com/" },
   { name: "软件及游戏", link: "/software" },
   { name: "XDC2025", link: "/xdc2025" },
   { name: "关于我们", link: "/about" },
