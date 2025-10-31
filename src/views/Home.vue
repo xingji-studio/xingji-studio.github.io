@@ -26,7 +26,7 @@ const products = ref([
     title: '星际云',
     description: '高速、稳定、安全的云服务平台',
     image: '/files/cloud.png',
-    link: 'https://cloud.xingjisoft.top/'
+    link: 'https://cloud.xingjisoft.com/'
   },
   {
     title: '软件产品',
@@ -78,12 +78,12 @@ const partners = ref([
   {
     name: 'PCC工作室',
     logo: '/files/pcc.png',
-    link: 'https://pcc.xingjisoft.top/'
+    link: 'https://pcc.xingjisoft.com/'
   },
   {
     name: '星际云',
     logo: '/files/XINGJI Cloud.png',
-    link: 'https://cloud.xingjisoft.top/'
+    link: 'https://cloud.xingjisoft.com/'
   }
 ])
 
