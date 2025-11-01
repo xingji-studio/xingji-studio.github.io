@@ -92,7 +92,7 @@ const news = ref({
   subtitle: 'XINGJI 工作室 8 周年庆祝活动',
   link: '#',
   image: {
-    src: '/primage.png',
+    src: '/primage.webp', // 看看行不行！
     alt: '宣传图',
   },
 });
@@ -239,4 +239,5 @@ const news = ref({
       </p>
     </footer>
   </div>
+
 </template>
